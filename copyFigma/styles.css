@@ -52,6 +52,7 @@ button {
    position: relative;
    right: 1rem;
    top: 1rem;
+   margin: 0.2rem;
    border-radius: 0.2rem;
 }
 #p-tag img{
@@ -122,8 +123,8 @@ button {
     
         #a1 {
             padding: 0.3rem 1.8rem 0.3rem 1.8rem;
-            font-size: 0.7rem;
-            font-weight: 600;
+            font-size: 0.492641509rem;
+            font-weight: 700;
             margin-left: 5rem;
         }
     
@@ -338,7 +339,6 @@ font-weight: 600;
 
 }
 
-
 .card button {
     padding: 0.2rem 1.2rem;
     font-size: 0.72rem;
@@ -476,12 +476,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 36.2264151rem;
+    height: 2.62264151rem;
 }
 
 #nav img {
     width: 4.433962264150943rem;
     height: 1.60377358490566rem;
+    padding: 0;
+
 }
 
 #a1 {
@@ -489,42 +492,41 @@ body {
     border-radius: 10px;
     position: relative;
     right: 2rem;
-    
-   
+    width: 3.8583rem;
+    /* height: 1.169811rem; */
+    display: flex;
+    justify-content: center;
 }
 .Rs10999{
-    font-size: 1.60377rem;
+    /* font-size: 1.60377rem; */
     background-color: var(--bg);
+    font-weight: 500;
 }
 #p-tag{
-    width: 14rem;
+  
     height: 1.802452rem;
-    background-color: var(--bg);
-    color:var(--bg-white);
    font-size: 1rem;
+   border-radius: 0.2rem; 
    position: relative;
-   right: 2.1rem;
-   top: 1rem;
-   border-radius: 0.2rem;
+   left: 0.01rem;
+   padding-left: 0.35rem;
+ 
 }
 
 .main-img {
     width: 100%;
 }
-    .card{
+.card{
         width: 9.03rem !important;
         height: 6.7rem; 
     }
 
-
-
 .container-ass {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    place-items: center;
     position: relative;
-    top:1.2rem;
-    right: 1.2rem;
+    top: 0.8rem;
+    right: 1.6rem;
+    padding-top: 0;
 }
 
 .container-ass li {
@@ -532,15 +534,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+#Understanding{
+    font-weight: 700;
+    font-size: 1rem;
 }
 
-
+.Free-now > div > img{
+    width: 2.92452rem; 
+    height: 2.9245rem;
+}
 
 .container-ass li p {
     margin-left: 15px;
     font-weight: 600;
     font-size:var(--medium-33-font);
     width: 3.528301886792453rem;
+    height: 1.188679rem;
 }
 
 .container-ass img {
@@ -586,8 +597,14 @@ body {
     color: var(--bg);
     font-weight: 600;
     padding: 0.2830rem;
-
-
+    width: 8.8692rem;
+    height: 2.01886rem;
+    position: relative;
+    top: 0.5rem;
+}
+.main-Free > button > span {
+    
+    font-size: var(--);
 }
 .testimonials-container {
     display: flex;
@@ -600,28 +617,49 @@ body {
 }
 
 .testimonial-card {
-    background-color: #F0D0DD;
+    /* background-color: #F0D0DD; */
     border-radius: 10px;
     padding: 1.9rem;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
+    display: flex;
+    gap: 0.8rem;
+    
+
+}
+#ul-li li img {
+   position: relative;
+   bottom: 0.25rem;
 }
 
 .testimonial-card p {
     margin-bottom: 35px;
     padding: 1.5rem;
+    width: 15.4733rem;
+    height: 10.30188rem;
+    font-size: 0.62264rem;
 }
 
 .testimonial-card hr {
     margin: 10px 0;
+    position: relative;
+    bottom: 2rem;
     border-top: 1px solid #ccc;
 }
 
-.testimonial-card .rating {
-    float: right;
-    color: #ffcc00;
+
+.pet-ct img {
+width: 14.43396rem;
+height: 15.1886rem;
 }
+/* .accordion{
+    width: 16.2641rem;
+    height: 12.4716rem;
+    position: relative;
+    bottom: 1rem;
+} */
+
 
 .guidelines {
     display: flex;
@@ -649,7 +687,6 @@ body {
     padding-left: 0rem;
 
 }
-
 #ul-li img {
     
         width: 1.13rem;
@@ -716,6 +753,9 @@ body {
     width: 11.30188679245283rem;
     height: 12.9811320754717rem;
     border-radius: 0.6rem;
+    margin: 0rem;
+    position: relative;
+    top: 1rem;
 }
 .card button {
     
@@ -725,30 +765,46 @@ body {
 form input,
 form select {
     padding: 0.5rem;
-    margin: 0.094rem;
-    border-radius: 0.2830rem;
+    margin: 0.2rem;
+    border-radius: 0.283rem;
     border: none;
     margin-left: 8%;
-    width:9.577735849056604rem ;
-    height:1.750754716981132rem;
+    position: relative;
+    bottom: 1.8rem;
+    width: 9.577735849056603rem;
+    height: 1.750754716981132rem;
     font-size: var(--medium-33-font);
+}
+.class-booknow{
+    position: relative;
+    bottom: 1.2rem;
+    width: 4.92rem;
+    left: 2.9rem;
+    height: 1.07547rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
 form h1 {
     font-size: 1rem;
-    text-align: center;
-    margin-bottom: 0.9rem;
-    padding-top: 1.5rem;
+    position: relative;
+    bottom: 1.5rem;
+    
+    
 }
 
 .banner-first-container{
     width: 18.26415094339623rem;
+
 }
 .banner-first-container > h1{
     font-size: 1.6037rem;
     width: 18.1509434rem;
     height: 4.748679rem;
+    font-weight: 600;
 }
 #back-pink{
     background-color: var(--colorPink);

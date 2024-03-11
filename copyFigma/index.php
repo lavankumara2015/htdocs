@@ -19,21 +19,22 @@
     <nav id="nav">
         <div>
             <img src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="cion logo" />
-            <button id="a1">Contact us</button>
+            <button id="a1">Contactus</button>
         </div>
     </nav>
     <!-- section 1  -->
     <section>
-        <div class=" banner-first-container d-flex flex-column  justify-content-center align-items-center">
+        <div class="banner-first-container d-flex flex-column  justify-content-center align-items-center">
             <h1 class="text-white">PET CT SCAN Cost for cancer diagnostics starts at
                 <span class="Rs10999">Rs.10999/-</span>
             </h1>
-            <p id="p-tag">
-                <img src="assests\Group 35811.png" alt="" /> One Free Oncology 
-            </p>
-            <p id="p-tag">
-                <img src="assests\Group 35815.png" alt="" /> One Free Oncology
-            </p>
+            <span id="p-tag">
+                <img src="assests\Group 35811.png" alt="" /><span> One Free Oncology Consultation</span>
+            </span>
+            <span id="p-tag" >
+                <img src="assests\Group 35815.png" alt="" /> <span> CION Assured Oncologist Diagnostics 
+</span>
+            </span>
         </div>
             <div id="inputFiled" class="d-none  d-md-inline ">
                     <form method="POST" action="redirect.php">
@@ -49,7 +50,7 @@
                             <option value="Dotatate Pet CT Scan">Dotatate Pet CT Scan</option>
                             <option value="Dotanoc Pet CT Scan">Dotanoc Pet CT Scan</option>
                         </select>
-                        <p class="text-center"> <button type="submit">Book Now</button></p>
+                        <p class="text-center"> <button type="submit" class="class-booknow">BookNow</button></p>
                     </form>
                 </div>
     </section>
@@ -84,7 +85,7 @@
             <p>Same Day Reports</p>
         </li>
         <li> <img src="assests\Group 35729 (2).png" alt="" />
-            <p>100% Accuracy Assured </p>
+            <p>100% Accuracy  </p>
         </li>
         <li> <img src="assests\Group 35729 (3).png" alt="" />
             <p>Free Doctor Consultation</p>
@@ -111,7 +112,7 @@
     <!-- Testimonials -->
     <h2 style="text-align: center; font-weight: 700;">Testimonials</h2>
     <div class="carousel-main">
-    <div id="carouselExampleAutoplaying" style="background-color: #F0D0DD;" class="carousel slide  px-5 py-5 " data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" style="background-color: #F0D0DD;" class="carousel slide  px-5 py-5 d-md-none" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
@@ -137,6 +138,20 @@
     </div>
 </div>
 
+<div class="testimonial-card d-none  d-md-inline">
+<div style="background-color: #F0D0DD;">
+                <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
+                <hr style="border: 1px solid rgb(176, 169, 166) ;">
+                <span>Priya K.</span>
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+            </div>
+            <div style="background-color: #F0D0DD;">
+                <p>Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
+                <hr style="border: 1px solid rgb(176, 169, 166) ;">
+                <span>Arjun.S</span>
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+            </div>
+</div>
     <div style="background-color: rgba(244, 244, 244, 1); padding: 1.5rem 0 2rem 0;">
         <h2 style="text-align: center;">Guidelines for PET-CT scans</h2></br>
         <div class="guidelines">
