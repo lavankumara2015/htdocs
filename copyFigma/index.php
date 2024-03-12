@@ -85,7 +85,7 @@
             <p>Same Day Reports</p>
         </li>
         <li> <img src="assests\Group 35729 (2).png" alt="" />
-            <p>100% Accuracy  </p>
+            <p>100%Accuracy Assured </p>
         </li>
         <li> <img src="assests\Group 35729 (3).png" alt="" />
             <p>Free Doctor Consultation</p>
