@@ -155,6 +155,9 @@
             <span class="rating">⭐⭐⭐⭐⭐</span>
         </div>
     </div>
+
+<!-- Guidelines for PET - CT scans -->
+
     <div style="background-color: rgba(244, 244, 244, 1); padding: 1.5rem 0 2rem 0;">
         <h2 style="text-align: center;">Guidelines for PET-CT scans</h2></br>
         <div class="guidelines">
@@ -173,6 +176,9 @@
             </div>
         </div>
     </div>
+
+     <!-- hospital Locations -->
+
     <ul id="ul-li">
         <li><img src="assests\Group 35751.png" alt="location">
             <h6> Jubilee Hills</h6>
@@ -187,6 +193,9 @@
             <h6> Himayathnagar</h6>
         </li>
     </ul></br>
+
+    <!-- Understanding PET-CT -->
+
     <div class=" text-center">
         <h2>Understanding PET-CT Scans: </h2>
         <h2>Importance, Need, and Cost in </h2>
@@ -283,6 +292,9 @@
  
   
     </div>
+
+    <!-- footer -->
+
     <!-- <footer>
         <h3 style="padding: 1rem;">@ Ciphar oncology pvt Ltd</h3>
     </footer> -->
