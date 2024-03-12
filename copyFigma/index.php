@@ -22,17 +22,17 @@
             <button id="a1">Contactus</button>
         </div>
     </nav>
-    <!-- section 1  -->
+    <!-- section 1 main image and form  -->
     <section>
         <div class="banner-first-container d-flex flex-column  justify-content-center align-items-center">
             <h1 class="text-white">PET CT SCAN Cost for cancer diagnostics starts at
                 <span class="Rs10999">Rs.10999/-</span>
             </h1>
             <span id="p-tag">
-                <img src="assests\Group 35811.png" alt="" /><span> One Free Oncology Consultation</span>
+                <img src="assests\Group 35811.png" alt="Oncology Consultation" /><span> One Free Oncology Consultation</span>
             </span>
             <span id="p-tag">
-                <img src="assests\Group 35815.png" alt="" /> <span> CION Assured Oncologist Diagnostics
+                <img src="assests\Group 35815.png" alt="Oncologist Diagnostics" /> <span> CION Assured Oncologist Diagnostics
                 </span>
             </span>
         </div>
@@ -77,17 +77,17 @@
     </div>
 
     <!-- discount section-->
-    <ul class="container-ass  ">
-        <li> <img src="assests\Group 35729.png" alt="" />
+    <ul class="container-assests">
+        <li> <img src="assests\Group 35729.png" alt="Upto 40% Discount" />
             <p>Upto 40% Discount</p>
         </li>
-        <li> <img src="assests\Group 35729 (1).png" alt="" />
+        <li> <img src="assests\Group 35729 (1).png" alt="Same Day Reports" />
             <p>Same Day Reports</p>
         </li>
-        <li> <img src="assests\Group 35729 (2).png" alt="" />
+        <li> <img src="assests\Group 35729 (2).png" alt="100%Accuracy Assured" />
             <p>100%Accuracy Assured </p>
         </li>
-        <li> <img src="assests\Group 35729 (3).png" alt="" />
+        <li> <img src="assests\Group 35729 (3).png" alt="Free Doctor Consultation" />
             <p>Free Doctor Consultation</p>
         </li>
     </ul></br>
@@ -103,7 +103,7 @@
     
     <div class="Free-now">
         <div>
-            <img src="assests\Ellipse 3.png" alt="" />
+            <img src="assests\Ellipse 3.png" alt="Ellipse" />
         </div>
         <div class="main-Free">
             <h2 class=" text-white" id="Understanding">Don’t have a prescription?</br>Consult Our Oncologist <strong>FREE</strong> now!</h2>
@@ -159,16 +159,16 @@
         <h2 style="text-align: center;">Guidelines for PET-CT scans</h2></br>
         <div class="guidelines">
             <div class="guideline-card">
-                <img src="assests\Group 35735.png" alt="">
+                <img src="assests\Group 35735.png" alt="water glass">
                 </br>
                 <h5>At least 6 hours of fasting before the scan, but the patient can have plain water</h5>
             </div>
             <div class="guideline-card">
-                <img src="assests\Group 35735 (1).png" alt="">
+                <img src="assests\Group 35735 (1).png" alt="calender">
                 <h5>At least 6 hours of fasting before the scan, but the patient can have plain water</h5>
             </div>
             <div class="guideline-card">
-                <img src="assests\Group 35822.png" alt="">
+                <img src="assests\Group 35822.png" alt="Reports image">
                 <h5>At least 6 hours of fasting before the scan, but the patient can have plain water</h5>
             </div>
         </div>
@@ -193,7 +193,7 @@
         <h2> India</h2>
     </div> </br>
     <div class="pet-ct">
-        <div> <img src="assests\image 17.png" alt="" /></div>
+        <div> <img src="assests\image 17.png" alt="PET-CT Scan indoor" /></div>
         <div style="border-style: black;  " class="  bg-white border-1  p-0 ">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">

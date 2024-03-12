@@ -14,8 +14,8 @@ html {
     --bg: rgba(128, 42, 143, 1);
     --bg-white: white;
     --colorPink:rgba(240, 208, 221, 1);
-    --small-16-font : 0.7272727272727273rem;
-    --medium-33-font : 0.6226415094339623rem;
+    --small-16-font : 0.72rem;
+    --medium-33-font : 0.62rem;
     
 }
 
@@ -42,14 +42,14 @@ button {
 }
 #inputFiled {
     background-color:#F2F2F2;
-    width: 17.86363636363636rem;
-    height: 21.36363636363636rem;
+    width: 17.87rem;
+    height: 21.37rem;
     margin: 2rem;
     border-radius: 0.5rem;
 }
 #p-tag{
-    width: 18.0454545rem;
-    height: 1.77272727rem;
+    width: 18.04rem;
+    height: 1.78rem;
     background-color: var(--bg);
     color:var(--bg-white);
    font-size: 1rem;
@@ -74,8 +74,8 @@ button {
         margin: 0.5rem;
         border-radius: 10px;
         border: none;
-         width: 15.81818181818182rem;
-         height: 2.0727227rem;
+         width: 15.82rem;
+         height: 2.08rem;
     }
    
     
@@ -97,7 +97,7 @@ button {
         height: 2.77rem;
         margin-left: 1.2rem;
     }
-    .container-ass {
+    .container-assests {
         background-color: white;
         display: grid;
         grid-template-columns: repeat(2 ,1fr);
@@ -130,21 +130,21 @@ button {
     
         #a1 {
             padding: 0.3rem 1.8rem 0.3rem 1.8rem;
-            font-size: 0.492641509rem;
+            font-size: 0.5rem;
             font-weight: 700;
             margin-left: 5rem;
         }
     
-        .container-ass li{
+        .container-assests li{
             list-style-type: none;
             display: flex;
         }
-    .container-ass li img {
+    .container-assests li img {
         width: 2.36rem;
         height: 2.36rem;
         margin-right: 0.5454rem;
     }
-    .container-ass li p {
+    .container-assests li p {
         font-weight: 400;
         font-size: 1rem;
     }
@@ -155,8 +155,8 @@ button {
     }
     .card-inside {
         font-weight: 700;
-        line-height: 0.8286rem;
-        font-size: 0.7272rem;
+        line-height: 0.83rem;
+        font-size: 0.73rem;
         padding-top: 0.35rem;
     }
    
@@ -179,8 +179,8 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 7.735rem;
-    width: 10.4372rem; 
+    height: 7.74rem;
+    width: 10.44rem; 
     border-radius: 3.5%;
     background-color: var(--bg-white);
 }
@@ -268,7 +268,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--bg);
-    height: 5.409090909090909rem;
+    height: 5.41rem;
     padding-top: 0.8rem
     /* height: 20vh; */
 
@@ -276,8 +276,8 @@ button {
 
 #ul-li li{
     list-style-type: none;
-    width: 8.843181818181818rem;
-    height: 1.954545454545455rem;
+    width: 8.85rem;
+    height: 1.96rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -285,9 +285,9 @@ button {
 }
 
 #ul-li li img{
-    width: 1.360454545454545rem;
-    height: 1.360454545454545rem;
-    margin-right: 0.4545rem;
+    width: 1.37rem;
+    height: 1.37rem;
+    margin-right: 0.46rem;
     position: relative;
     bottom: 0.3rem;
 }
@@ -360,7 +360,7 @@ font-weight: 600;
     
 }
 button {
-    font-size: 0.727272rem;
+    font-size: 0.73rem;
     padding: 0.2rem 2rem;
     border-radius: 0.2rem;
     align-self: center;
@@ -420,8 +420,8 @@ button {
 }
 
 .main-Free > button > span{
-    width: 5.909090909090909rem;
-    height: 1.090909090909091rem;
+    width: 5.91rem;
+    height: 1.1rem;
     font-size: var(--small-16-font);
 }
 
@@ -483,13 +483,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 36.2264151rem;
-    height: 2.62264151rem;
+    width: 36.23rem;
+    height: 2.63rem;
 }
 
 #nav img {
-    width: 4.433962264150943rem;
-    height: 1.60377358490566rem;
+    width: 4.44rem;
+    height: 1.60rem;
     padding: 0;
 
 }
@@ -499,19 +499,17 @@ body {
     border-radius: 10px;
     position: relative;
     right: 2rem;
-    width: 3.8583rem;
-    /* height: 1.169811rem; */
+    width: 3.86rem;
     display: flex;
     justify-content: center;
 }
 .Rs10999{
-    /* font-size: 1.60377rem; */
     background-color: var(--bg);
     font-weight: 500;
 }
 #p-tag{
   
-    height: 1.802452rem;
+    height: 1.81rem;
    font-size: 1rem;
    border-radius: 0.2rem; 
    position: relative;
@@ -528,7 +526,7 @@ body {
         height: 6.7rem; 
     }
 
-.container-ass {
+.container-assests {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     position: relative;
     top: 0.8rem;
@@ -536,7 +534,7 @@ body {
     padding-top: 0;
 }
 
-.container-ass li {
+.container-assests li {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -549,21 +547,21 @@ body {
 }
 
 .Free-now > div > img{
-    width: 2.92452rem; 
-    height: 2.9245rem;
+    width: 2.93rem; 
+    height: 2.93rem;
 }
 
-.container-ass li p {
+.container-assests li p {
     margin-left: 15px;
     font-weight: 600;
     font-size:var(--medium-33-font);
-    width: 3.528301886792453rem;
-    height: 1.188679rem;
+    width: 3.53rem;
+    height: 1.19rem;
 }
 
-.container-ass img {
-    width: 1.296981132075472rem;
-    height: 1.296981132075472rem;
+.container-assests img {
+    width: 1.3rem;
+    height: 1.3rem;
 
 }
 
@@ -574,13 +572,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* gap: 20px;
-    padding: 1.2rem; */
 }
 .Free-now {
     background-image: linear-gradient(to right, #802A8F, #D37FA0);
     display: flex;
-    /* justify-content: center;  */
     align-items: center;
     width: 100%;
 }
@@ -603,9 +598,9 @@ body {
     background-color: var(--bg-white);
     color: var(--bg);
     font-weight: 600;
-    padding: 0.2830rem;
-    width: 8.8692rem;
-    height: 2.01886rem;
+    padding: 0.29rem;
+    width: 8.9rem;
+    height: 2.1rem;
     position: relative;
     top: 0.5rem;
 }
@@ -619,45 +614,33 @@ body {
     justify-content: center;
     align-items: center;
     padding: 5rem;
-    /* margin: 110px; */
     gap: 50px;
 }
-
 .testimonial-card {
-    /* background-color: #F0D0DD; */
-     /* border-radius: 10px;
-    padding: 1.9rem;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%; */
     display: flex;
     gap: 0.8rem;
-     width: 33.4750rem;
-     height: 10.30188rem;
+     width: 33.48rem;
+     height: 10.31rem;
      padding-left: 1.7rem;
      position: relative;
      bottom: 1.3rem;
-
 }
 #ul-li li img {
    position: relative;
    bottom: 0.25rem;
 }
 .testimonial-single-card{
-    width: 15.4733rem;
-    height: 10.3018868rem;
+    width: 15.48rem;
+    height: 10.31rem;
     border-radius: 0.5rem;
-
 }
-
 .testimonial-single-card > span{
     padding-left: 1rem;
 }
 
-
 .testimonial-card p {
-    width: 15.4733rem;   
-    font-size: 0.62264rem;
+    width: 15.48rem;   
+    font-size: 0.63rem;
     font-weight: 500;
     padding: 0.8rem 0.5rem 0.2rem 0.6rem;
 }
@@ -668,19 +651,10 @@ body {
     bottom: 2rem;
     border-top: 1px solid #ccc;
 }
-
-
 .pet-ct img {
 width: 14.43396rem;
 height: 15.1886rem;
 }
-/* .accordion{
-    width: 16.2641rem;
-    height: 12.4716rem;
-    position: relative;
-    bottom: 1.3rem;
-} */
-
 .guidelines {
     display: flex;
     flex-direction: row;
@@ -688,12 +662,12 @@ height: 15.1886rem;
     align-items: center;
 }
 .guideline-card{
-    width: 10.38641509433962rem;
-    height: 8.22188679rem;
+    width: 10.39rem;
+    height: 8.23rem;
 }
 .guideline-card img{
-    width: 2.630rem;
-    height: 2.630rem;
+    width: 2.63rem;
+    height: 2.63rem;
     position: relative;
     bottom: 0.4rem;
 }
@@ -731,16 +705,6 @@ height: 15.1886rem;
 .accordion-body {
     background-color: rgba(240, 208, 221, 1);
 }
-/* .accordion{
-    height: 12.4716rem;
-    width: 16.2641rem;
-} */
-
-/* .accordion-button {
-    background-color: rgba(240, 208, 221, 1);
-} */
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -751,30 +715,30 @@ height: 15.1886rem;
 }
 
 .card-1{
-    width: 7.631698113207547rem;
-    height: 7.387924528301887rem;
+    width: 7.64rem;
+    height: 7.39rem;
 }
 
 .card {
 
-    width: 9.037735849056604rem;
-    height: 6.69811320754717rem; 
+    width: 9.02rem;
+    height: 6.70rem; 
 }
 .card-1 img {
-    width: 3.3773rem;
-    height: 3.3773rem;
+    width: 3.38rem;
+    height: 3.38rem;
 }
 .our-services {
     width: 100%;
-    height: 20.4905rem;
+    height: 20.50rem;
     background-color: rgba(240, 208, 221, 1);
 }
 
 
 #inputFiled {
     background-color: #F2F2F2 ;
-    width: 11.30188679245283rem;
-    height: 12.9811320754717rem;
+    width: 11.3rem;
+    height: 12.98rem;
     border-radius: 0.6rem;
     margin: 0rem;
     position: relative;
@@ -789,13 +753,13 @@ form input,
 form select {
     padding: 0.5rem;
     margin: 0.2rem;
-    border-radius: 0.283rem;
+    border-radius: 0.28rem;
     border: none;
     margin-left: 8%;
     position: relative;
     bottom: 1.8rem;
-    width: 9.577735849056603rem;
-    height: 1.750754716981132rem;
+    width: 9.58rem;
+    height: 1.75rem;
     font-size: var(--medium-33-font);
 }
 .class-booknow{
@@ -810,10 +774,10 @@ form select {
     
 }
 .card h3 {
-    font-size: 0.6226rem;
+    font-size: 0.62rem;
     font-weight: 700;
-    width: 5.9433rem;
-    height: 1.54716rem;
+    width: 5.94rem;
+    height: 1.54rem;
     margin-left: 1.5rem;
     
 }
@@ -822,18 +786,14 @@ form h1 {
     font-size: 1rem;
     position: relative;
     bottom: 1.5rem;
-    
-    
 }
-
 .banner-first-container{
-    width: 18.26415094339623rem;
-
+    width: 18.26rem;
 }
 .banner-first-container > h1{
-    font-size: 1.6037rem;
-    width: 18.1509434rem;
-    height: 4.748679rem;
+    font-size: 1.60rem;
+    width: 18.15rem;
+    height: 4.74rem;
     font-weight: 600;
 }
 #back-pink{
@@ -874,7 +834,7 @@ padding: 1rem;
 }
 .faq-inner-container .accordion-button {
     background-color: white !important;
-    font-size: 0.62264rem !important;
+    font-size: 0.62rem !important;
 }
 
 }
@@ -895,7 +855,7 @@ h2 {
     background-color: white;
 }
 code {
-    font-size: 0.43396rem;
+    font-size: 0.43rem;
     color: black;
     word-wrap: break-word;
   
