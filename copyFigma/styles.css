@@ -1,3 +1,7 @@
+* {
+    font-family: "Source Sans 3", sans-serif;
+}
+
 html {
     font-size:4.4vw ;
 }   
@@ -89,6 +93,9 @@ button {
         font-size: 0.73rem;
         font-weight: 700;
         padding: 0.8rem 0 0;
+        width: 7.36rem;
+        height: 2.77rem;
+        margin-left: 1.2rem;
     }
     .container-ass {
         background-color: white;
@@ -147,11 +154,10 @@ button {
         background-color: rgba(240, 208, 221, 1);
     }
     .card-inside {
-        font-size: 0.73rem;
         font-weight: 700;
-        word-spacing: 0.2rem;
-        /* padding: 0.5rem 0 0.5rem 0; */
         line-height: 0.8286rem;
+        font-size: 0.7272rem;
+        padding-top: 0.35rem;
     }
    
     #Understanding {
@@ -208,9 +214,7 @@ button {
         width: 4.68rem;
         height: 4.68rem;
     }
-    .card-inside{
-        font-size: 0.7272rem;
-    }
+    
     .card-1 {
         text-align: center;
         border-radius: 1rem;
@@ -252,6 +256,7 @@ button {
     .guideline-card h5 {
         font-size: 1rem;
         font-weight: 600;
+        padding-top: 1.5rem;
 
     }
 
@@ -264,7 +269,7 @@ button {
     grid-template-columns: 1fr 1fr;
     background-color: var(--bg);
     height: 5.409090909090909rem;
-
+    padding-top: 0.8rem
     /* height: 20vh; */
 
 }
@@ -283,6 +288,8 @@ button {
     width: 1.360454545454545rem;
     height: 1.360454545454545rem;
     margin-right: 0.4545rem;
+    position: relative;
+    bottom: 0.3rem;
 }
 
 #ul-li h6 {
@@ -328,12 +335,10 @@ font-weight: 600;
     /* width: 19.54rem; */
     
 }
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1rem;
+    padding: 1.2rem;
     column-gap: 0.6rem;
     row-gap: 0.6rem;
 
@@ -342,6 +347,8 @@ font-weight: 600;
 .card button {
     padding: 0.2rem 1.2rem;
     font-size: 0.72rem;
+    position: relative;
+    bottom: 0.5rem;
 }
 
 .guidelines{
@@ -350,6 +357,7 @@ font-weight: 600;
     justify-content: center;
     align-items: center;
     row-gap: 1rem;
+    
 }
 button {
     font-size: 0.727272rem;
@@ -448,7 +456,6 @@ button {
     height: 4.4rem;
     margin-top: 1.1rem;
 }
-
 
  /* Large devices CsS code Starts From here */
 @media screen and (min-width : 768px) {
@@ -618,27 +625,41 @@ body {
 
 .testimonial-card {
     /* background-color: #F0D0DD; */
-    border-radius: 10px;
+     /* border-radius: 10px;
     padding: 1.9rem;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: 100%; */
     display: flex;
     gap: 0.8rem;
-    
+     width: 33.4750rem;
+     height: 10.30188rem;
+     padding-left: 1.7rem;
+     position: relative;
+     bottom: 1.3rem;
 
 }
 #ul-li li img {
    position: relative;
    bottom: 0.25rem;
 }
+.testimonial-single-card{
+    width: 15.4733rem;
+    height: 10.3018868rem;
+    border-radius: 0.5rem;
+
+}
+
+.testimonial-single-card > span{
+    padding-left: 1rem;
+}
+
 
 .testimonial-card p {
-    margin-bottom: 35px;
-    padding: 1.5rem;
-    width: 15.4733rem;
-    height: 10.30188rem;
+    width: 15.4733rem;   
     font-size: 0.62264rem;
+    font-weight: 500;
+    padding: 0.8rem 0.5rem 0.2rem 0.6rem;
 }
 
 .testimonial-card hr {
@@ -657,9 +678,8 @@ height: 15.1886rem;
     width: 16.2641rem;
     height: 12.4716rem;
     position: relative;
-    bottom: 1rem;
+    bottom: 1.3rem;
 } */
-
 
 .guidelines {
     display: flex;
@@ -674,10 +694,12 @@ height: 15.1886rem;
 .guideline-card img{
     width: 2.630rem;
     height: 2.630rem;
+    position: relative;
+    bottom: 0.4rem;
 }
 .guideline-card h5{
     font-size: var(--medium-33-font);
-    margin-top: 0.20rem;
+    padding-top: 0.3rem;
 }
 #ul-li {
     display: grid;
@@ -724,7 +746,8 @@ height: 15.1886rem;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 0rem;
     row-gap: 0.5rem;
-
+    position: relative;
+    left: 0.5rem;
 }
 
 .card-1{
@@ -786,7 +809,14 @@ form select {
     align-items: center;
     
 }
-
+.card h3 {
+    font-size: 0.6226rem;
+    font-weight: 700;
+    width: 5.9433rem;
+    height: 1.54716rem;
+    margin-left: 1.5rem;
+    
+}
 
 form h1 {
     font-size: 1rem;
@@ -832,4 +862,50 @@ padding: 1rem;
     width: 33.47rem;
 }
 
+
+.faq-inner-container .accordion {
+   /* / width: 90%; */
+      width: 48%;
+}
+.faq-inner-container .accordion-header,
+.faq-inner-container .accordion-item,
+.faq-inner-container .accordion-button {
+  background-color: white !important;
+}
+.faq-inner-container .accordion-button {
+    background-color: white !important;
+    font-size: 0.62264rem !important;
+}
+
+}
+.align-self-stretch {
+    align-self: stretch !important;
+    padding-left: 1.3rem;
+}
+
+.faq-inner-container .accordion-button {
+    background-color: white !important;
+    font-size: 1rem;
+}
+h2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+.accordion-body {
+    background-color: white;
+}
+code {
+    font-size: 0.43396rem;
+    color: black;
+    word-wrap: break-word;
+  
+        font-family: "Source Sans 3", sans-serif;
+font-weight: 500;
+}
+
+.accordion-button::after {
+    background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180');
 }

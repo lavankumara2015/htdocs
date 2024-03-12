@@ -1,9 +1,9 @@
 <?php
 $arr = [
-    ["Whole Body CT scan ", "Rs.18000/-", "Rs.14999/-"],
-    ["Whole Body  CT scan ", "Rs.25000/-", "Rs.20999/-"],
-    ["PSMA Pet CT Scan ", "Rs.35000/-", "Rs.31000/-"],
-    ["Fdopa Pet CT Scan  ", "Rs.35000/-", "Rs.31000/-"],
+    ["Whole Body Analog Pet CT scan", "Rs.18000/-", "Rs.14999/-"],
+    ["Whole Body Digital Pet CT Scan", "Rs.25000/-", "Rs.20999/-"],
+    ["PSMA Pet CT Scan", "Rs.35000/-", "Rs.31000/-"],
+    ["Fdopa Pet CT Scan", "Rs.35000/-", "Rs.31000/-"],
     ["Dotatate Pet CT Scan", "Rs.35000/-", "Rs.31000/-"],
     ["Dotanoc Pet CT Scan", "Rs.35000/-", "Rs.31000/-"]
 ];
