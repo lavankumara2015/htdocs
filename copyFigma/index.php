@@ -23,58 +23,41 @@
         </div>
     </nav>
     <!-- section 1 main image and form  -->
-    <section>
-        <div class="banner-first-container d-flex flex-column  justify-content-center align-items-center">
-            <h1 class="text-white">PET CT SCAN Cost for cancer diagnostics starts at
-                <span class="Rs10999">Rs.10999/-</span>
-            </h1>
-            <span id="p-tag">
-                <img src="assests\Group 35811.png" alt="Oncology Consultation" /><span> One Free Oncology Consultation</span>
-            </span>
-            <span id="p-tag">
-                <img src="assests\Group 35815.png" alt="Oncologist Diagnostics" /> <span> CION Assured Oncologist Diagnostics
+    <section class="banner_form_image_section">
+            <div class="banner-first-container d-flex flex-column  justify-content-center align-items-center">
+                <h1 class="text-white">PET CT SCAN Cost for cancer diagnostics starts at
+                    <span class="Rs10999">Rs.10999/-</span>
+                </h1>
+                <span id="p-tag">
+                    <img src="assests\Group 35811.png" alt="Oncology Consultation" /><span> One Free Oncology Consultation</span>
                 </span>
-            </span>
-        </div>
-        <div id="inputFiled" class="d-none  d-md-inline ">
-            <form method="POST" action="redirect.php">
-                <h1 style="color: black;">Book Your Pet Scan </br>Now! </h1>
-                <input type="name" name="name" placeholder="Name" />
-                <input type="phone" name="phone" placeholder="Phone number " />
-                <select id="cars" name="scan">
-                    <option value="select">Select type of Scan</option>
-                    <option value="Whole Body Analog Pet CT Scan">Whole Body Analog Pet CT Scan</option>
-                    <option value="Whole Body Digital Pet CT Scan ">Whole Body Digital Pet CT Scan </option>
-                    <option value="PSMA Pet CT Scan">PSMA Pet CT Scan</option>
-                    <option value="Fdopa Pet CT Scan">Fdopa Pet CT Scan</option>
-                    <option value="Dotatate Pet CT Scan">Dotatate Pet CT Scan</option>
-                    <option value="Dotanoc Pet CT Scan">Dotanoc Pet CT Scan</option>
-                </select>
-                <p class="text-center"> <button type="submit" class="class-booknow">BookNow</button></p>
-            </form>
-        </div>
+                <span id="p-tag">
+                    <img src="assests\Group 35815.png" alt="Oncologist Diagnostics" /> <span> CION Assured Oncologist Diagnostics
+                    </span>
+                </span>
+            </div>
+
+            <div id="back-pink" >
+                <div id="inputFiled">
+                    <form method="POST" action="redirect.php">
+                        <h1 style="color: black;">Book Your Pet Scan </br>Now! </h1>
+                        <input type="name" name="name" placeholder="Name" />
+                        <input type="phone" name="phone" placeholder="Phone number " />
+                        <select id="cars" name="scan">
+                            <option value="select">Select type of Scan</option>
+                            <option value="Whole Body Analog Pet CT Scan">Whole Body Analog Pet CT Scan</option>
+                            <option value="Whole Body Digital Pet CT Scan ">Whole Body Digital Pet CT Scan </option>
+                            <option value="PSMA Pet CT Scan">PSMA Pet CT Scan</option>
+                            <option value="Fdopa Pet CT Scan">Fdopa Pet CT Scan</option>
+                            <option value="Dotatate Pet CT Scan">Dotatate Pet CT Scan</option>
+                            <option value="Dotanoc Pet CT Scan">Dotanoc Pet CT Scan</option>
+                        </select>
+                        <p class="text-center"> <button type="submit" class="class-booknow">BookNow</button></p>
+                    </form>
+                </div>
+            </div>
     </section>
 
-    <!--small devices form -->
-    <div id="back-pink " style=" background-color : rgb(240, 208, 221);" class="pt-2 pb-2 d-flex  flex-column  justify-content-center align-items-center  text-center   d-md-none">
-        <div id="inputFiled">
-            <form method="POST" action="redirect.php">
-                <h1 style="font-weight: 700;">Book Your Pet Scan </br>Now! </h1>
-                <input type="name" name="name" placeholder="Name" /> <br>
-                <input type="phone" name="phone" placeholder="Phone number " /><br>
-                <select id="cars" name="scan">
-                    <option value="select">Select type of Scan</option>
-                    <option value="Whole Body Analog Pet CT Scan">Whole Body Analog Pet CT Scan</option>
-                    <option value="Whole Body Digital Pet CT Scan ">Whole Body Digital Pet CT Scan </option>
-                    <option value="PSMA Pet CT Scan">PSMA Pet CT Scan</option>
-                    <option value="Fdopa Pet CT Scan">Fdopa Pet CT Scan</option>
-                    <option value="Dotatate Pet CT Scan">Dotatate Pet CT Scan</option>
-                    <option value="Dotanoc Pet CT Scan">Dotanoc Pet CT Scan</option>
-                </select>
-                <p class="text-center"> <button type="submit" class="btn-booknow">Book Now</button></p>
-            </form>
-        </div>
-    </div>
 
     <!-- discount section-->
     <ul class="container-assests">
@@ -108,7 +91,7 @@
         <div class="main-Free">
             <h2 class=" text-white" id="Understanding">Don’t have a prescription?</br>Consult Our Oncologist <strong>FREE</strong> now!</h2>
             <button>
-                <span>BOOK APPOINTMENT</span>
+                <span>BOOKAPPOINTMENT</span>
             </button>
         </div>
     </div></br>
@@ -178,7 +161,6 @@
     </div>
 
      <!-- hospital Locations -->
-
     <ul id="ul-li">
         <li><img src="assests\Group 35751.png" alt="location">
             <h6> Jubilee Hills</h6>
@@ -193,7 +175,6 @@
             <h6> Himayathnagar</h6>
         </li>
     </ul></br>
-
     <!-- Understanding PET-CT -->
 
     <div class=" text-center">
@@ -251,47 +232,122 @@
 
 
     <!-- FAQS Container -->
-    <div class=" pt-5 pb-5 bg-white d-flex flex-column  justify-content-center  align-items-center ">
-        <h2 style="font-size: 1rem;" class="   ">FAQS</h2>
+    <h1 class=" text-center p-1 faqs">FAQS</h1>
+  <div class="a">
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+<div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      What's the average cost of a PET CT scan in Vizag?
 
-        <div class="faq-inner-container align-self-stretch d-flex flex-wrap">
-                    <?php
-                    $myLs = array(
-                        array("id" => 1, "title" => "What's the average cost of a PET CT scan in Vizag?", "text" => "The average cost of a PET CT scan in Vizag typically ranges between 20,000 to 30,000 rupees. However, at Cion, we are committed to making cancer diagnostics and treatment both accessible and affordable. That's why we offer it at a special price of just 15,000 rupees."),
-                        array("id" => 2, "title" => "Where can I get a pet scan in vizag ?", "text" => "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages."),
-                        array("id" => 3, "title" => "How much does a PET scan cost in vizag?", "text" => "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages."),
-                        array("id" => 4, "title" => "Is there a Whole Body PET CT option?", "text" => "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages."),
-                        array("id" => 5, "title" => "Are there PET scan facilities near me?", "text" => "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages."),
-                        array("id" => 6, "title" => "Where can I get a pet scan in vizag ?", "text" => "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages."),
-                    );
-                    foreach ($myLs as $data) :
-                        ?>
-                        <div class="accordion my-2" id="accordionExample<?php echo $data['id']; ?>">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo<?php echo $data['id']; ?>" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                        <?php echo $data['title']; ?>
-                                    </button>
-                                </h2>
-                                <div id="panelsStayOpen-collapseTwo<?php echo $data['id']; ?>" class="accordion-collapse collapse">
-                                    <div class="accordion-body">
-                                        <code><?php echo $data['text']; ?></code>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    <?php endforeach;  ?>
-                </div>
-
-
-
-
-
-
- 
-  
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+      The average cost of a PET CT scan in Vizag typically ranges between 20,000 to 30,000 rupees. However, at Cion, we are committed to making cancer diagnostics and treatment both accessible and affordable. That's why we offer it at a special price of just 15,000 rupees.
+      </div>
     </div>
+  </div>  
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+      How long does PET CT Scan for cancer take?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+      Yes, our Whole Body PET CT Digital scans provide a detailed scan of your body to identify areas of high activity, which can help in detecting potential health issues, including cancer, more effectively.
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+      How much does a PET scan cost in vizag?
+
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+      Yes, our Whole Body PET CT Digital scans provide a detailed scan of your body to identify areas of high activity, which can help in detecting potential health issues, including cancer, more effectively.
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+      Is there a Whole Body PET CT option?
+
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+</div>
+ 
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Are there PET scan facilities near me?
+
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Yes, our Whole Body PET CT Digital scans provide a detailed scan of your body to identify areas of high activity, which can help in detecting potential health issues, including cancer, more effectively.
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Where can I get a pet scan in vizag ?
+
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Yes, our Whole Body PET CT Digital scans provide a detailed scan of your body to identify areas of high activity, which can help in detecting potential health issues, including cancer, more effectively.
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      s there a Whole Body PET CT option?
+
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Yes, our Whole Body PET CT Digital scans provide a detailed scan of your body to identify areas of high activity, which can help in detecting potential health issues, including cancer, more effectively.
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      What's the average cost of a PET CT scan in Vizag?
+
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+      The average cost of a PET CT scan in Vizag typically ranges between 20,000 to 30,000 rupees. However, at Cion, we are committed to making cancer diagnostics and treatment both accessible and affordable. That's why we offer it at a special price of just 15,000 rupees.
+      </div>
+    </div>
+  </div>  
+</div>
+   
+  </div>
+
 
     <!-- footer -->
 
