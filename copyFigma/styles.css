@@ -37,9 +37,12 @@ button {
     height: 16.5rem;
 }
 .banner-first-container>h1 {
-    font-size: 1.59090rem;
-    width: 18.0454545rem;
-    height: 3.863636;
+    font-size: 1.6rem;
+    width: 16.27rem;
+    height: 5.9rem;
+    position: relative;
+    right: 1.4rem;
+    font-weight: 800;
     
 }
 ._form_imagbannere{
@@ -65,10 +68,13 @@ button {
     margin: 0.2rem;
     border-radius: 0.2rem;
     padding-left: 0.2rem;
+    position: relative;
+    right: 0.6rem;
 }
 #p-tag img {
     width: 1.5rem;
     height: 1.5rem;
+    margin-top: 0.15rem;
 }
 .btn-booknow {
     position: relative;
@@ -78,7 +84,7 @@ form input,
 form select {
     padding: 0.3rem;
     margin: 0.5rem;
-    border-radius: 10px;
+    border-radius: 0.28rem;
     border: none;
     width: 15.82rem;
     height: 2.08rem;
@@ -89,7 +95,7 @@ form h1 {
     text-align: center;
     margin-bottom: 0.9rem;
     padding-top: 2.5rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .main-img {
@@ -98,7 +104,7 @@ form h1 {
 }
 .card h3 {
     font-size: 0.73rem;
-    font-weight: 700;
+    font-weight: 800;
     padding: 0.8rem 0 0;
     width: 7.36rem;
     height: 2.77rem;
@@ -109,13 +115,16 @@ form h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    padding-top: 0.8rem;
+    /* padding-top: 0.8rem; */
     margin: 1rem 0 0rem 0;
+    width: 22.72rem;
+    margin: 1rem 0 0rem 0;
+    height: 6.04rem;
 }
 .pet-ct img,
 .accordion {
     width: 20.1818rem;
-    
+    margin-bottom: 1rem;
 }
 #nav img {
     padding: 0.1rem 1.1rem 0.5rem 0;
@@ -134,7 +143,7 @@ form h1 {
 #a1 {
     padding: 0.3rem 1.8rem 0.3rem 1.8rem;
     font-size: 0.5rem;
-    font-weight: 700;
+    font-weight: 800;
     margin-left: 5rem;
 }
 .container-assests li {
@@ -150,12 +159,13 @@ form h1 {
     font-weight: 400;
     font-size: 1rem;
 }
-.our-services {
-    width: 100%;
-    background-color: rgba(240, 208, 221, 1);
+.our-services{
+    width: 22.72rem;
+    height: 46.22rem;
+    background-color:var(--colorPink);
 }
 .card-inside {
-    font-weight: 700;
+    font-weight: 800;
     line-height: 0.83rem;
     font-size: 0.73rem;
     padding-top: 0.35rem;
@@ -190,7 +200,7 @@ h2 {
 }
 .testimonial-card p,span {
     font-size: var(--small-16-font);
-    font-weight: 700;
+    font-weight: 800;
 }
 .accordion-button {
     font-weight: 600;
@@ -199,7 +209,7 @@ h2 {
 .accordion-body {
     font-size: var(--small-16-font);
     font-weight: 400;
-    background-color: var(--colorPink) !important;
+    background-color: white !important;
 }
 .card-1 h4 {
     font-size: 1rem;
@@ -231,8 +241,9 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0.8rem;
-    column-gap: 0.3rem;
-    row-gap: 0.5rem;
+    column-gap: 0.2rem;
+    row-gap: 0.2rem;
+    padding-bottom: 2rem;
 }
 .testimonials-container {
     display: flex;
@@ -314,6 +325,7 @@ h2 {
     padding: 1.2rem;
     column-gap: 0.6rem;
     row-gap: 0.6rem;
+    /* background-color: var(--colorPink); */
 }
 .card button {
     padding: 0.2rem 1.2rem;
@@ -386,8 +398,9 @@ button {
     background-color: var(--bg-white);
     color: var(--bg);
     font-weight: 600;
+    padding: 0rem;
     align-self: flex-start !important;
-    border-radius: 0.18rem;
+    border-radius: 0.1rem;
     height: 1.36rem;
     width: 7rem;
     
@@ -433,7 +446,7 @@ button {
 }
 h2 {
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 .accordion-body {
     background-color: white;
@@ -445,7 +458,7 @@ code {
     font-family: "Source Sans 3", sans-serif;
     font-weight: 500;
 }
-.accordion-button::after {
+.accordion-button::after  {
     background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");
 }
 .accordion-button:not(.collapsed)::after {
@@ -459,13 +472,17 @@ code {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 7.07rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    padding: 0rem;
 }
 
 
 /* Large devices CsS code Starts From here */
 @media screen and (min-width : 768px) {
     h2,h1 {
-        font-weight: 700;
+        font-weight: 800;
     }
     body {
         margin: 0;
@@ -495,12 +512,16 @@ code {
     }
     #a1 {
         text-decoration: none;
-        border-radius: 10px;
-        position: relative;
-        right: 2rem;
-        width: 3.86rem;
-        display: flex;
-        justify-content: center;
+    border-radius: 0.1rem;
+    position: relative;
+    right: 2rem;
+    width: 3.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.2rem;
+    font-size: 0.49rem;
+    padding: 0;
     }
     .Rs10999 {
         background-color: var(--bg);
@@ -512,7 +533,7 @@ code {
         border-radius: 0.2rem;
         position: relative;
         left: 0.01rem;
-        top: 0.8rem;
+        top: 1rem;
         padding-left: 0.35rem;
     }
    
@@ -528,13 +549,17 @@ code {
     .card {
         width: 9.03rem !important;
         height: 6.7rem;
+        border-radius: 0.2rem
     }
     .container-assests {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         position: relative;
         top: 0.8rem;
         right: 1.6rem;
-        padding-top: 0;
+        padding-top: 0;    
+        width: 35.54rem;
+        margin: 1rem 0 0rem 0.9rem;
+        height: 3.32rem;
     }
     .container-assests li {
         list-style-type: none;
@@ -543,20 +568,24 @@ code {
         justify-content: space-between;
 
     }
+   
     #Understanding {
-        font-weight: 700;
+        font-weight: 800;
         font-size: 1rem;
+        margin-top: 0.5rem;
     }
+    
     .Free-now>div>img {
         width: 2.93rem;
         height: 2.93rem;
     }
     .container-assests li p {
-        margin-left: 15px;
+        margin-left: 0.28rem;
         font-weight: 600;
         font-size: var(--medium-33-font);
-        width: 3.53rem;
+        width: 4.75rem;
         height: 1.19rem;
+        margin-top :0.3rem;
     }
     .container-assests img {
         width: 1.3rem;
@@ -588,18 +617,27 @@ code {
         padding: 0.8rem;
     }
     .main-Free button {
-        background-color: var(--bg-white);
-        color: var(--bg);
-        font-weight: 600;
-        padding: 0.29rem;
-        width: 8.9rem;
-        height: 2.1rem;
-        position: relative;
-        top: 0.5rem;
+    background-color: var(--bg-white);
+    color: var(--bg);
+    font-weight: 800;
+    padding: 0rem;
+    width: 8.9rem;
+    height: 2.1rem;
+    font-size: 0.6rem;
+    position: relative;
+    top: 0.6rem;
+        
     }
     .main-Free>button>span {
      margin-left: 2.65rem;
 
+}
+.accordion-button::not(.collapsed)::before  {
+/* background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180'); */
+     background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png"); 
+}
+.accordion-button:not(.collapsed)::before {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180');
 }
     .testimonials-container {
         display: flex;
@@ -612,14 +650,15 @@ code {
 
     .testimonial-card {
         display: flex;
-        gap: 0.8rem;
-        width: 33.48rem;
-        height: 10.31rem;
-        padding-left: 1.2rem;
-        position: relative;
-        bottom: 1.3rem;
-        margin-left: 1.1rem
+        gap: 0.3rem;
+    width: 33.48rem;
+    height: 10.31rem;
+    padding-left: 1.2rem;
+    position: relative;
+    bottom: 1.3rem;
+    margin-left: 1.3rem;
     }
+   
     #ul-li li img {
         position: relative;
         bottom: 0.25rem;
@@ -637,22 +676,29 @@ code {
     .testimonial-single-card {
         width: 15.48rem;
         height: 10.31rem;
-        border-radius: 0.5rem;
+        border-radius: 0.2rem;
+    }
+    .h2-Importance{
+        position: relative;
+        bottom: 0.35rem;
     }
     .testimonial-single-card>span {
-        padding-left: 1rem;
+        padding-left: 1.1rem;
+        font-size: 0.62rem;
+        position: relative;
+        top: 0.5rem;
     }
     .testimonial-card p {
         width: 15.48rem;
         font-size: 0.63rem;
         font-weight: 500;
-        padding: 0.8rem 0.5rem 0.2rem 0.6rem;
+        padding: 0.8rem 0.5rem 0.2rem 1.2rem;
     }
     .testimonial-card hr {
         margin: 10px 0;
         position: relative;
-        bottom: 2rem;
-        border-top: 1px solid #ccc;
+        top: 0rem;
+        border-top: 1px solid #6c6c6c;
     }
     
     .pet-ct img {
@@ -726,9 +772,10 @@ code {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 0rem;
-        row-gap: 0.5rem;
+        row-gap: 0.8rem;
         position: relative;
         left: 0.5rem;
+        bottom: 0.7rem;
     }
     .card-1 {
         width: 7.64rem;
@@ -751,11 +798,11 @@ code {
         background-color: #F2F2F2;
         width: 11.3rem;
         height: 12.98rem;
-        border-radius: 0.6rem;
+        border-radius: 0.2rem;
         margin: 0rem;
         position: relative;
         top: 1rem;
-        left: 2.5rem;
+        left: 1.5rem;
     }
    
     .card button {
@@ -765,7 +812,7 @@ code {
     form input,form select {
         padding: 0.5rem;
         margin: 0.2rem;
-        border-radius: 0.28rem;
+        border-radius: 0.1rem;
         border: none;
         margin-left: 8%;
         position: relative;
@@ -780,15 +827,17 @@ code {
         bottom: 1.2rem;
         width: 4.92rem;
         left: 3.2rem;
+        font-size: 0.62rem;
         top: auto;
-        height: 1.07547rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+         height: 1.07547rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 0;
     }
     .card h3 {
         font-size: var(--medium-33-font);
-        font-weight: 700;
+        font-weight: 800;
         width: 5.94rem;
         height: 1.54rem;
         margin-left: 1.5rem;
@@ -806,6 +855,8 @@ code {
         width: 18.15rem;
         height: 4.74rem;
         font-weight: 600;
+        position: relative;
+    left: 0.1rem;
     }
     #back-pink {
       background-color:transparent ;
@@ -844,24 +895,58 @@ code {
     gap: .3rem;
    }
    .accordion-button:not(.collapsed) {
-    color: var(--bg);
+    /* color: var(--bg); */
     background-color:#fff;
 }
 .accordion-header button {
     font-size: 0.6rem !important; 
 }
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    background-color: var(--colorPink);
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    background-color: white;
+    font-weight: 600 !important;
+}
+ .pet-ct .accordion-body ,.accordion-button:not(.collapsed){
+    background-color: var(--colorPink) !important;
+    color: black !important;
+ }
+ .pet-ct .accordion-body{
+    font-size: 0.46rem !important;
+ }
+
+}
+.pet-ct .accordion-body{
+    background-color: var(--colorPink) !important;
+    /* font-size: 0.72rem !important ; */
+
+ }
+ .pet-ct .accordion-body {
+    background-color: var(--colorPink) !important;
+    color: black !important;
+ }
+ .pet-ct .accordion-button:not(.collapsed){
+    background-color: var(--colorPink) !important ;
+ }
+ .accordion-button:not(.collapsed){
+    background-color: white !important ;
+ }
+*{
+    border: none !important;
 }
 .a{
     margin-left: 1.47rem;
 }
 .accordion-button:not(.collapsed) {
-    color: var(--bg);
-    background-color:#fff;
+
+    color: var(--bg) !important;
 }
 .accordion-header button {
     font-size: 1rem;
 }
 .faqs{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 1rem;
-}
+    margin-top: 1rem;
+}  
