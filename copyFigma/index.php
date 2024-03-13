@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+
     <!-- nav bar -->
     <nav id="nav">
         <div>
@@ -36,10 +38,9 @@
                     </span>
                 </span>
             </div>
-
             <div id="back-pink" >
                 <div id="inputFiled">
-                    <form method="POST" action="redirect.php">
+                    <form id="myForm" onsubmit="clearForm()" method="POST" action="redirect.php">
                         <h1 style="color: black;">Book Your Pet Scan </br>Now! </h1>
                         <input type="name" name="name" placeholder="Name" />
                         <input type="phone" name="phone" placeholder="Phone number " />
@@ -163,16 +164,16 @@
      <!-- hospital Locations -->
     <ul id="ul-li">
         <li><img src="assests\Group 35751.png" alt="location">
-            <h6> Jubilee Hills</h6>
+            <h6> Jubilee Hills</h6>  <p class="pipe-jubile">|</p>
         </li>
         <li><img src="assests\Group 35751.png" alt="location">
-            <h6> Narayanaguda</h6>
+            <h6> Narayanaguda</h6>  <p class="pipe-Narayanaguda">|</p>
         </li>
         <li><img src="assests\Group 35751.png" alt="location">
-            <h6> Panjagutta</h6>
+            <h6> Panjagutta</h6>  <p class="pipe-Panjagutta">|</p>
         </li>
         <li><img src="assests\Group 35751.png" alt="location">
-            <h6> Himayathnagar</h6>
+            <h6> Himayathnagar</h6>  
         </li>
     </ul></br>
     <!-- Understanding PET-CT -->
@@ -183,7 +184,7 @@
         <h2> India</h2>
     </div> </br>
     <div class="pet-ct">
-        <div> <img src="assests\image 17.png" alt="PET-CT Scan indoor" /></div>
+        <div> <img src="assests\Group 35829.png" alt="PET-CT Scan indoor" /></div>
         <div style="border-style: black;  " class="  bg-white border-1  p-0 ">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
@@ -356,4 +357,9 @@
     </footer> -->
 </body>
 
+<script>
+    function clearForm() {
+        document.getElementById("myForm").reset();
+    }
+</script>
 </html>
