@@ -317,7 +317,7 @@ h2 {
 .py-5 {
     padding-top: 1.5rem !important;
     padding-bottom: 1.5rem !important;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
 }
 .grid-container {
     display: grid;
@@ -331,7 +331,7 @@ h2 {
     padding: 0.2rem 1.2rem;
     font-size: var(--small-16-font);
     position: relative;
-    bottom: 0.5rem;
+    bottom: 0.7rem;
 }
 .guidelines {
     display: flex;
@@ -403,6 +403,10 @@ button {
     border-radius: 0.1rem;
     height: 1.36rem;
     width: 7rem;
+    font-size: 0.72rem;
+    justify-content: center;
+    display: flex;
+    align-items: self-end;
     
 }
 .main-Free>button>span {
@@ -617,15 +621,18 @@ code {
         padding: 0.8rem;
     }
     .main-Free button {
-    background-color: var(--bg-white);
-    color: var(--bg);
-    font-weight: 800;
-    padding: 0rem;
-    width: 8.9rem;
-    height: 2.1rem;
-    font-size: 0.6rem;
-    position: relative;
-    top: 0.6rem;
+        background-color: var(--bg-white);
+        color: var(--bg);
+        font-weight: 800;
+        padding: 0rem;
+        width: 8.9rem;
+        height: 2.1rem;
+        font-size: 0.62rem;
+        position: relative;
+        top: 0.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
     }
     .main-Free>button>span {
@@ -677,6 +684,17 @@ code {
         width: 15.48rem;
         height: 10.31rem;
         border-radius: 0.2rem;
+        margin-bottom: 2.3rem;
+    }
+    .carousel-control-next-icon {
+        position: relative;
+        bottom: 1.7rem;
+        left: 1.2rem;
+    }
+    .carousel-control-prev-icon {
+        position: relative;
+        bottom: 1.7rem;
+        right: 0.8rem;
     }
     .h2-Importance{
         position: relative;
@@ -685,9 +703,9 @@ code {
     .testimonial-single-card>span {
         padding-left: 1.1rem;
         font-size: 0.62rem;
-        position: relative;
-        top: 0.5rem;
+       
     }
+    
     .testimonial-card p {
         width: 15.48rem;
         font-size: 0.63rem;
@@ -695,16 +713,21 @@ code {
         padding: 0.8rem 0.5rem 0.2rem 1.2rem;
     }
     .testimonial-card hr {
-        margin: 10px 0;
-        position: relative;
-        top: 0rem;
-        border-top: 1px solid #6c6c6c;
+        margin: 10px 0 !important;
+        position: relative !important;
+        top: 0rem !important;
+        border-top: 1px solid #6c6c6c !important;
     }
     
     .pet-ct img {
-        width: 14.43396rem;
-        height: 15.1886rem;
+        width: 14.5rem;
+        height: 15.8rem;
     }
+    
+.pet-ct .accordion {
+    width: 16.71rem;
+    margin-bottom: 1rem;
+}
     .guidelines {
         display: flex;
         flex-direction: row;
@@ -754,13 +777,22 @@ code {
         left: 0.5rem;
         padding-top: 0.5rem;
     }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        right: 1rem;
+    }
+    #carousel-hr{
+        border: 0.01rem solid black !important;
+    }
     .pet-ct {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 1.2rem;
-        gap: 20px;
+        gap: 1.2rem;
     }
     .accordion-body {
         background-color: rgba(240, 208, 221, 1);
@@ -901,12 +933,18 @@ code {
 .accordion-header button {
     font-size: 0.6rem !important; 
 }
-.accordion-item:first-of-type>.accordion-header .accordion-button {
+.accordion-item:first-of-type>.accordion-header .accordion-button{
     background-color: var(--colorPink);
 }
+
 .accordion-item:first-of-type>.accordion-header .accordion-button {
     background-color: white;
     font-weight: 600 !important;
+   
+    border-radius: 0rem 0rem;
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-radius: 0rem;
 }
  .pet-ct .accordion-body ,.accordion-button:not(.collapsed){
     background-color: var(--colorPink) !important;
@@ -915,7 +953,33 @@ code {
  .pet-ct .accordion-body{
     font-size: 0.46rem !important;
  }
+ .md-device-carousel{
+    display: inline !important;
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    display: flex;
+    position: relative;
+    left: 1.2rem;
+}
+.carousel-item p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: var(--medium-33-font);
+    font-weight: 600;
+    padding: 1rem 0 0 1.25rem;
+}
+.carousel-main {
+    padding: 0.5rem;
+}
 
+}
+
+
+
+.md-device-carousel{
+    display: none;
 }
 .pet-ct .accordion-body{
     background-color: var(--colorPink) !important;
@@ -925,6 +989,7 @@ code {
  .pet-ct .accordion-body {
     background-color: var(--colorPink) !important;
     color: black !important;
+    padding: 1rem !important;
  }
  .pet-ct .accordion-button:not(.collapsed){
     background-color: var(--colorPink) !important ;
@@ -950,3 +1015,6 @@ code {
     font-size: 1rem;
     margin-top: 1rem;
 }  
+#carousel-hr{
+    border: 0.01rem solid black !important;
+}

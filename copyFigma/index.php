@@ -5,13 +5,14 @@
     <!-- <meta http-equiv="refresh" content="1"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma Copy</title>
+    <title>Cancer Clinics</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -104,13 +105,13 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-                    <hr style="border: 1px solid rgb(176, 169, 166) ;">
+                    <hr id="carousel-hr">
                     <span>Priya K.</span>
                     <span class="rating">⭐⭐⭐⭐⭐</span>
                 </div>
                 <div class="carousel-item">
                     <p>Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-                    <hr style="border: 1px solid rgb(176, 169, 166) ;">
+                    <hr id="carousel-hr">
                     <span>Arjun.S</span>
                     <span class="rating">⭐⭐⭐⭐⭐</span>
                 </div>
@@ -125,22 +126,58 @@
             </button>
         </div>
     </div>
-
-    <div class="testimonial-card d-none  d-md-flex flex-wrap justify-content-center align-items-center">
-        <div style="background-color: #F0D0DD;" class="testimonial-single-card">
+    <div id="testimonial-carousel" class="carousel slide  md-device-carousel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row d-flex flex-row flex-wrap justify-content-center  align-items-center ">
+        <div class="col-md-5 mx-2">
+          <div class="testimonial-single-card" style="background-color: #F0D0DD;">
             <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-            <hr>
+            <hr id="carousel-hr">
             <span>Priya K.</span>
             <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
         </div>
-        <div style="background-color: #F0D0DD;" class="testimonial-single-card">
+        <div class="col-md-5">
+          <div class="testimonial-single-card" style="background-color: #F0D0DD;">
             <p>Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-            <hr>
+            <hr id="carousel-hr">
             <span>Arjun.S</span>
             <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
         </div>
+      </div>
     </div>
-
+    <div class="carousel-item">
+      <div class="row  d-flex flex-row flex-wrap justify-content-center  align-items-center">
+        <div class="col-md-5 mx-2">
+          <div class="testimonial-single-card" style="background-color: #F0D0DD;">
+            <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
+            <hr id="carousel-hr">
+            <span>Priya K.</span>
+            <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="testimonial-single-card" style="background-color: #F0D0DD;">
+            <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
+            <hr id="carousel-hr">
+            <span>Arjun.S</span>
+            <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     <!-- Guidelines for PET - CT scans -->
 
     <div style="background-color: rgba(244, 244, 244, 1); padding: 1.5rem 0 2rem 0;">
