@@ -115,6 +115,7 @@ form h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
+    /* padding-top: 0.8rem; */
     margin: 1rem 0 0rem 0;
     width: 22.72rem;
     margin: 1rem 0 0rem 0;
@@ -198,7 +199,7 @@ h2 {
     font-size: 1rem;
 }
 .testimonial-card p,span {
-    font-size: 1rem;
+    font-size: var(--small-16-font);
     font-weight: 600;
 }
 .accordion-button {
@@ -232,6 +233,9 @@ h2 {
     align-items: center;
    background-color: transparent;
     background-size: cover;
+    /* padding: 2rem;
+    position: relative;
+    top: 0.8rem; */
 }
 .container-types {
     display: grid;
@@ -321,6 +325,7 @@ h2 {
     padding: 1.2rem;
     column-gap: 0.6rem;
     row-gap: 0.6rem;
+    /* background-color: var(--colorPink); */
 }
 .card button {
     padding: 0.2rem 1.2rem;
@@ -392,7 +397,7 @@ button {
 .main-Free button {
     background-color: var(--bg-white);
     color: var(--bg);
-    font-weight: 700;
+    font-weight: 600;
     padding: 0rem;
     align-self: flex-start !important;
     border-radius: 0.1rem;
@@ -401,7 +406,7 @@ button {
     font-size: 0.72rem;
     justify-content: center;
     display: flex;
-    align-items: flex-end;
+    align-items: self-end;
     
 }
 .main-Free>button>span {
@@ -463,6 +468,7 @@ code {
 .accordion-button:not(.collapsed)::after {
     background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180');
 }
+
 .class-booknow {
     position: relative;
     left: 5rem;
@@ -475,6 +481,7 @@ code {
     font-size: 1rem;
     padding: 0rem;
 }
+
 
 /* Large devices CsS code Starts From here */
 @media screen and (min-width : 768px) {
@@ -505,10 +512,10 @@ code {
         height: 1.60rem;
         padding: 0;
         position: relative;
-       bottom: 0.4rem;
+    bottom: 0.4rem;
     }
     #a1 {
-    text-decoration: none;
+        text-decoration: none;
     border-radius: 0.1rem;
     position: relative;
     right: 2rem;
@@ -533,13 +540,16 @@ code {
         top: 1rem;
         padding-left: 0.35rem;
     }
+   
     .main-img {
         width: 100%;
     }
     .banner_form_image_section{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        
     }
+   
     .card {
         width: 9.03rem !important;
         height: 6.7rem;
@@ -560,7 +570,9 @@ code {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
     }
+   
     #Understanding {
         font-weight: 800;
         font-size: 1rem;
@@ -582,6 +594,7 @@ code {
     .container-assests img {
         width: 1.3rem;
         height: 1.3rem;
+
     }
     .container-types {
         display: flex;
@@ -603,6 +616,7 @@ code {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        /* align-items: center; */
         flex-grow: 1;
         padding: 0.8rem;
     }
@@ -618,12 +632,15 @@ code {
         top: 0.6rem;
         display: flex;
         justify-content: center;
-        align-items: center;   
+        align-items: center;
+        
     }
     .main-Free>button>span {
      margin-left: 2.65rem;
+
 }
 .accordion-button::not(.collapsed)::before  {
+/* background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180'); */
      background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png"); 
 }
 .accordion-button:not(.collapsed)::before {
@@ -686,7 +703,9 @@ code {
     .testimonial-single-card>span {
         padding-left: 1.1rem;
         font-size: 0.62rem;
+       
     }
+    
     .testimonial-card p {
         width: 15.48rem;
         font-size: 0.63rem;
@@ -704,6 +723,7 @@ code {
         width: 14.5rem;
         height: 15.8rem;
     }
+    
 .pet-ct .accordion {
     width: 16.71rem;
     margin-bottom: 1rem;
@@ -816,6 +836,7 @@ code {
         top: 1rem;
         left: 1.5rem;
     }
+   
     .card button {
         position: relative;
         bottom: 0.5rem;
@@ -832,6 +853,7 @@ code {
         height: 1.75rem;
         font-size: var(--medium-33-font);
     }
+    
     .class-booknow {
         position: relative;
         bottom: 1.2rem;
@@ -876,6 +898,7 @@ code {
         justify-content: center;
         align-items: center;
     }
+   
     .banner-first-container{
         background-image: none;
     }
@@ -904,6 +927,7 @@ code {
     gap: .3rem;
    }
    .accordion-button:not(.collapsed) {
+    /* color: var(--bg); */
     background-color:#fff;
 }
 .accordion-header button {
@@ -951,6 +975,9 @@ code {
 }
 
 }
+
+
+
 .md-device-carousel{
     display: none;
 }
