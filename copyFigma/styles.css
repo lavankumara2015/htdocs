@@ -1,6 +1,6 @@
-* {
+/* * {
     font-family: "Source Sans 3", sans-serif;
-}
+} */
 html {
     font-size: 4.4vw;
 }
@@ -10,7 +10,7 @@ html {
     }
 }
 :root {
-    --bg: rgba(128, 42, 143, 1);
+    --bg: #80288F;
     --bg-white: white;
     --colorPink: rgba(240, 208, 221, 1);
     --small-16-font: 0.72rem;
@@ -29,8 +29,41 @@ button {
     font-size: 1.5rem;
     background-color: var(--bg);
 }
+
+.modal{
+    --bs-modal-bg: transparent !important;
+}
+
+iframe{
+    width: 20rem ;
+    height: 12rem;
+}
+
+.modal-footer button{
+    position: relative; 
+    bottom: 0.1rem;
+    font-size: 0.5rem;
+}
+.modal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10rem;
+}
+
+.modal-footer button{
+    position: relative; 
+    bottom: 2rem;
+    font-size: 0.5rem;
+}
+.modal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner-first-container {
-    background:  url("./assests/image\ 17\ \(2\).png") no-repeat 0 100%;
+    background:  url("./assests/image\ 17\ \(2\).webp") no-repeat 0 100%;
     position: relative;
     background-size: cover;
     width: 22.72rem;
@@ -42,7 +75,7 @@ button {
     height: 5.9rem;
     position: relative;
     right: 1.4rem;
-    font-weight: 800;
+    font-weight: 700;
     
 }
 ._form_imagbannere{
@@ -89,13 +122,14 @@ form select {
     width: 15.82rem;
     height: 2.08rem;
     margin-left: 1rem;
+    background-color: white !important;
 }
 form h1 {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 0.9rem;
     padding-top: 2.5rem;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .main-img {
@@ -104,7 +138,7 @@ form h1 {
 }
 .card h3 {
     font-size: 0.73rem;
-    font-weight: 800;
+    font-weight: 700;
     padding: 0.8rem 0 0;
     width: 7.36rem;
     height: 2.77rem;
@@ -143,7 +177,7 @@ form h1 {
 #a1 {
     padding: 0.3rem 1.8rem 0.3rem 1.8rem;
     font-size: 0.5rem;
-    font-weight: 800;
+    font-weight: 700;
     margin-left: 5rem;
 }
 .container-assests li {
@@ -165,10 +199,10 @@ form h1 {
     background-color:var(--colorPink);
 }
 .card-inside {
-    font-weight: 800;
+    font-weight: 700;
     line-height: 0.83rem;
     font-size: 0.73rem;
-    padding-top: 0.35rem;
+    padding-top: 0.8rem;
 }
 #Understanding {
     font-weight: 400;
@@ -270,7 +304,7 @@ h2 {
 }
 #ul-li li {
     list-style-type: none;
-    width: 8.85rem;
+    /* width: 8.85rem; */
     height: 1.96rem;
     display: flex;
     justify-content: flex-start;
@@ -331,7 +365,7 @@ h2 {
     padding: 0.2rem 1.2rem;
     font-size: var(--small-16-font);
     position: relative;
-    bottom: 0.7rem;
+    bottom: 1rem;
 }
 .guidelines {
     display: flex;
@@ -398,7 +432,7 @@ button {
     background-color: var(--bg-white);
     color: var(--bg);
     font-weight: 600;
-    padding: 0rem;
+    padding: 0rem 0rem 0.1rem 0rem;
     align-self: flex-start !important;
     border-radius: 0.1rem;
     height: 1.36rem;
@@ -450,7 +484,7 @@ button {
 }
 h2 {
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 700;
 }
 .accordion-body {
     background-color: white;
@@ -466,12 +500,14 @@ code {
     background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");
 }
 .accordion-button:not(.collapsed)::after {
-    background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180');
+    background-image: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png);
+    width: 0.7rem;
+    position: relative;
+    right: 0.3rem;
 }
-
 .class-booknow {
     position: relative;
-    left: 5rem;
+    left: 5.2rem;
     top: 1.5rem;
     display: flex;
     justify-content: center;
@@ -481,12 +517,22 @@ code {
     font-size: 1rem;
     padding: 0rem;
 }
-
+footer{
+    width: 100%;
+    height: 3.5rem;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h5{
+    color: white;
+}
 
 /* Large devices CsS code Starts From here */
 @media screen and (min-width : 768px) {
     h2,h1 {
-        font-weight: 800;
+        font-weight: 700;
     }
     body {
         margin: 0;
@@ -526,6 +572,15 @@ code {
     height: 1.2rem;
     font-size: 0.49rem;
     padding: 0;
+    }
+    .modal-footer button{
+        position: relative; 
+        bottom: 8rem;
+        font-size: 0.5rem;
+    }
+    .modal-body {
+        position: relative;
+      bottom: 6.2rem;
     }
     .Rs10999 {
         background-color: var(--bg);
@@ -574,15 +629,15 @@ code {
     }
    
     #Understanding {
-        font-weight: 800;
+        font-weight: 700;
         font-size: 1rem;
         margin-top: 0.5rem;
     }
     
-    .Free-now>div>img {
+    /* .Free-now>div>img {
         width: 2.93rem;
         height: 2.93rem;
-    }
+    } */
     .container-assests li p {
         margin-left: 0.28rem;
         font-weight: 600;
@@ -623,7 +678,7 @@ code {
     .main-Free button {
         background-color: var(--bg-white);
         color: var(--bg);
-        font-weight: 800;
+        font-weight: 700;
         padding: 0rem;
         width: 8.9rem;
         height: 2.1rem;
@@ -654,7 +709,10 @@ code {
         padding: 5rem;
         gap: 50px;
     }
-
+    .pet-ct .accordion-button:not(.collapsed) {
+        background-color: var(--colorPink) !important;
+        padding: 0.2rem 1rem;
+    }
     .testimonial-card {
         display: flex;
         gap: 0.3rem;
@@ -674,7 +732,7 @@ code {
         display: grid;
         justify-content: space-around;
         align-items: center;
-        background:  url("./assests/image\ 17\ \(2\).png") no-repeat 0 100%;
+        background:  url("./assests/image\ 17\ \(2\).webp") no-repeat 0 100%;
         background-size: cover;
         padding: 2rem;
         position: relative;
@@ -720,8 +778,8 @@ code {
     }
     
     .pet-ct img {
-        width: 14.5rem;
-        height: 15.8rem;
+        width: 14.43rem;
+        height: 15.18rem;
     }
     
 .pet-ct .accordion {
@@ -746,14 +804,14 @@ code {
     }
     .guideline-card h5 {
         font-size: var(--medium-33-font);
-        padding-top: 0.3rem;
+        padding-top: 0rem;
     }
     #ul-li {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-evenly;
         align-items: center;
-        padding-left: 0rem;
+        
     }
     #ul-li img {
         width: 1.13rem;
@@ -763,10 +821,8 @@ code {
         color: var(--bg-white);
         border: 5px solid var(--bg-white);
     }
-    .pipe-jubile ,.pipe-Panjagutta{
+    .pipe-jubile{
         color: var(--bg-white);
-        position: relative;
-        left: 1rem;
         padding-top: 0.5rem;
         
     }
@@ -774,7 +830,7 @@ code {
         display: inline;
         color: var(--bg-white);
         position: relative;
-        left: 0.5rem;
+        left: 2rem;
         padding-top: 0.5rem;
     }
     .carousel-inner {
@@ -798,6 +854,7 @@ code {
         background-color: rgba(240, 208, 221, 1);
         font-size: 0.45rem;
         font-weight: 400;
+        padding: 0.1rem;
         background-color: var(--colorPink);
     }
     .grid-container {
@@ -839,7 +896,7 @@ code {
    
     .card button {
         position: relative;
-        bottom: 0.5rem;
+        bottom: 1rem;
     }
     form input,form select {
         padding: 0.5rem;
@@ -852,6 +909,7 @@ code {
         width: 9.58rem;
         height: 1.75rem;
         font-size: var(--medium-33-font);
+        background-color: white;
     }
     
     .class-booknow {
@@ -869,7 +927,7 @@ code {
     }
     .card h3 {
         font-size: var(--medium-33-font);
-        font-weight: 800;
+        font-weight: 700;
         width: 5.94rem;
         height: 1.54rem;
         margin-left: 1.5rem;
@@ -919,11 +977,12 @@ code {
     .carousel-main {
         width: 33.47rem;
     }
+   
    .a{
     display: flex;
     width: 30.50rem;
     height: 10.98rem;
-    margin-left: 3.33rem !important;
+    margin-left: 3rem !important;
     gap: .3rem;
    }
    .accordion-button:not(.collapsed) {
@@ -940,11 +999,17 @@ code {
 .accordion-item:first-of-type>.accordion-header .accordion-button {
     background-color: white;
     font-weight: 600 !important;
-   
+    border-bottom: 1px solid rgb(130, 128, 128) !important;
     border-radius: 0rem 0rem;
 }
 .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
     border-radius: 0rem;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png);
+    width: 0.7rem;
+    position: relative;
+    right: 0.5rem;
 }
  .pet-ct .accordion-body ,.accordion-button:not(.collapsed){
     background-color: var(--colorPink) !important;
@@ -968,14 +1033,31 @@ code {
     margin-bottom: 1rem;
     font-size: var(--medium-33-font);
     font-weight: 600;
-    padding: 1rem 0 0 1.25rem;
+    padding: 1rem 0 0 0.5rem;
 }
 .carousel-main {
     padding: 0.5rem;
 }
 
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+    border-bottom: 1px solid #8f8e8b !important;
+    padding: 0rem 0rem 0.5rem 0rem;
 }
 
+}
+
+.carousel-control-next-icon{
+    background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Right_Square-512.png") !important;
+}
+.carousel-control-prev-icon{
+    background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Left_Square-512.png") !important;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+    border-bottom: 1px solid #8f8e8b !important;
+    
+}
 
 
 .md-device-carousel{
@@ -997,6 +1079,7 @@ code {
  .accordion-button:not(.collapsed){
     background-color: white !important ;
  }
+ 
 *{
     border: none !important;
 }
@@ -1011,10 +1094,20 @@ code {
     font-size: 1rem;
 }
 .faqs{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1rem;
     margin-top: 1rem;
 }  
 #carousel-hr{
     border: 0.01rem solid black !important;
 }
+.accordion-button:focus {
+    box-shadow: none;
+  }
+
+  
+.accordion-button:not(.collapsed), .accordion-item:first-of-type .accordion-button:not(.collapsed) {
+    border: none !important;
+    color: #000;
+    box-shadow: none;
+  }

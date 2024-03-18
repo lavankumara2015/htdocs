@@ -2,35 +2,31 @@
 $servername = "localhost";
 $username = "root"; 
 $password = ""; 
-$database = "phpmyadmin"; 
+$database = "phpmyadmin"; // Change this to your actual database name
 
 // Create connection
-
 $conn = new mysqli($servername, $username, $password, $database);
 
-
 // Check connection
-
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
 // Check if form is submitted
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $scan_type = $_POST['scan'];
+    
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $phone = mysqli_real_escape_string($conn, $_POST['phone']);
+    $scan_type = mysqli_real_escape_string($conn, $_POST['scan']);
 
-
-    //SQL statement insert data into mysql data
-
+    //SQL statement to insert data into MySQL
     $sql = "INSERT INTO scans (name, phone_number, scan_type) VALUES (?, ?, ?)";
     $stmt = $conn->prepare($sql);
+    
+    // Bind parameters
     $stmt->bind_param("sss", $name, $phone, $scan_type);
 
-
-    // here checking data enter into mysql successfully or not
+    // Execute query
     if ($stmt->execute()) {
         echo "<h1>Booking Successful</h1>";
     } else {
@@ -38,7 +34,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     $stmt->close();
     $conn->close();
-    
-
 }
-?> 
+?>

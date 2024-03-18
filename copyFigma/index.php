@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- <meta http-equiv="refresh" content="1"> -->
     <meta charset="UTF-8">
@@ -8,12 +7,26 @@
     <title>Cion Cancer Clinics</title>
     <link rel="shortcut icon" href="./assests/Faviicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="styles.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+   
+    <style>
+ @font-face {
+  font-family: 'Source Sans 3';
+  src: url('./Sans pro/static/SourceSans3-Regular.ttf') format('truetype');
+  src: url('./Sans pro/static/SourceSans3-Medium.ttf') format('truetype');
+  src: url('./Sans pro/static/SourceSans3-SemiBold.ttf') format('truetype');
+  src: url('./Sans pro/static/SourceSans3-Bold.ttf') format('truetype');
+}
 
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+    </style>
 </head>
 <body>
 
@@ -26,7 +39,7 @@
     </nav>
     <!-- section 1 main image and form  -->
     <section class="banner_form_image_section">
-        <div class="banner-first-container d-flex flex-column  justify-content-center align-items-center">
+        <div  class="banner-first-container d-flex flex-column  justify-content-center align-items-center">
             <h1 class="text-white">PET CT SCAN Cost for cancer diagnostics starts at
                 <span class="Rs10999">Rs.10999/-</span>
             </h1>
@@ -99,7 +112,7 @@
     
     <!-- Testimonials -->
 
-    <h2 style="text-align: center; font-weight: 700;">Testimonials</h2>
+    <h2 style="text-align: center; font-weight: 400;">Testimonials</h2>
     <div class="carousel-main">
         <div id="carouselExampleAutoplaying" style="background-color: #F0D0DD;" class="carousel slide  px-5 py-5 d-md-none" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -110,7 +123,7 @@
                     <span class="rating">⭐⭐⭐⭐⭐</span>
                 </div>
                 <div class="carousel-item">
-                    <p>Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
+                    <p>"The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times."</p>
                     <hr id="carousel-hr">
                     <span>Arjun.S</span>
                     <span class="rating">⭐⭐⭐⭐⭐</span>
@@ -134,16 +147,16 @@
           <div class="testimonial-single-card" style="background-color: #F0D0DD;">
             <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
             <hr id="carousel-hr">
-            <span>Priya K.</span>
+            <span style="position: relative; left:1rem">Priya K.</span>
             <span class="rating">⭐⭐⭐⭐⭐</span>
           </div>
         </div>
         <div class="col-md-5">
           <div class="testimonial-single-card" style="background-color: #F0D0DD;">
-            <p>Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-            <hr id="carousel-hr">
-            <span>Arjun.S</span>
-            <span class="rating">⭐⭐⭐⭐⭐</span>
+            <p>"The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times."</p>
+ <hr id="carousel-hr" style="position: relative; top: 0.92rem">
+            <span style="position: relative; top:1rem">Arjun.S</span>
+            <span style="position: relative; top:1rem" class="rating">⭐⭐⭐⭐⭐</span>
           </div>
         </div>
       </div>
@@ -152,18 +165,18 @@
       <div class="row  d-flex flex-row flex-wrap justify-content-center  align-items-center">
         <div class="col-md-5 mx-2">
           <div class="testimonial-single-card" style="background-color: #F0D0DD;">
-            <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-            <hr id="carousel-hr">
-            <span>Priya K.</span>
-            <span class="rating">⭐⭐⭐⭐⭐</span>
+            <p>"The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times."</p>
+            </br><hr id="carousel-hr" style="position: relative; bottom: 1.8rem">
+            <span style="position: relative; bottom:1.7rem">Sunita P</span>
+            <span style="position: relative; bottom:1.7rem" class="rating">⭐⭐⭐⭐⭐</span>
           </div>
         </div>
         <div class="col-md-5">
           <div class="testimonial-single-card" style="background-color: #F0D0DD;">
-            <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-            <hr id="carousel-hr">
-            <span>Arjun.S</span>
-            <span class="rating">⭐⭐⭐⭐⭐</span>
+            <p>"I appreciated the efficiency of the scan and the post-scan support. Team was responsive to my questions, which helped."</p>
+            </br><hr id="carousel-hr" style="position: relative; bottom: 0.9rem">
+            <span style="position: relative; bottom:0.7rem">Lakshmi G</span>
+            <span class="rating" style="position: relative; bottom:0.7rem">⭐⭐⭐⭐⭐</span>
           </div>
         </div>
       </div>
@@ -186,15 +199,15 @@
             <div class="guideline-card">
                 <img src="assests\Group 35735.png" alt="water glass">
                 </br>
-                <h5>At least 6 hours of fasting before the scan, but the patient can have plain water</h5>
+                <h5>At least 6 hours of fasting before the scan, but the patient can have plain water.</h5>
             </div>
             <div class="guideline-card">
                 <img src="assests\Group 35735 (1).png" alt="calender">
-                <h5>At least 6 hours of fasting before the scan, but the patient can have plain water</h5>
+                <h5>You are advised to report one hour before the scheduled time</h5>
             </div>
             <div class="guideline-card">
                 <img src="assests\Group 35822.png" alt="Reports image">
-                <h5>At least 6 hours of fasting before the scan, but the patient can have plain water</h5>
+                <h5>Carry previous PET-CT reports,CDs,medical records,recent serum creatinine and fasting blood sugar reports.</h5>
             </div>
         </div>
     </div>
@@ -202,21 +215,21 @@
     <!-- hospital Locations -->
     <ul id="ul-li">
         <li><img src="assests\Group 35751.png" alt="location">
-            <h6> Jubilee Hills</h6>
+            <h6> Chinnagadili</h6>
             <p class="pipe-jubile">|</p>
         </li>
         <li><img src="assests\Group 35751.png" alt="location">
-            <h6> Narayanaguda</h6>
+            <h6>MVP Colony</h6>
             <p class="pipe-Narayanaguda">|</p>
         </li>
         <li><img src="assests\Group 35751.png" alt="location">
-            <h6> Panjagutta</h6>
-            <p class="pipe-Panjagutta">|</p>
+            <h6>Jagadamba Centre</h6>
+            <p class="pipe-Panjagutta"></p>
         </li>
-        <li><img src="assests\Group 35751.png" alt="location">
-            <h6> Himayathnagar</h6>
-        </li>
+  
     </ul></br>
+
+
     <!-- Understanding PET-CT -->
 
     <div class=" text-center">
@@ -224,7 +237,22 @@
         <h2 class="h2-Importance">Importance, Need, and Cost in India </h2>
     </div>
     <div class="pet-ct">
-        <div> <img src="assests\Group 35829.png" alt="PET-CT Scan indoor" /></div>
+        <div>
+        <img data-bs-toggle="modal" data-bs-target="#exampleModal"src="assests\Group 35829.png" alt="PET-CT Scan indoor" />
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lE6bzCEjyU0?si=5KhCCqRzjCbA_JiD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+      </div>
         <div style="border-style: black; " class=" pet-ct-accordion  bg-white border-1  p-0 ">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -235,9 +263,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Positron Emission Tomography (PET) scan also known as PET imaging, it’s a type of nuclear medicine imaging. </br>
-
-                            The tracer is used which can be swallows, injected or inhaled. PET is a combination of CT technique with PET scanner that works together to pr the human body which enables the healthcare worker to plan the process of cancer treatment further. </div>
+                        PET scan is a medical imaging method using a trace of radioactive material to reveal metabolic activity. It helps detect and monitor diseases, especially cancer, by providing detailed insights into tissue function. PET scans are often combined with other imaging techniques for comprehensive diagnostics.</div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
@@ -246,9 +272,9 @@
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
+                        <div class="accordion-body">
+                        PET scans are crucial for diagnosing and monitoring diseases, as they reveal metabolic activity in tissues. This imaging technique is particularly valuable in detecting cancer and assessing treatment effectiveness. It aids physicians in making informed decisions about patient care based on detailed insights into the body's physiological processes. </div>
+                    </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -258,9 +284,9 @@
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
+                        <div class="accordion-body">
+                        The cost of a PET scan in India can vary widely depending on the city, facility, and specific requirements. On average, it may range from ₹15,000 to ₹35,000 or more. It is advisable to check with individual healthcare providers for accurate and up-to-date pricing information. </div>
+                    </div>
                         </div>
                     </div>
                 </div>
@@ -286,11 +312,11 @@
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-      What's the average cost of a PET CT scan in Vizag?
+      Where can i get a pet scan in vizag?
       </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">The average cost of a PET CT scan in Vizag typically ranges between 20,000 to 30,000 rupees. However, at Cion, we are committed to making cancer diagnostics and treatment both accessible and affordable. That's why we offer it at a special price of just 15,000 rupees.</div>
+      <div class="accordion-body">At Cion Cancer Clinic, we have facilities in vizag, making it convenient for you.</div>
     </div>
   </div>
 
@@ -298,11 +324,11 @@
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-      Where can I get a pet scan in vizag ?
+      How much does a PET scan cost in vizag?
       </button>
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      <div class="accordion-body">Our PET scans start at ₹14,999, ensuring quality without breaking the bank.</div>
     </div>
   </div>
 
@@ -310,12 +336,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-      How much does a PET scan cost in vizag?
+      Is there a Whole Body PET CT option?
 
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      <div class="accordion-body">Yes, our Whole Body PET CT Digital scans give a complete view of your health.</div>
     </div>
   </div>
 
@@ -323,79 +349,98 @@
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-      Is there a Whole Body PET CT option?
-
+      Are there PET scan facilities near me?
       </button>
     </h2>
     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the fourth item's accordion body. Add your content here.</div>
+      <div class="accordion-body">Find a Cion Cancer Clinic near you for accessible and quality PET scans.</div>
     </div>
   </div>
+  
+  <!-- 9th Accordion Item -->
+<div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+            Is there a neurology center nearby?
+        </button>
+    </h2>
+    <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Explore local medical centers specializing in neurology for expert consultations and treatments.</div>
+    </div>
+</div>
 </div>
 
 
 <div class="accordion accordion-flush" id="accordionFlushExample2">
-  <!-- Fifth accordion item -->
+  <!-- 6th accordion item -->
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-      Are there PET scan facilities near me?
+      How much does a pet scan cost in vizag? 
 
       </button>
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the fifth item's accordion body. Add your content here.</div>
+      <div class="accordion-body">At just ₹14,999, our PET scans offer the high-quality care you deserve, balancing excellence with cost-effectiveness.</div>
     </div>
   </div>
-  <!-- Sixth accordion item -->
+  <!-- 7th accordion item -->
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-      Where can I get a pet scan in vizag ?
-
+      Is there an option for a Whole Body PET CT scan?
       </button>
     </h2>
     <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the sixth item's accordion body. Add your content here.</div>
+      <div class="accordion-body">Yes, our Whole Body PET CT Digital scans provide a detailed scan of your body to identify areas of high activity, which can help in detecting potential health issues, including cancer, more effectively.</div>
     </div>
   </div>
-  <!-- Seventh accordion item -->
+  <!-- 8th accordion item -->
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-      s there a Whole Body PET CT option?
-
+      Are there PET scan facilities near me?
       </button>
     </h2>
     <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the seventh item's accordion body. Add your content here.</div>
+      <div class="accordion-body">To find a PET CT near you, please call us. Our network of trusted partners at Cion Cancer Clinics offer accessible and quality PET CT scans.</div>
     </div>
   </div>
-  <!-- Eighth accordion item -->
+
+  <!-- 10th Accordion Item -->
+<div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+            Where can I find MRI services?
+        </button>
+    </h2>
+    <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Locate MRI facilities nearby to schedule your imaging needs efficiently.</div>
+    </div>
+</div>
+
+  <!-- 9th accordion item -->
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-      Is there an option for a Whole Body PET CT scan?
-
+      What's the average cost of a PET CT scan in Vizag?
       </button>
     </h2>
     <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-      <div class="accordion-body">Yes, our Whole Body PET CT Digital scans provide a detailed scan of your body to identify areas of high activity, which can help in detecting potential health issues, including cancer, more effectively.
+      <div class="accordion-body">The average cost of a PET CT scan in Vizag typically ranges between 20,000 to 30,000 rupees. However, at Cion, we are committed to making cancer diagnostics and treatment both accessible and affordable. That's why we offer it at a special price of just 15,000 rupees.
 </div>
+    </div>
+
     </div>
   </div>
 </div>
-
     </div>
-
     </div>
-
-
     <!-- footer -->
 
-    <!-- <footer>
-        <h3 style="padding: 1rem;">@ Ciphar oncology pvt Ltd</h3>
-    </footer> -->
+     <footer>
+        <h5>@ Ciphar oncology pvt Ltd</h5>
+    </footer> 
 </body>
 
 <script>
@@ -403,5 +448,4 @@
         document.getElementById("myForm").reset();
     }
 </script>
-
 </html>

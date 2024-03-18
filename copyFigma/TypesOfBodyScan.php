@@ -1,24 +1,43 @@
-<?php
-$arr = [
-    ["Whole Body Analog Pet CT scan", "Rs.18000/-", "Rs.14999/-"],
-    ["Whole Body Digital Pet CT Scan", "Rs.25000/-", "Rs.20999/-"],
-    ["PSMA Pet CT Scan", "Rs.35000/-", "Rs.31000/-"],
-    ["Fdopa Pet CT Scan", "Rs.35000/-", "Rs.31000/-"],
-    ["Dotatate Pet CT Scan", "Rs.35000/-", "Rs.31000/-"],
-    ["Dotanoc Pet CT Scan", "Rs.35000/-", "Rs.31000/-"]
-];
-?>
 
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "phpmyadmin";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT title, price1, price2 FROM typesofbodyscan";
+$result = $conn->query($sql);
+
+?>
 <div class="container-types">
-    <?php foreach ($arr as $details) : ?>
-        <div class="card">
-            <h3><?php echo $details[0]; ?></h3>
+    <?php
+
+    if ($result->num_rows > 0) {
+
+        while ($row = $result->fetch_assoc()) {
+    ?>
+            <div class="card">
+            <h3><?php echo $row["title"]; ?></h3>
             <div class="card-inside">
-                <span style="text-decoration: line-through; color: #BEBBBB; "><?php echo $details[1]; ?></span>
-                <span style="color:#802A8F;"><?php echo $details[2]; ?></span>
-                <hr>
+            <span style="text-decoration: line-through; color: #635454;"><?php echo $row["price1"]; ?></span>
+            <span style="color:#802A8F;"><?php echo $row["price2"]; ?></span>
+             <hr>
             </div>
             <button>Book now</button>
-        </div>
-    <?php endforeach; ?>
-</div>
+            </div>
+    <?php
+        }
+    } else {
+        echo "No data found";
+    }
+    $conn->close();
+    ?>
