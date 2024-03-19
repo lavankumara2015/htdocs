@@ -92,7 +92,7 @@ iframe{
     border-radius: 0.5rem;
 }
 
-#p-tag {
+#banner_form_image_section_span {
     width: 18.04rem;
     height: 1.78rem;
     background-color: var(--bg);
@@ -104,7 +104,7 @@ iframe{
     position: relative;
     right: 0.6rem;
 }
-#p-tag img {
+#banner_form_image_section_span img {
     width: 1.5rem;
     height: 1.5rem;
     margin-top: 0.15rem;
@@ -144,7 +144,7 @@ form h1 {
     height: 2.77rem;
     margin-left: 1.2rem;
 }
-.container-assests {
+.discount-section-container {
     background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -155,12 +155,12 @@ form h1 {
     margin: 1rem 0 0rem 0;
     height: 6.04rem;
 }
-.pet-ct img,
+.Understanding-PET-CT-container img,
 .accordion {
     width: 20.1818rem;
     margin-bottom: 1rem;
 }
-#nav img {
+#nav-bar img {
     padding: 0.1rem 1.1rem 0.5rem 0;
     width: 8rem;
     margin-top: 0.7rem;
@@ -174,26 +174,26 @@ form h1 {
     align-items: center;
     background-color: var(--colorPink);
 }
-#a1 {
+#nav_bar_button {
     padding: 0.3rem 1.8rem 0.3rem 1.8rem;
     font-size: 0.5rem;
     font-weight: 700;
     margin-left: 5rem;
 }
-.container-assests li {
+.discount-section-container li {
     list-style-type: none;
     display: flex;
 }
-.container-assests li img {
+.discount-section-container li img {
     width: 2.36rem;
     height: 2.36rem;
     margin-right: 0.5454rem;
 }
-.container-assests li p {
+.discount-section-container li p {
     font-weight: 600;
     font-size: 1rem;
 }
-.our-services{
+.our-services-container{
     width: 22.72rem;
     height: 46.22rem;
     background-color:var(--colorPink);
@@ -202,7 +202,7 @@ form h1 {
     font-weight: 700;
     line-height: 0.83rem;
     font-size: 0.73rem;
-    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
 }
 #Understanding {
     font-weight: 400;
@@ -212,7 +212,7 @@ form h1 {
     width: 100%;
     height: 40vh;
 }
-.Free-now {
+.Consult-Our-Oncologist-container {
     width: 22.72rem;
     height: 5.9rem;
 }
@@ -254,6 +254,15 @@ h2 {
     width: 4.68rem;
     height: 4.68rem;
 }
+#guideline-card-h5-carry{
+    width: 17rem;
+    position: relative;
+    right: 1rem;
+}
+#location-vizag-container-jagadamba-center{
+    position: relative;
+    left: 4.5rem;
+}
 .card-1 {
     text-align: center;
     border-radius: 1rem;
@@ -267,9 +276,6 @@ h2 {
     align-items: center;
    background-color: transparent;
     background-size: cover;
-    /* padding: 2rem;
-    position: relative;
-    top: 0.8rem; */
 }
 .container-types {
     display: grid;
@@ -291,33 +297,35 @@ h2 {
     font-size: 1rem;
     font-weight: 600;
     padding-top: 1.5rem;
+    width: 16rem;
+    position: relative;
+    right: 0.2rem;
 }
 .guideline-card:last-child {
     margin-right: 0;
 }
-#ul-li {
+#location-vizag-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--bg);
     height: 5.41rem;
     padding-top: 0.8rem
 }
-#ul-li li {
+#location-vizag-container li {
     list-style-type: none;
-    /* width: 8.85rem; */
     height: 1.96rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-#ul-li li img {
+#location-vizag-container li img {
     width: 1.37rem;
     height: 1.37rem;
     margin-right: 0.46rem;
     position: relative;
     bottom: 0.3rem;
 }
-#ul-li h6 {
+#location-vizag-container h6 {
     color: var(--bg-white);
     font-size: 1rem;
     font-weight: 600;
@@ -325,7 +333,7 @@ h2 {
 #ul {
     margin-bottom: 2rem;
 }
-.pet-ct {
+.Understanding-PET-CT-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -340,7 +348,7 @@ h2 {
 .rating {
     margin-left: 5rem;
 }
-.Free-now img {
+.Consult-Our-Oncologist-container img {
     width: 3.95rem;
     height: 4.18rem;
     margin-left: 1rem;
@@ -357,9 +365,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 1.2rem;
-    column-gap: 0.6rem;
-    row-gap: 0.6rem;
-    /* background-color: var(--colorPink); */
+    column-gap: 0.2rem;
+    row-gap: 0.25rem;
 }
 .card button {
     padding: 0.2rem 1.2rem;
@@ -386,21 +393,21 @@ button {
 .accordion-header button {
     font-size: 1rem;
 }
-.pipe-jubile ,.pipe-Panjagutta{
+.Chinnagadili_pipe ,.jagadamba_centre_pipeta{
     color: var(--bg-white);
     position: relative;
     left: 1.8rem;
     padding-top: 0.5rem;
     
 }
-.pipe-Panjagutta{
+.jagadamba_centre_pipeta{
     color: var(--bg-white);
     position: relative;
     left: 2.35rem;
     padding-top: 0.5rem;
     
 }
-.pipe-Narayanaguda{
+.MVP_Colony_pipe{
    display: none;
 }
 .text-center {
@@ -411,12 +418,12 @@ button {
     background-color: rgb(240, 208, 221);
     width: 100%;
 }
-.Free-now {
+.Consult-Our-Oncologist-container {
     background-image: linear-gradient(to right, #802A8F, #D37FA0);
     display: flex;
     align-items: center;
 }
-.Free-now h3 {
+.Consult-Our-Oncologist-container h3 {
     color: var(--bg-white);
     max-width: 450px;
 }
@@ -432,11 +439,11 @@ button {
     background-color: var(--bg-white);
     color: var(--bg);
     font-weight: 600;
-    padding: 0rem 0rem 0.1rem 0rem;
+    padding: 0rem 0.3rem 0.1rem 0.3rem;
     align-self: flex-start !important;
     border-radius: 0.1rem;
     height: 1.36rem;
-    width: 7rem;
+    /* width: 7rem; */
     font-size: 0.72rem;
     justify-content: center;
     display: flex;
@@ -497,15 +504,15 @@ code {
     font-weight: 500;
 }
 .accordion-button::after  {
-    background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/o2o-middle-school-project/plus-104.png");
 }
 .accordion-button:not(.collapsed)::after {
-    background-image: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png);
+    background-image: url("https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png");
     width: 0.7rem;
     position: relative;
-    right: 0.3rem;
+    right: 0.25rem;
 }
-.class-booknow {
+.form_class_button {
     position: relative;
     left: 5.2rem;
     top: 1.5rem;
@@ -539,28 +546,28 @@ footer h5{
         padding: 0;
         overflow-x: hidden;
     }
-    #nav {
+    #nav-bar {
         position: fixed;
         top: 0;
         width: 100%;
         background-color: var(--bg-white);
         z-index: 1000;
     }
-    #nav>div {
+    #nav-bar>div {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 36.23rem;
         height: 2.63rem;
     }
-    #nav img {
+    #nav-bar img {
         width: 4.44rem;
         height: 1.60rem;
         padding: 0;
         position: relative;
     bottom: 0.4rem;
     }
-    #a1 {
+    #nav_bar_button {
         text-decoration: none;
     border-radius: 0.1rem;
     position: relative;
@@ -586,7 +593,7 @@ footer h5{
         background-color: var(--bg);
         font-weight: 500;
     }
-    #p-tag {
+    #banner_form_image_section_span {
         height: 1.81rem;
         font-size: 1rem;
         border-radius: 0.2rem;
@@ -594,6 +601,11 @@ footer h5{
         left: 0.01rem;
         top: 1rem;
         padding-left: 0.35rem;
+    }
+    .Consult-Our-Oncologist-container img {
+        width: 2.93rem;
+        height: 2.94rem;
+       
     }
    
     .main-img {
@@ -604,13 +616,21 @@ footer h5{
         grid-template-columns: 1fr 1fr;
         
     }
-   
+    #location-vizag-container-jagadamba-center {
+        position: 0;
+        left: 0rem;
+    }
+    #guideline-card-h5-carry {
+        width: 10rem;
+        position: relative;
+        right: 1.5rem;
+    }
     .card {
         width: 9.03rem !important;
         height: 6.7rem;
         border-radius: 0.2rem
     }
-    .container-assests {
+    .discount-section-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         position: relative;
         top: 0.8rem;
@@ -620,25 +640,19 @@ footer h5{
         margin: 1rem 0 0rem 0.9rem;
         height: 3.32rem;
     }
-    .container-assests li {
+    .discount-section-container li {
         list-style-type: none;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
     }
-   
     #Understanding {
         font-weight: 700;
         font-size: 1rem;
         margin-top: 0.5rem;
     }
-    
-    /* .Free-now>div>img {
-        width: 2.93rem;
-        height: 2.93rem;
-    } */
-    .container-assests li p {
+    .discount-section-container li p {
         margin-left: 0.28rem;
         font-weight: 600;
         font-size: var(--medium-33-font);
@@ -646,7 +660,7 @@ footer h5{
         height: 1.19rem;
         margin-top :0.3rem;
     }
-    .container-assests img {
+    .discount-section-container img {
         width: 1.3rem;
         height: 1.3rem;
 
@@ -657,13 +671,13 @@ footer h5{
         justify-content: center;
         align-items: center;
     }
-    .Free-now {
+    .Consult-Our-Oncologist-container {
         background-image: linear-gradient(to right, #802A8F, #D37FA0);
         display: flex;
         align-items: center;
         width: 100%;
     }
-    .Free-now h3 {
+    .Consult-Our-Oncologist-container h3 {
         color: var(--bg-white);
         max-width: 450px;
     }
@@ -709,7 +723,7 @@ footer h5{
         padding: 5rem;
         gap: 50px;
     }
-    .pet-ct .accordion-button:not(.collapsed) {
+    .Understanding-PET-CT-container .accordion-button:not(.collapsed) {
         background-color: var(--colorPink) !important;
         padding: 0.2rem 1rem;
     }
@@ -724,7 +738,7 @@ footer h5{
     margin-left: 1.3rem;
     }
    
-    #ul-li li img {
+    #location-vizag-container li img {
         position: relative;
         bottom: 0.25rem;
     }
@@ -777,12 +791,12 @@ footer h5{
         border-top: 1px solid #6c6c6c !important;
     }
     
-    .pet-ct img {
+    .Understanding-PET-CT-container img {
         width: 14.43rem;
         height: 15.18rem;
     }
     
-.pet-ct .accordion {
+.Understanding-PET-CT-container .accordion {
     width: 16.71rem;
     margin-bottom: 1rem;
 }
@@ -804,29 +818,32 @@ footer h5{
     }
     .guideline-card h5 {
         font-size: var(--medium-33-font);
-        padding-top: 0rem;
+    padding-top: 0rem;
+    width: 10rem;
+    position: relative;
+    right: 1.5rem;
     }
-    #ul-li {
+    #location-vizag-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-evenly;
         align-items: center;
         
     }
-    #ul-li img {
+    #location-vizag-container img {
         width: 1.13rem;
         height: 1.13rem;
     }
-    #ul-li hr {
+    #location-vizag-container hr {
         color: var(--bg-white);
         border: 5px solid var(--bg-white);
     }
-    .pipe-jubile{
+    .Chinnagadili_pipe{
         color: var(--bg-white);
         padding-top: 0.5rem;
         
     }
-    .pipe-Narayanaguda{
+    .MVP_Colony_pipe{
         display: inline;
         color: var(--bg-white);
         position: relative;
@@ -842,7 +859,7 @@ footer h5{
     #carousel-hr{
         border: 0.01rem solid black !important;
     }
-    .pet-ct {
+    .Understanding-PET-CT-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -878,7 +895,7 @@ footer h5{
         width: 3.38rem;
         height: 3.38rem;
     }
-    .our-services {
+    .our-services-container {
         width: 100%;
         height: 20.50rem;
         background-color: rgba(240, 208, 221, 1);
@@ -896,7 +913,7 @@ footer h5{
    
     .card button {
         position: relative;
-        bottom: 1rem;
+        bottom: 1.4rem;
     }
     form input,form select {
         padding: 0.5rem;
@@ -912,7 +929,7 @@ footer h5{
         background-color: white;
     }
     
-    .class-booknow {
+    .form_class_button {
         position: relative;
         bottom: 1.2rem;
         width: 4.92rem;
@@ -1007,15 +1024,13 @@ footer h5{
 }
 .accordion-button:not(.collapsed)::after {
     background-image: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png);
-    width: 0.7rem;
-    position: relative;
-    right: 0.5rem;
+   
 }
- .pet-ct .accordion-body ,.accordion-button:not(.collapsed){
+ .Understanding-PET-CT-container .accordion-body ,.accordion-button:not(.collapsed){
     background-color: var(--colorPink) !important;
     color: black !important;
  }
- .pet-ct .accordion-body{
+ .Understanding-PET-CT-container .accordion-body{
     font-size: 0.46rem !important;
  }
  .md-device-carousel{
@@ -1033,7 +1048,7 @@ footer h5{
     margin-bottom: 1rem;
     font-size: var(--medium-33-font);
     font-weight: 600;
-    padding: 1rem 0 0 0.5rem;
+    padding: 1.5rem 0 0 0.8rem;
 }
 .carousel-main {
     padding: 0.5rem;
@@ -1043,6 +1058,10 @@ footer h5{
     border-radius: 0;
     border-bottom: 1px solid #8f8e8b !important;
     padding: 0rem 0rem 0.5rem 0rem;
+}
+.card-inside {
+
+    padding-top: 0.5rem;
 }
 
 }
@@ -1063,17 +1082,17 @@ footer h5{
 .md-device-carousel{
     display: none;
 }
-.pet-ct .accordion-body{
+.Understanding-PET-CT-container .accordion-body{
     background-color: var(--colorPink) !important;
     /* font-size: 0.72rem !important ; */
 
  }
- .pet-ct .accordion-body {
+ .Understanding-PET-CT-container .accordion-body {
     background-color: var(--colorPink) !important;
     color: black !important;
-    padding: 1rem !important;
+    padding: 0 1rem 1rem 1rem !important;
  }
- .pet-ct .accordion-button:not(.collapsed){
+ .Understanding-PET-CT-container .accordion-button:not(.collapsed){
     background-color: var(--colorPink) !important ;
  }
  .accordion-button:not(.collapsed){

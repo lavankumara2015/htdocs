@@ -13,28 +13,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    
     <style>
- @font-face {
+@font-face {
   font-family: 'Source Sans 3';
   src: url('./Sans pro/static/SourceSans3-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-weight: 500;
   src: url('./Sans pro/static/SourceSans3-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-weight: 600;
   src: url('./Sans pro/static/SourceSans3-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-weight: 700;
   src: url('./Sans pro/static/SourceSans3-Bold.ttf') format('truetype');
 }
 
 body {
-    font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 }
+</style>
 
-
-    </style>
 </head>
 <body>
 
     <!-- nav bar -->
-    <nav id="nav">
+    <nav id="nav-bar">
         <div>
             <img src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="cion logo" />
-            <button id="a1">Contact Us</button>
+            <button id="nav_bar_button">Contact Us</button>
         </div>
     </nav>
     <!-- section 1 main image and form  -->
@@ -43,38 +55,38 @@ body {
             <h1 class="text-white">PET CT SCAN Cost for cancer diagnostics starts at
                 <span class="Rs10999">Rs.10999/-</span>
             </h1>
-            <span id="p-tag">
+            <span id="banner_form_image_section_span">
                 <img src="assests\Group 35815.png" alt="Oncology Consultation" /><span> One Free Oncology Consultation</span>
             </span>
-            <span id="p-tag">
+            <span id="banner_form_image_section_span">
                 <img src="assests\Group 35811.png" alt="Oncologist Diagnostics" /> <span> CION Assured Oncologist Diagnostics
                 </span>
             </span>
         </div>
         <div id="back-pink">
             <div id="inputFiled">
-                <form id="myForm" onsubmit="clearForm()" method="POST" action="Mysqlconnection.php">
-                    <h1 style="color: black;">Book Your Pet Scan </br>Now! </h1>
-                    <input type="name" name="name" placeholder="Name" />
-                    <input type="phone" name="phone" placeholder="Phone number " />
-                    <select id="cars" name="scan">
-                        <option value="select">Select type of Scan</option>
-                        <option value="Whole Body Analog Pet CT Scan">Whole Body Analog Pet CT Scan</option>
-                        <option value="Whole Body Digital Pet CT Scan ">Whole Body Digital Pet CT Scan </option>
-                        <option value="PSMA Pet CT Scan">PSMA Pet CT Scan</option>
-                        <option value="Fdopa Pet CT Scan">Fdopa Pet CT Scan</option>
-                        <option value="Dotatate Pet CT Scan">Dotatate Pet CT Scan</option>
-                        <option value="Dotanoc Pet CT Scan">Dotanoc Pet CT Scan</option>
-                    </select>
-                    <p class="text-center"> <button type="submit" class="class-booknow">Book Now</button></p>
-                </form>
+            <form id="myForm" method="POST" action="./Mysqlconnection.php" >
+    <h1 style="color: black;">Book Your Pet Scan <br>Now! </h1>
+    <input type="text" name="name" placeholder="Name" value="<?php echo isset($_POST['name']) ? $_POST['name'] : ''; ?>" required  pattern="[a-zA-Z]{3,}" title="Alphabetic String (Minimum 3 Characters)"/>
+    <input type="text" name="phone" placeholder="Phone number" value="<?php echo isset($_POST['phone']) ? $_POST['phone'] : ''; ?>" required  pattern="[0-9]{10}" title="The Number Should consist 10 characters with all aidgits between 0 to 9"  />
+    <select id="cars" name="scan">
+        <option value="select">Select type of Scan</option>
+        <option value="Whole Body Analog Pet CT Scan">Whole Body Analog Pet CT Scan</option>
+        <option value="Whole Body Digital Pet CT Scan">Whole Body Digital Pet CT Scan</option>
+        <option value="PSMA Pet CT Scan">PSMA Pet CT Scan</option>
+        <option value="Fdopa Pet CT Scan">Fdopa Pet CT Scan</option>
+        <option value="Dotatate Pet CT Scan">Dotatate Pet CT Scan</option>
+        <option value="Dotanoc Pet CT Scan">Dotanoc Pet CT Scan</option>
+    </select>
+    <p class="text-center"> <button type="submit" class="form_class_button">Book Now</button></p>
+</form>
             </div>
         </div>
     </section>
 
 
     <!-- discount section-->
-    <ul class="container-assests">
+    <ul class="discount-section-container">
         <li> <img src="assests\Group 35729.png" alt="Upto 40% Discount" />
             <p>Upto 40% Discount</p>
         </li>
@@ -98,7 +110,7 @@ body {
     </div>
     <!-- Free now ! -->
 
-    <div class="Free-now">
+    <div class="Consult-Our-Oncologist-container">
         <div>
             <img src="assests\Ellipse 3.png" alt="Ellipse" />
         </div>
@@ -112,7 +124,7 @@ body {
     
     <!-- Testimonials -->
 
-    <h2 style="text-align: center; font-weight: 400;">Testimonials</h2>
+    <h2 style="text-align: center; font-weight: 700;">Testimonials</h2>
     <div class="carousel-main">
         <div id="carouselExampleAutoplaying" style="background-color: #F0D0DD;" class="carousel slide  px-5 py-5 d-md-none" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -153,7 +165,8 @@ body {
         </div>
         <div class="col-md-5">
           <div class="testimonial-single-card" style="background-color: #F0D0DD;">
-            <p>"The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times."</p>
+            <p>"The scan process was smoother than expected.
+</br>Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times."</p>
  <hr id="carousel-hr" style="position: relative; top: 0.92rem">
             <span style="position: relative; top:1rem">Arjun.S</span>
             <span style="position: relative; top:1rem" class="rating">⭐⭐⭐⭐⭐</span>
@@ -207,24 +220,24 @@ body {
             </div>
             <div class="guideline-card">
                 <img src="assests\Group 35822.png" alt="Reports image">
-                <h5>Carry previous PET-CT reports,CDs,medical records,recent serum creatinine and fasting blood sugar reports.</h5>
+                <h5 id="guideline-card-h5-carry">Carry previous PET-CT reports,CDs,medical records,recent serum creatinine and fasting blood sugar reports.</h5>
             </div>
         </div>
     </div>
 
     <!-- hospital Locations -->
-    <ul id="ul-li">
+    <ul id="location-vizag-container">
         <li><img src="assests\Group 35751.png" alt="location">
             <h6> Chinnagadili</h6>
-            <p class="pipe-jubile">|</p>
+            <p class="Chinnagadili_pipe">|</p>
         </li>
         <li><img src="assests\Group 35751.png" alt="location">
             <h6>MVP Colony</h6>
-            <p class="pipe-Narayanaguda">|</p>
+            <p class="MVP_Colony_pipe">|</p>
         </li>
-        <li><img src="assests\Group 35751.png" alt="location">
+        <li id="ul-li-jagadamba-center"><img src="assests\Group 35751.png" alt="location">
             <h6>Jagadamba Centre</h6>
-            <p class="pipe-Panjagutta"></p>
+            <p class="jagadamba_centre_pipe"></p>
         </li>
   
     </ul></br>
@@ -236,7 +249,7 @@ body {
         <h2>Understanding PET-CT Scans: </h2>
         <h2 class="h2-Importance">Importance, Need, and Cost in India </h2>
     </div>
-    <div class="pet-ct">
+    <div class="Understanding-PET-CT-container">
         <div>
         <img data-bs-toggle="modal" data-bs-target="#exampleModal"src="assests\Group 35829.png" alt="PET-CT Scan indoor" />
      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -258,7 +271,7 @@ body {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <span id="accordion-item-button"> What is PET Scan?</span>
+                            <span id="accordion-item-button" style="color: black;"> What is PET Scan?</span>
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -268,7 +281,7 @@ body {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <span id="accordion-item-button">Why you need PET Scan?</span>
+                                <span id="accordion-item-button" style="color: black;">Why you need PET Scan?</span>
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -280,7 +293,7 @@ body {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <span id="accordion-item-button"> How much PET Scan cost in India?</span>
+                                <span id="accordion-item-button" style="color: black;"> How much PET Scan cost in India?</span>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -296,7 +309,7 @@ body {
 
     <!-- our-services section -->
 
-    <div class="our-services"></br>
+    <div class="our-services-container"></br>
         <div class="text-center  font-bold">
             <h2>Our-services</h2>
         </div>
@@ -435,17 +448,17 @@ body {
   </div>
 </div>
     </div>
-    </div>
+    </div></br>
     <!-- footer -->
 
      <footer>
-        <h5>@ Ciphar oncology pvt Ltd</h5>
+        <h5>@ Cipher Oncology Pvt Ltd</h5>
     </footer> 
 </body>
 
-<script>
+<!-- <script>
     function clearForm() {
         document.getElementById("myForm").reset();
     }
-</script>
+</script> -->
 </html>
