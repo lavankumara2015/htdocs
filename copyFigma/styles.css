@@ -68,11 +68,12 @@ iframe{
     background-size: cover;
     width: 22.72rem;
     height: 16.5rem;
+    margin-top: 3rem;
 }
 .banner-first-container>h1 {
     font-size: 1.6rem;
     width: 16.27rem;
-    height: 5.9rem;
+    /* height: 5.9rem; */
     position: relative;
     right: 1.4rem;
     font-weight: 700;
@@ -122,7 +123,7 @@ form select {
     width: 15.82rem;
     height: 2.08rem;
     margin-left: 1rem;
-    background-color: white !important;
+    color: #767676;
 }
 form h1 {
     font-size: 1rem;
@@ -154,6 +155,8 @@ form h1 {
     width: 22.72rem;
     margin: 1rem 0 0rem 0;
     height: 6.04rem;
+    position: relative;
+     right: 0.6rem;
 }
 .Understanding-PET-CT-container img,
 .accordion {
@@ -328,7 +331,7 @@ h2 {
 #location-vizag-container h6 {
     color: var(--bg-white);
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 #ul {
     margin-bottom: 2rem;
@@ -450,10 +453,7 @@ button {
     align-items: self-end;
     
 }
-#ul-li-jagadamba-center{
-    position: relative;
-    left: 4rem;
-}
+
 .main-Free>button>span {
     width: 5.91rem;
     height: 1.1rem;
@@ -507,14 +507,20 @@ code {
     font-family: "Source Sans 3", sans-serif;
     font-weight: 500;
 }
-.accordion-button::after  {
-    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/o2o-middle-school-project/plus-104.png");
+.accordion-button::after{
+    background-size:0.65rem; 
+    background-position:center;
+   }
+.FAQ-container-accordions .accordion-button::after{
+    background-size: 0.65rem;
+    background-position: center;
+    background-image: url("./assests/plus.png");
+   
 }
-.accordion-button:not(.collapsed)::after {
-    background-image: url("https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png");
-    width: 0.7rem;
-    position: relative;
-    right: 0.25rem;
+.FAQ-container-accordions .accordion-button:not(.collapsed)::after {
+    background-image: url("./assests/minus.png");
+    background-size: 0.65rem;
+    background-position: center;
 }
 .form_class_button {
     position: relative;
@@ -528,6 +534,10 @@ code {
     font-size: 1rem;
     padding: 0rem;
 }
+#ul-li-jagadamba-center{
+    position: relative;
+    left: 4rem;
+}
 footer{
     width: 100%;
     height: 3.5rem;
@@ -539,6 +549,83 @@ footer{
 footer h5{
     color: white;
 }
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--bg-white);
+    z-index: 1000;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+    border-bottom: 1px solid #8f8e8b !important;
+}
+.accordion-item {
+    border-bottom: none !important;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button{
+    border: none !important;
+}
+.carousel-control-next-icon{
+    background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Right_Square-512.png") !important;
+}
+.carousel-control-prev-icon{
+    background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Left_Square-512.png") !important;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 0;   
+}
+.md-device-carousel{
+    display: none;
+}
+.accordion-button{
+    border: 1px !important;   
+}
+.Understanding-PET-CT-container .accordion-body{
+    background-color: var(--colorPink) !important;
+
+ }
+ .Understanding-PET-CT-container .accordion-body {
+    background-color: var(--colorPink) !important;
+    color: black !important;
+    padding: 0 1rem 1rem 1rem !important;
+ }
+ .Understanding-PET-CT-container .accordion-button:not(.collapsed){
+    background-color: var(--colorPink) !important ;
+ }
+ .accordion-button:not(.collapsed){
+    background-color: white !important ;
+ }
+ 
+*{
+    border: none !important;
+}
+.FAQ-container-accordions{
+    margin-left: 1.47rem;
+}
+.accordion-button:not(.collapsed) {
+
+    color: var(--bg) !important;
+}
+.accordion-header button {
+    font-size: 1rem;
+}
+.faqs{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 1rem;
+}  
+#carousel-hr{
+    border: 0.01rem solid black !important;
+}
+.accordion-button:focus {
+    box-shadow: none;
+  }
+  .accordion-item {
+    border-bottom: none !important;
+}
+  
+
 
 /* Large devices CsS code Starts From here */
 @media screen and (min-width : 768px) {
@@ -563,6 +650,10 @@ footer h5{
         align-items: center;
         width: 36.23rem;
         height: 2.63rem;
+    }
+    #ul-li-jagadamba-center{
+        position: 0;
+        left: 0;
     }
     #nav-bar img {
         width: 4.44rem;
@@ -712,6 +803,7 @@ footer h5{
      margin-left: 2.65rem;
 
 }
+
 .accordion-button::not(.collapsed)::before  {
 /* background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180'); */
      background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png"); 
@@ -803,6 +895,8 @@ footer h5{
 .Understanding-PET-CT-container .accordion {
     width: 16.71rem;
     margin-bottom: 1rem;
+    position: relative;
+    bottom: 1.3rem;
 }
     .guidelines {
         display: flex;
@@ -869,7 +963,7 @@ footer h5{
         justify-content: center;
         align-items: center;
         padding: 1.2rem;
-        gap: 1.2rem;
+        gap: 1rem;
     }
     .accordion-body {
         background-color: rgba(240, 208, 221, 1);
@@ -914,7 +1008,14 @@ footer h5{
         top: 1rem;
         left: 1.5rem;
     }
-   
+    .FAQ-container-accordions .accordion-button::after{
+        background-size: 0.4rem;
+        background-image: url("./assests/plus.png");
+    }
+    .FAQ-container-accordions .accordion-button:not(.collapsed)::after {
+        background-image: url("./assests/minus.png");
+        background-size: 0.4rem;
+    }
     .card button {
         position: relative;
         bottom: 1.4rem;
@@ -931,6 +1032,7 @@ footer h5{
         height: 1.75rem;
         font-size: var(--medium-33-font);
         background-color: white;
+        color: #767676;
     }
     
     .form_class_button {
@@ -999,7 +1101,7 @@ footer h5{
         width: 33.47rem;
     }
    
-   .a{
+   .FAQ-container-accordions{
     display: flex;
     width: 30.50rem;
     height: 10.98rem;
@@ -1020,16 +1122,13 @@ footer h5{
 .accordion-item:first-of-type>.accordion-header .accordion-button {
     background-color: white;
     font-weight: 600 !important;
-    border-bottom: 1px solid rgb(130, 128, 128) !important;
+    /* border-bottom: 1px solid rgb(130, 128, 128) !important; */
     border-radius: 0rem 0rem;
 }
 .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
     border-radius: 0rem;
 }
-.accordion-button:not(.collapsed)::after {
-    background-image: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png);
-   
-}
+
  .Understanding-PET-CT-container .accordion-body ,.accordion-button:not(.collapsed){
     background-color: var(--colorPink) !important;
     color: black !important;
@@ -1064,73 +1163,19 @@ footer h5{
     padding: 0rem 0rem 0.5rem 0rem;
 }
 .card-inside {
-
     padding-top: 0.5rem;
 }
 
-}
 
-.carousel-control-next-icon{
-    background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Right_Square-512.png") !important;
-}
-.carousel-control-prev-icon{
-    background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-solid-23/24/Arrow_Left_Square-512.png") !important;
-}
-.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
-    border-radius: 0;
-    border-bottom: 1px solid #8f8e8b !important;
-    
-}
-
-
-.md-device-carousel{
-    display: none;
-}
-.Understanding-PET-CT-container .accordion-body{
-    background-color: var(--colorPink) !important;
-    /* font-size: 0.72rem !important ; */
-
- }
- .Understanding-PET-CT-container .accordion-body {
-    background-color: var(--colorPink) !important;
-    color: black !important;
-    padding: 0 1rem 1rem 1rem !important;
- }
- .Understanding-PET-CT-container .accordion-button:not(.collapsed){
-    background-color: var(--colorPink) !important ;
- }
- .accordion-button:not(.collapsed){
-    background-color: white !important ;
- }
- 
-*{
-    border: none !important;
-}
-.a{
-    margin-left: 1.47rem;
-}
-.accordion-button:not(.collapsed) {
-
-    color: var(--bg) !important;
-}
-.accordion-header button {
-    font-size: 1rem;
-}
-.faqs{
-    font-weight: 700;
-    font-size: 1rem;
-    margin-top: 1rem;
-}  
-#carousel-hr{
-    border: 0.01rem solid black !important;
-}
-.accordion-button:focus {
-    box-shadow: none;
-  }
-
-  
 .accordion-button:not(.collapsed), .accordion-item:first-of-type .accordion-button:not(.collapsed) {
     border: none !important;
     color: #000;
     box-shadow: none;
   }
+  .accordion-item {
+    border-bottom: none !important;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button{
+    border: none !important;
+}
+}
