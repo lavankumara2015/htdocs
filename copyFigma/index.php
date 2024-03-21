@@ -10,30 +10,11 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <style>
-    @font-face {
-      font-family: 'Source Sans 3';
-      src: url('./Sans pro/static/SourceSans3-Regular.ttf') format('truetype');
-      font-weight: 400;
-    }
-    @font-face {
-      font-family: 'Source Sans 3';
-      font-weight: 500;
-      src: url('./Sans pro/static/SourceSans3-Medium.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Source Sans 3';
-      font-weight: 600;
-      src: url('./Sans pro/static/SourceSans3-SemiBold.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Source Sans 3';
-      font-weight: 700;
-      src: url('./Sans pro/static/SourceSans3-Bold.ttf') format('truetype');
-    }
-    body {
-      font-family: 'Source Sans 3', sans-serif;
-    }
+  
     @media screen and (max-device-width: 480px) {
       select {
         -webkit-appearance: none;
@@ -110,6 +91,7 @@
 
 
   <!-- Testimonials -->
+  <h2 style="text-align: center; padding-bottom: 0.6rem;">Testimonials</h2>
   <?php include("./testimonials.php") ?>
 
 

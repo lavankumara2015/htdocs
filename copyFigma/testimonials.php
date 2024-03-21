@@ -8,7 +8,7 @@
             <div class="carousel-item <?php echo $i === 0 ? 'active' : '' ?>">
                 <div class="row d-flex flex-row flex-wrap justify-content-center align-items-center">
                     <?php for ($j = $i; $j < min($i + 2, count($testimonials)); $j++): ?>
-                        <div class="col-md-5 mx-2">
+                        <div class="col-md-5 mx-1">
                             <div class="testimonial-single-card" style="background-color: #F0D0DD;">
                                 <p>"<?php echo $testimonials[$j][0]; ?>"</p>
                                 <hr id="carousel-hr">

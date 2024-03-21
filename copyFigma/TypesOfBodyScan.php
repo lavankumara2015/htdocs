@@ -16,9 +16,9 @@
             <div class="card-inside">
                 <span style="text-decoration: line-through; color: #635454; "><?php echo $details[1]; ?></span>
                 <span style="color:#802A8F;"><?php echo $details[2]; ?></span>
-                <hr>
+                <hr id="TypeOfScan-hr">
             </div>
-            <button><a href="#back-pink" style="text-decoration: none; color: white">Book now</a></button>
+            <button><a href="#back-pink" style="text-decoration: none; color: white">Book Now</a></button>
         </div>
     <?php endforeach; ?>
 </div>
