@@ -1,3 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+html{
+    font-size: 2.7vw;
+}
+@media screen and (max-width:768px) {
+    html {
+    font-size: 4.4vw;
+    }
+}
+:root{
+    --bg-main-color: #802a8f;
+    --bg-font-color: #666;
+}
 
 
+.footer-main-container{
+    display: flex;
+    justify-content: center;
+    font-size: 0.3rem;
+  
+}
 
+.footer-our-vision-container{
+    width: 33.3%;
+}
+.footer-main-container a{
+    text-decoration: none;
+    color: var(--bg-font-color);
+
+}
+.our-services-main-container{
+    width: 33.3%;
+}
+.quick-links-main-container{
+    width: 33.3%;
+}
+
+.footer-main-container ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+.footer-main-container ul li , .footer-our-vision p{
+    padding: 0.8rem 0 0 0;
+    width: 6.7rem;
+    color: var(--bg-font-color);
+    
+}
+
+.footer-our-vision h2{
+    padding: 0.5rem 0 0.5rem 0;
+    border: 2px solid var(--bg-main-color);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 6.7rem;
+margin-top: 0.5rem;
+
+}
+.footer-main-container span {
+    background-color: var(--bg-main-color);
+    width: 1.2rem;
+    height: 0.09rem;
+    display: block;
+    border-radius: 0.5rem;
+    margin-top: 0.18rem;
+}
+
+.social-media-container img{
+    width: 1.06rem;
+    height: 1.06rem;
+    margin-top: 1rem;
+}

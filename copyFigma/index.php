@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- <meta http-equiv="refresh" content="1"> -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cion Cancer Clinics</title>
@@ -12,56 +10,45 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <style>
     @font-face {
       font-family: 'Source Sans 3';
       src: url('./Sans pro/static/SourceSans3-Regular.ttf') format('truetype');
       font-weight: 400;
     }
-
     @font-face {
       font-family: 'Source Sans 3';
       font-weight: 500;
       src: url('./Sans pro/static/SourceSans3-Medium.ttf') format('truetype');
     }
-
     @font-face {
       font-family: 'Source Sans 3';
       font-weight: 600;
       src: url('./Sans pro/static/SourceSans3-SemiBold.ttf') format('truetype');
     }
-
     @font-face {
       font-family: 'Source Sans 3';
       font-weight: 700;
       src: url('./Sans pro/static/SourceSans3-Bold.ttf') format('truetype');
     }
-
     body {
       font-family: 'Source Sans 3', sans-serif;
     }
-
     @media screen and (max-device-width: 480px) {
-
       select {
         -webkit-appearance: none;
-        background-color: transparent;
         padding: 0.5rem;
-        color: black;
+        
       }
     }
   </style>
-
 </head>
-
 <body>
-
   <!-- nav bar -->
   <nav id="nav-bar">
     <div>
       <img src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="cion logo" />
-      <button id="nav_bar_button">Contact Us</button>
+      <button id="nav_bar_button"><a href="tel:18001202676" style="text-decoration: none; color:white">Contact Us</a></button>
     </div>
   </nav>
   <!-- section 1 main image and form  -->
@@ -98,131 +85,35 @@
       </div>
     </div>
   </section>
-
-
   <!-- discount section-->
-  <ul class="discount-section-container">
-    <li> <img src="assests\Group 35729.png" alt="Upto 40% Discount" />
-      <p>Upto 40% Discount</p>
-    </li>
-    <li> <img src="assests\Group 35729 (1).png" alt="Same Day Reports" />
-      <p>Same Day Reports</p>
-    </li>
-    <li> <img src="assests\Group 35729 (2).png" alt="100%Accuracy Assured" />
-      <p>100% Accuracy Assured </p>
-    </li>
-    <li> <img src="assests\Group 35729 (3).png" alt="Free Doctor Consultation" />
-      <p>Free Doctor Consultation</p>
-    </li>
-  </ul></br>
-
+  
+<?php include("./discountSection.php") ?></br>
   <!-- scan fee -->
-
   <div class="container-scan-fee"></br>
     <h2 class=" text-center" style="font-weight: 700;">Types of scans we do</h2>
     <?php include("./TypesOfBodyScan.php") ?>
   </div>
   </div>
+ 
   <!-- Free now ! -->
-
   <div class="Consult-Our-Oncologist-container">
     <div>
       <img src="assests\Ellipse 3.png" alt="Ellipse" />
     </div>
     <div class="main-Free">
       <h2 class=" text-white" id="Understanding">Don’t have a prescription?</br>Consult Our Oncologist <strong>FREE</strong> now!</h2>
-      <button>
-        BOOK APPOINTMENT
-      </button>
+      <button><a href="#back-pink" style="text-decoration: none; color: #80288F">BOOK APPOINTMENT</a></button>
+
+  
     </div>
   </div></br>
 
+
   <!-- Testimonials -->
+  <?php include("./testimonials.php") ?>
 
-  <h2 style="text-align: center; font-weight: 700;">Testimonials</h2>
-  <div class="carousel-main">
-    <div id="carouselExampleAutoplaying" style="background-color: #F0D0DD;" class="carousel slide  px-5 py-5 d-md-none" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-          <hr id="carousel-hr">
-          <span>Priya K.</span>
-          <span class="rating">⭐⭐⭐⭐⭐</span>
-        </div>
-        <div class="carousel-item">
-          <p>"The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times."</p>
-          <hr id="carousel-hr">
-          <span>Arjun.S</span>
-          <span class="rating">⭐⭐⭐⭐⭐</span>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-  <div id="testimonial-carousel" class="carousel slide  md-device-carousel" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row d-flex flex-row flex-wrap justify-content-center  align-items-center ">
-          <div class="col-md-5 mx-2">
-            <div class="testimonial-single-card" style="background-color: #F0D0DD;">
-              <p>"Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch."</p>
-              <hr id="carousel-hr">
-              <span style="position: relative; left:1rem">Priya K.</span>
-              <span class="rating">⭐⭐⭐⭐⭐</span>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <div class="testimonial-single-card" style="background-color: #F0D0DD;">
-              <p>"The scan process was smoother than expected.
-                </br>Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times."</p>
-              <hr id="carousel-hr" style="position: relative; top: 0.92rem">
-              <span style="position: relative; top:1rem">Arjun.S</span>
-              <span style="position: relative; top:1rem" class="rating">⭐⭐⭐⭐⭐</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row  d-flex flex-row flex-wrap justify-content-center  align-items-center">
-          <div class="col-md-5 mx-2">
-            <div class="testimonial-single-card" style="background-color: #F0D0DD;">
-              <p>"The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times."</p>
-              </br>
-              <hr id="carousel-hr" style="position: relative; bottom: 1.8rem">
-              <span style="position: relative; bottom:1.7rem">Sunita P</span>
-              <span style="position: relative; bottom:1.7rem" class="rating">⭐⭐⭐⭐⭐</span>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <div class="testimonial-single-card" style="background-color: #F0D0DD;">
-              <p>"I appreciated the efficiency of the scan and the post-scan support. Team was responsive to my questions, which helped."</p>
-              </br>
-              <hr id="carousel-hr" style="position: relative; bottom: 0.9rem">
-              <span style="position: relative; bottom:0.7rem">Lakshmi G</span>
-              <span class="rating" style="position: relative; bottom:0.7rem">⭐⭐⭐⭐⭐</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+
   <!-- Guidelines for PET - CT scans -->
-
   <div style="background-color: rgba(244, 244, 244, 1); padding: 1.5rem 0 2rem 0;">
     <h2 style="text-align: center;">Guidelines for PET-CT scans</h2></br>
     <div class="guidelines">
@@ -242,6 +133,7 @@
     </div>
   </div>
 
+
   <!-- hospital Locations -->
   <ul id="location-vizag-container">
     <li><img src="assests\Group 35751.png" alt="location">
@@ -260,14 +152,14 @@
   </ul></br>
 
 
-  <!-- Understanding PET-CT -->
 
-  <div class=" text-center">
+  <!-- Understanding PET-CT -->
+<div class=" text-center">
     <h2>Understanding PET-CT Scans: </h2>
     <h2 class="h2-Importance">Importance, Need, and Cost in India </h2>
   </div>
-  <div class="Understanding-PET-CT-container">
-    <div>
+<div class="Understanding-PET-CT-container">
+<div>
       <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="assests\Group 35829.png" alt="PET-CT Scan indoor" />
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -283,7 +175,7 @@
       </div>
 
     </div>
-    <div style="border-style: black; " class=" pet-ct-accordion  bg-white border-1  p-0 ">
+<div style="border-style: black; " class=" pet-ct-accordion  bg-white border-1  p-0 ">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -325,7 +217,6 @@
   </div></br>
 
   <!-- our-services section -->
-
   <div class="our-services-container"></br>
     <div class="text-center  font-bold">
       <h2>Our-services</h2>
@@ -333,153 +224,16 @@
     <?php include('./ourServices.php') ?>
   </div>
 
-
   <!-- FAQS Container -->
-  <h1 class=" text-center p-1 faqs">FAQS</h1>
-  <div class="FAQ-container-accordions">
-  <div class="accordion accordion-flush" id="accordionFlushExample1">
-  <!-- Accordion Items 1 to 5 -->
-  <!-- Accordion Item #1 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Where can I get a PET scan in Vizag?
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-      <div class="accordion-body">At Cion Cancer Clinic, we have facilities in Vizag, making it convenient for you.</div>
-    </div>
-  </div>
+  <h1 class=" text-center p-1 faqs">FAQs</h1>
+  <?php include("./FQS.php") ?>
 
-  <!-- Accordion Item #2 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        How much does a PET scan cost in Vizag?
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-      <div class="accordion-body">Our PET scans start at ₹14,999, ensuring quality without breaking the bank.</div>
-    </div>
-  </div>
-
-  <!-- Accordion Item #3 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Is there a Whole Body PET CT option?
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-      <div class="accordion-body">Yes, our Whole Body PET CT Digital scans give a complete view of your health.</div>
-    </div>
-  </div>
-
-  <!-- Accordion Item #4 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-        Are there PET scan facilities near me?
-      </button>
-    </h2>
-    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-      <div class="accordion-body">Find a Cion Cancer Clinic near you for accessible and quality PET scans.</div>
-    </div>
-  </div>
-
-  <!-- Accordion Item #5 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-        What's the average PET CT scan in Vizag?
-      </button>
-    </h2>
-    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-      <div class="accordion-body">Benefit from our competitive pricing, reflecting our commitment to your well-being.</div>
-    </div>
-  </div>
-</div>
-
-<div class="accordion accordion-flush" id="accordionFlushExample2">
-  <!-- Accordion Items 6 to 10 -->
-  <!-- Accordion Item #6 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-        How much does a PET scan cost in Vizag?
-      </button>
-    </h2>
-    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-      <div class="accordion-body">At just ₹14,999, our PET scans offer the high-quality care you deserve, balancing excellence with cost-effectiveness.</div>
-    </div>
-  </div>
-
-  <!-- Accordion Item #7 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-        Is there an option for a Whole Body PET CT scan?
-      </button>
-    </h2>
-    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2
-    ">
-      <div class="accordion-body">Yes, our Whole Body PET CT Digital scans provide a detailed scan of your body to identify areas of high activity, which can help in detecting potential health issues, including cancer, more effectively.</div>
-    </div>
-  </div>
-
-  <!-- Accordion Item #8 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-        Are there PET scan facilities near me?
-      </button>
-    </h2>
-    <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-      <div class="accordion-body">To find a PET CT near you, please call us. Our network of trusted partners at Cion Cancer Clinics offers accessible and quality PET CT scans.</div>
-    </div>
-  </div>
-
-  <!-- Accordion Item #9 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-        What's the average cost of a PET CT scan in Vizag?
-      </button>
-    </h2>
-    <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-      <div class="accordion-body">At Cion Cancer Clinic, we have facilities in Vizag, making it convenient for you.</div>
-    </div>
-  </div>
-
-  <!-- Accordion Item #10 -->
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
-        Where can I get a PET scan in Vizag?
-      </button>
-    </h2>
-    <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-      <div class="accordion-body">Locate MRI facilities nearby to schedule your imaging needs efficiently.</div>
-    </div>
-  </div>
-</div>
-
-
-
-  </div>
-  </div>
-  </div></br>
+</br></br></br>
   <!-- footer -->
 
   <footer>
     <h5>@ Cipher Oncology Pvt Ltd</h5>
   </footer>
+
 </body>
-
-<!-- <script>
-    function clearForm() {
-        document.getElementById("myForm").reset();
-    }
-</script> -->
-
 </html>

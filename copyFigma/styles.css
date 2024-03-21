@@ -123,7 +123,8 @@ form select {
     width: 15.82rem;
     height: 2.08rem;
     margin-left: 1rem;
-    color: #767676;
+    color: #afacac;
+    background-color: white;
 }
 form h1 {
     font-size: 1rem;
@@ -347,9 +348,10 @@ h2 {
     margin-bottom: 1rem;
     font-size: var(--small-16-font);
     font-weight: 600;
+    height: 6.2rem;
 }
 .rating {
-    margin-left: 5rem;
+    margin-left: 6.8rem;
 }
 .Consult-Our-Oncologist-container img {
     width: 3.95rem;
@@ -558,7 +560,7 @@ footer h5{
 }
 .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
     border-radius: 0;
-    border-bottom: 1px solid #8f8e8b !important;
+    border-bottom: 0.1px solid #8f8e8b !important;
 }
 .accordion-item {
     border-bottom: none !important;
@@ -854,6 +856,15 @@ footer h5{
         border-radius: 0.2rem;
         margin-bottom: 2.3rem;
     }
+
+    .testimonial-single-card P{
+      height: 6rem;
+      width: 15rem;
+    }
+    .justify-content-center {
+        justify-content: center !important;
+        margin-left: 0.2rem;
+    }
     .carousel-control-next-icon {
         position: relative;
         bottom: 1.7rem;
@@ -869,7 +880,7 @@ footer h5{
         bottom: 0.35rem;
     }
     .testimonial-single-card>span {
-        padding-left: 1.1rem;
+        /* padding-left: 1.1rem; */
         font-size: 0.62rem;
        
     }
@@ -1011,10 +1022,12 @@ footer h5{
     .FAQ-container-accordions .accordion-button::after{
         background-size: 0.4rem;
         background-image: url("./assests/plus.png");
+        background-position: bottom;
     }
     .FAQ-container-accordions .accordion-button:not(.collapsed)::after {
         background-image: url("./assests/minus.png");
         background-size: 0.4rem;
+        background-position: top;
     }
     .card button {
         position: relative;
@@ -1100,13 +1113,14 @@ footer h5{
     .carousel-main {
         width: 33.47rem;
     }
-   
+
    .FAQ-container-accordions{
     display: flex;
-    width: 30.50rem;
+    width: 30.5rem;
     height: 10.98rem;
     margin-left: 3rem !important;
-    gap: .3rem;
+    gap: 2rem;
+ 
    }
    .accordion-button:not(.collapsed) {
     /* color: var(--bg); */
@@ -1130,9 +1144,14 @@ footer h5{
 }
 
  .Understanding-PET-CT-container .accordion-body ,.accordion-button:not(.collapsed){
-    background-color: var(--colorPink) !important;
     color: black !important;
  }
+
+ .FAQ-container-accordions .accordion-button:not(.collapsed) {
+    color: var(--bg) !important;
+}
+
+
  .Understanding-PET-CT-container .accordion-body{
     font-size: 0.46rem !important;
  }
@@ -1159,8 +1178,9 @@ footer h5{
 
 .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
     border-radius: 0;
-    border-bottom: 1px solid #8f8e8b !important;
-    padding: 0rem 0rem 0.5rem 0rem;
+    border-bottom: 0.1px solid #8f8e8b !important;
+    padding: 0rem 0rem 0.8rem 0rem;
+    align-items: baseline;
 }
 .card-inside {
     padding-top: 0.5rem;
@@ -1179,3 +1199,6 @@ footer h5{
     border: none !important;
 }
 }
+
+
+
