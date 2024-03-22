@@ -649,6 +649,8 @@ footer h5{
 }
 .FAQ-container-accordions{
     margin-left: 1.47rem;
+    position: relative;
+    right: 0.6rem;
 }
 .accordion-button:not(.collapsed) {
 
@@ -1208,7 +1210,7 @@ footer h5{
     height: 10.98rem;
     margin-left: 3.4rem !important;
     gap: 1.90rem;
- 
+    right: 0rem;
    }
    .FAQ-container-accordions .accordion-body{
     width: 13.73rem; 
