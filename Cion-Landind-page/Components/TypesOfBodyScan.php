@@ -1,7 +1,4 @@
-<?php include("./AllPhpFiles/arrays.php")?>
-
-
-
+<?php include("./Components/arrays.php")?>
 <div class="container-types">
     <?php foreach ($arr as $details) : ?>
         <div class="card">

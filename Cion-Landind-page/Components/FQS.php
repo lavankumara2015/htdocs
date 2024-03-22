@@ -1,5 +1,4 @@
-<?php include("./AllPhpFiles/arrays.php") ?>
-
+<?php include("./Components/arrays.php") ?>
 <div class="FAQ-container-accordions">
     <div class="accordion accordion-flush" id="accordionFlushExample1">
         <?php for ($index = 0; $index < 5; $index++) : ?>
@@ -15,7 +14,6 @@
             </div>
         <?php endfor; ?>
     </div>
-
     <div class="accordion accordion-flush" id="accordionFlushExample2">
         <?php for ($index = 5; $index < count($carouselItems); $index++) : ?>
             <div class="accordion-item">

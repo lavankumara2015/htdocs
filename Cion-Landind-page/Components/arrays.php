@@ -1,9 +1,5 @@
-
-
 <?php
-
 //types of body scans 
-
 $arr = [
     ["Whole Body Analog Pet CT scan", "Rs,18000/-", "Rs,14999/-"],
     ["Whole Body Digital Pet CT Scan", "Rs,25000/-", "Rs,20999/-"],
@@ -12,18 +8,14 @@ $arr = [
     ["Dotatate Pet CT Scan", "Rs,35000/-", "Rs,31000/-"],
     ["Dotanoc Pet CT Scan", "Rs,35000/-", "Rs,31000/-"]
 ];
-
 //testimonials
-
 $testimonials = [
     ["Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch.", "Priya.K", "⭐⭐⭐⭐⭐"],
     ["The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times.", "Arjun.S", "⭐⭐⭐⭐⭐"],
     ["The scanning process and the consultation afterward were straightforward and helpful. Rani's assistance with my concerns made the experience better than I expected. It was reassuring to have that level of care.", "Sunita.P", "⭐⭐⭐⭐⭐"],
     ["I appreciated the efficiency of the scan and the post-scan support. Team was responsive to my questions, which helped.", "Lakshmi.G", "⭐⭐⭐⭐⭐"]
 ];
-
 //FAQs
-
 $carouselItems = [
     [
         "question" => "Where can i get a pet scan in vizag?",
@@ -66,25 +58,22 @@ $carouselItems = [
         "answer" => "At Cion Cancer Clinic, we have facilities in vizag, making it convenient for you."
     ]
 ];
-
 //our services
 $ourServices = [
-            ["assests\Group 35776.png", "Cancer Sugeries"],
-            ["assests\Group 35820.png", "Chemotherapy"],
-            ["assests\Group 35779.png", "Immunotherapy"],
-            ["assests\Group 35819.png", "Radiation Oncology"],
-            ["assests\Group 35781.png", "Biopsy"],
-            ["assests\Group 35782.png", "Breast & Oral Screenings"],
-            ["assests\Group 35783.png", "MRI Scans"],
-            ["assests\Group 35784.png", "Bone Scans"]
+            ["assests\group-35776.webp", "Cancer Sugeries"],
+            ["assests\Group 35820.webp", "Chemotherapy"],
+            ["assests\Group 35779.webp", "Immunotherapy"],
+            ["assests\Group 35819.webp", "Radiation Oncology"],
+            ["assests\Group 35781.webp", "Biopsy"],
+            ["assests\Group 35782.webp", "Breast & Oral Screenings"],
+            ["assests\Group 35783.webp", "MRI Scans"],
+            ["assests\Group 35784.webp", "Bone Scans"]
 ];
-
 //discount Section
 $discountSection=[
-    ["assests\Group 35729.png", "Upto 40% Discount"],
-    ["assests\Group 35729 (1).png","Same Day Reports"],
-    ["assests\Group 35729 (2).png","100% Accuracy Assured"],
-    ["assests\Group 35729 (3).png","Free Doctor Consultation"]
+    ["assests\group-35729.webp", "Upto 40% Discount"],
+    ["assests\group-35729-1 (1).webp","Same Day Reports"],
+    ["assests\group-35729-2.webp","100% Accuracy Assured"],
+    ["assests\group-35729-3.webp","Free Doctor Consultation"]
 ]
-
 ?>

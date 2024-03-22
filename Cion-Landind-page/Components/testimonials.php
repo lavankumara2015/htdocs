@@ -1,7 +1,6 @@
-<?php include("./AllPhpFiles/arrays.php")?>
+<?php include("./Components/arrays.php")?>
 
 <!-- large devices testimonials -->
-
 <div id="testimonial-carousel" class="carousel slide md-device-carousel" data-bs-ride="carousel">
     <div class="carousel-inner">
         <?php for ($i = 0; $i < count($testimonials); $i += 2): ?>
@@ -15,7 +14,6 @@
                                 <span style="position: relative; left:1rem"><?php echo $testimonials[$j][1]; ?></span>
                                 <span class="rating"><?php echo $testimonials[$j][2]; ?></span>
                                 <small class="Testimonial_small_hyd"> Hyderabad </small>
-
                             </div>
                         </div>
                     <?php endfor; ?>
@@ -32,10 +30,7 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
-
 <!-- small devices testimonials -->
-
 <div class="carousel-main d-md-none">
     <div id="carouselExampleAutoplaying" style="background-color: #F0D0DD; border-radius: 0.23rem;" class="carousel slide px-5 py-5 d-md-none" data-bs-ride="carousel">
         <div class="carousel-inner">

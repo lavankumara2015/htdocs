@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cion Cancer Clinics</title>
-  <link rel="shortcut icon" href="./assests/Faviicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assests/faviicon.webp" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles.css">
@@ -37,16 +37,16 @@
         <span class="Rs10999">Rs.10999/-</span>
       </h1>
       <span id="banner_form_image_section_span">
-        <img src="assests\Group 35815.png" alt="Oncology Consultation" /><span> One Free Oncology Consultation</span>
+        <img src="assests\Group 35815.webp" alt="Oncology Consultation" /><span> One Free Oncology Consultation</span>
       </span>
       <span id="banner_form_image_section_span">
-        <img src="assests\Group 35811.png" alt="Oncologist Diagnostics" /> <span> CION Assured Oncologist Diagnostics
+        <img src="assests\Group 35811.webp" alt="Oncologist Diagnostics" /> <span> CION Assured Oncologist Diagnostics
         </span>
       </span>
     </div>
     <div id="back-pink">
       <div id="inputFiled">
-        <form id="myForm" method="POST" action="./Mysqlconnection.php">
+        <form id="myForm" method="POST" action="./Components/Mysqlconnection.php">
           <h1 style="color: black;">Book Your Pet Scan <br>Now! </h1>
           <input type="text" name="name" placeholder="Name" value="<?php echo isset($_POST['name']) ? $_POST['name'] : ''; ?>" required pattern="[a-zA-Z]{3,}" title="Alphabetic String (Minimum 3 Characters)" />
           <input type="text" name="phone" placeholder="Phone number" value="<?php echo isset($_POST['phone']) ? $_POST['phone'] : ''; ?>" required pattern="[0-9]{10}" title="The Number Should consist 10 characters with all aidgits between 0 to 9" />
@@ -66,52 +66,47 @@
   </section>
   <!-- discount section-->
   
-<?php include("./AllPhpFiles/discountSection.php") ?></br>
+<?php include("./Components/discountSection.php") ?></br>
   <!-- scan fee -->
   <div class="container-scan-fee"></br>
     <h2 class=" text-center" style="font-weight: 700;">Types of scans we do</h2>
-    <?php include("./AllPhpFiles/TypesOfBodyScan.php") ?>
+    <?php include("./Components/TypesOfBodyScan.php") ?>
   </div>
   </div>
  
   <!-- Free now ! -->
   <div class="Consult-Our-Oncologist-container">
     <div>
-      <img src="assests\Ellipse 3.png" alt="Ellipse" />
+      <img src="assests\ellipse-3.webp" alt="Ellipse" />
     </div>
     <div class="main-Free">
       <h2 class=" text-white" id="Understanding">Don’t have a prescription?</br>Consult Our Oncologist <strong>FREE</strong> now!</h2>
       <button><a href="#back-pink" style="text-decoration: none; color: #80288F">BOOK APPOINTMENT</a></button>
     </div>
   </div></br>
-
-
   <!-- Testimonials -->
   <h2 style="text-align: center; padding-bottom: 0.6rem;">Testimonials</h2>
-  <?php include("./AllPhpFiles/testimonials.php") ?>
-
+  <?php include("./Components/testimonials.php") ?>
 
   <!-- Guidelines for PET - CT scans -->
   <div style="background-color: rgba(244, 244, 244, 1); padding: 1.5rem 0 2rem 0;">
     <h2 style="text-align: center;" class="Guidelines_for_pet_h2">Guidelines for PET-CT scans</h2></br>
     <div class="guidelines">
       <div class="guideline-card">
-        <img src="assests\Group 35735.png" alt="water glass">
+        <img src="assests\group-35735.webp" alt="water glass">
         </br>
         <h5>At least 6 hours of fasting before the scan, but the patient can have plain water.</h5>
       </div>
       <div class="guideline-card">
-        <img src="assests\Group 35735 (1).png" alt="calender">
+        <img src="assests\group-35735-1.webp" alt="calender">
         <h5>You are advised to report one hour before the scheduled time</h5>
       </div>
       <div class="guideline-card">
-        <img src="assests\Group 35822.png" alt="Reports image">
+        <img src="assests\Group 35822.webp" alt="Reports image">
         <h5 id="guideline-card-h5-carry">Carry previous PET-CT reports,CDs,medical records,recent serum creatinine and fasting blood sugar reports.</h5>
       </div>
     </div>
   </div>
-
-
   <!-- hospital Locations -->
   <ul id="location-vizag-container">
     <li><img src="assests\Group 35751.png" alt="location">
@@ -128,9 +123,6 @@
     </li>
 
   </ul></br>
-
-
-
   <!-- Understanding PET-CT -->
 <div class="understanding-pet-ct-child text-center">
     <h2>Understanding PET-CT Scans: </h2>
@@ -138,7 +130,7 @@
   </div>
 <div class="Understanding-PET-CT-container">
 <div>
-      <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="assests\Group 35829.png" alt="PET-CT Scan indoor" />
+      <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="assests\Group 35829.webp" alt="PET-CT Scan indoor" />
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -199,16 +191,15 @@
     <div class="text-center  font-bold">
       <h2>Our-services</h2>
     </div>
-    <?php include('./AllPhpFiles/ourServices.php') ?>
+    <?php include('./Components/ourServices.php') ?>
   </div>
 
   <!-- FAQS Container -->
   <h1 class=" text-center p-1 faqs">FAQs</h1>
-  <?php include("./AllPhpFiles/FQS.php") ?>
+  <?php include("./Components/FQS.php") ?>
 
 </br></br></br>
   <!-- footer -->
-
   <footer>
     <h5>@ Cipher Oncology Pvt Ltd</h5>
   </footer>
