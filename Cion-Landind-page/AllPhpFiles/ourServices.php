@@ -1,4 +1,4 @@
-<?php include("./arrays.php")?>
+<?php include("./AllPhpFiles/arrays.php")?>
 
 <div class="grid-container">
     <?php foreach ($ourServices as $item): ?>

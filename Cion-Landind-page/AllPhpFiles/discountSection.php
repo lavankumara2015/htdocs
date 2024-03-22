@@ -2,7 +2,7 @@
 
 
 
-<?php include("./arrays.php") ?>
+<?php include("./AllPhpFiles/arrays.php") ?>
 
 
 <ul class="discount-section-container">

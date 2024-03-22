@@ -1,4 +1,4 @@
-<?php include("./arrays.php") ?>
+<?php include("./AllPhpFiles/arrays.php") ?>
 
 <div class="FAQ-container-accordions">
     <div class="accordion accordion-flush" id="accordionFlushExample1">

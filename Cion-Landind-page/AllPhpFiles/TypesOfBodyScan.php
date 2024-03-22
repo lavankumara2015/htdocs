@@ -1,11 +1,4 @@
-<?php include("./arrays.php")?>
-
-
-
-
-
-
-
+<?php include("./AllPhpFiles/arrays.php")?>
 
 
 

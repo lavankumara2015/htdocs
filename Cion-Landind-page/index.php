@@ -7,19 +7,17 @@
   <link rel="shortcut icon" href="./assests/Faviicon.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <style>
-  
     @media screen and (max-device-width: 480px) {
       select {
         -webkit-appearance: none;
         padding: 0.5rem;
-        
       }
     }
   </style>
@@ -68,11 +66,11 @@
   </section>
   <!-- discount section-->
   
-<?php include("./discountSection.php") ?></br>
+<?php include("./AllPhpFiles/discountSection.php") ?></br>
   <!-- scan fee -->
   <div class="container-scan-fee"></br>
     <h2 class=" text-center" style="font-weight: 700;">Types of scans we do</h2>
-    <?php include("./TypesOfBodyScan.php") ?>
+    <?php include("./AllPhpFiles/TypesOfBodyScan.php") ?>
   </div>
   </div>
  
@@ -84,15 +82,13 @@
     <div class="main-Free">
       <h2 class=" text-white" id="Understanding">Don’t have a prescription?</br>Consult Our Oncologist <strong>FREE</strong> now!</h2>
       <button><a href="#back-pink" style="text-decoration: none; color: #80288F">BOOK APPOINTMENT</a></button>
-
-  
     </div>
   </div></br>
 
 
   <!-- Testimonials -->
   <h2 style="text-align: center; padding-bottom: 0.6rem;">Testimonials</h2>
-  <?php include("./testimonials.php") ?>
+  <?php include("./AllPhpFiles/testimonials.php") ?>
 
 
   <!-- Guidelines for PET - CT scans -->
@@ -203,12 +199,12 @@
     <div class="text-center  font-bold">
       <h2>Our-services</h2>
     </div>
-    <?php include('./ourServices.php') ?>
+    <?php include('./AllPhpFiles/ourServices.php') ?>
   </div>
 
   <!-- FAQS Container -->
   <h1 class=" text-center p-1 faqs">FAQs</h1>
-  <?php include("./FQS.php") ?>
+  <?php include("./AllPhpFiles/FQS.php") ?>
 
 </br></br></br>
   <!-- footer -->

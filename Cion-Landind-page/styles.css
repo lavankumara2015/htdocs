@@ -281,6 +281,7 @@ h2 {
     border-radius: 1rem;
     width: 9.95rem;
     height: 9.636rem;
+    box-shadow: 0px 7.14px 32.15px 0px #9EA8BD4F;
 }
 .banner_form_image_section {
     display: grid;
@@ -676,7 +677,10 @@ footer h5{
     position: relative;
     bottom: 0.2rem;
 }
-
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-radius: 0rem;
+    border-bottom: 1px solid #bcb9b9 !important;
+}
 
 /* Large devices CsS code Starts From here */
 @media screen and (min-width : 768px) {
@@ -1081,6 +1085,7 @@ footer h5{
     .card-1 {
         width: 7.64rem;
         height: 7.39rem;
+        box-shadow: 0px 7.14px 32.15px 0px #9EA8BD4F;
     }
     .card {
         width: 9.02rem;
@@ -1228,6 +1233,7 @@ footer h5{
 }
 .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
     border-radius: 0rem;
+    border-bottom: 1px solid #bcb9b9 !important;
 }
 
  .Understanding-PET-CT-container .accordion-body ,.accordion-button:not(.collapsed){
