@@ -13,6 +13,7 @@ html{
 @media (min-width:768px) {
     html {
         font-size: 2.76052667vw;
+      
     }
 }
 :root {
@@ -74,7 +75,7 @@ iframe{
     background-size: cover;
     width: 22.72rem;
     height: 16.5rem;
-    margin-top: 3rem;
+    margin-top: 3.8rem;
 }
 .banner-first-container>h1 {
     font-size: 1.6rem;
@@ -94,10 +95,12 @@ iframe{
 #inputFiled {
     background-color: #F2F2F2;
     width: 17.87rem;
+    margin-top: 1rem;
     height: 21.37rem;
-    border-radius: 0.3rem;
+    border-radius: 0.62rem;
     bottom: 0.88rem;
 }
+
 
 #banner_form_image_section_span {
     width: 18.04rem;
@@ -107,6 +110,8 @@ iframe{
     font-size: 1rem;
     margin: 0.2rem;
     padding-left: 0.2rem;
+    position: relative;
+    right: 0.8rem;
  
 }
 #banner_form_image_section_span img {
@@ -122,12 +127,12 @@ form input,
 form select {
     padding: 0.3rem;
     margin: 0.5rem;
-    border-radius: 0.28rem;
+    border-radius: 0.19rem;
     border: none;
     width: 15.82rem;
     height: 2.08rem;
     margin-left: 1rem;
-    color: #afacac;
+    color: #767575;
     background-color: white;
 }
 form h1 {
@@ -135,6 +140,7 @@ form h1 {
     margin-bottom: 0.9rem;
     padding-top: 2.5rem;
     font-weight: 700;
+    font-size: 1rem;
 }
 
 .main-img {
@@ -162,11 +168,7 @@ form h1 {
     position: relative;
      right: 0.6rem;
 }
-.Understanding-PET-CT-container img,
-.accordion {
-    width: 20.1818rem;
-    margin-bottom: 1rem;
-}
+
 #nav-bar img {
     padding: 0.1rem 1.1rem 0.5rem 0;
     width: 8rem;
@@ -175,6 +177,8 @@ form h1 {
 }
 #back-pink {
     padding: 0.5rem 0 1.3rem 0;
+    width: 22.72rem;    
+    height: 24.36rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,9 +187,9 @@ form h1 {
 }
 #nav_bar_button {
     padding: 0.3rem 1.8rem 0.3rem 1.8rem;
-    font-size: 0.5rem;
-    font-weight: 700;
-    margin-left: 5rem;
+    font-size: 0.54rem;
+    font-weight: 600;
+    margin-left: 6rem;
 }
 .discount-section-container li {
     list-style-type: none;
@@ -197,8 +201,10 @@ form h1 {
     margin-right: 0.5454rem;
 }
 .discount-section-container li p {
-    font-weight: 600;
+    font-weight:400;
     font-size: 1rem;
+    margin-left: 0.3rem;
+
 }
 .our-services-container{
     width: 22.72rem;
@@ -229,7 +235,7 @@ form h1 {
     text-align: center;
     height: 7.74rem;
     width: 10.44rem;
-    border-radius: 3.5%;
+    border-radius: 0.26rem;
     background-color: var(--bg-white);
 }
 h5 {
@@ -255,7 +261,7 @@ h2 {
 .card-1 h4 {
     font-size: 1rem;
     font-weight: 600;
-    padding-top: 0.15rem;
+    padding-top: 1rem;
 }
 .guideline-card img {
     width: 4.68rem;
@@ -284,12 +290,17 @@ h2 {
    background-color: transparent;
     background-size: cover;
 }
+.Understanding-PET-CT-container .accordion{
+    width: 20.18rem;
+    height: 19.48rem;
+
+    }
 .container-types {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* column-gap: 0.2rem;
-    row-gap: 0.2rem;
-   */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.81rem;
+    gap: 0.24rem;
+    margin-top: 1rem;
 }
 .testimonials-container {
     display: flex;
@@ -306,6 +317,7 @@ h2 {
     width: 16rem;
     position: relative;
     right: 0.2rem;
+    top: 1rem;
 }
 .guideline-card:last-child {
     margin-right: 0;
@@ -324,6 +336,7 @@ h2 {
     justify-content: flex-start;
     align-items: center;
 }
+
 #location-vizag-container li img {
     width: 1.37rem;
     height: 1.37rem;
@@ -334,7 +347,7 @@ h2 {
 #location-vizag-container h6 {
     color: var(--bg-white);
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 #ul {
     margin-bottom: 2rem;
@@ -344,21 +357,32 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
+}
+.Understanding-PET-CT-container img{
+width: 20.18rem;
+height: 19.86rem;
+}
+.testimonial-single-card>span{
+    font-size: 0.72rem;
+    font-weight: 600;
 }
 .carousel-item p {
     margin-top: 0;
+    font-size: 0.72rem;
+    text-align: center;
     margin-bottom: 1rem;
     font-size: var(--small-16-font);
-    font-weight: 600;
+    font-weight: 400;
     height: 6.2rem;
 }
 .rating {
-    margin-left: 6.8rem;
+    margin-left: 6.6rem;
 }
 .Consult-Our-Oncologist-container img {
     width: 3.95rem;
     height: 4.18rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 .carousel-main {
     padding: 1rem;
@@ -369,11 +393,11 @@ h2 {
     border-radius: 0.2rem;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 1.2rem;
-    column-gap: 0.2rem;
-    row-gap: 0.25rem;
+display: flex;
+flex-wrap: wrap;
+gap: 0.60rem;
+justify-content: center;
+margin-top: 0.8rem;
 }
 .card button {
     padding: 0.08rem 1rem;
@@ -386,8 +410,16 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 1rem;
+  gap: 0.9rem;
+    width: 22.72rem;    
+    height: 50.86rem;
+    margin-left: 0.2rem;
     
+}
+.Guidelines_for_pet_h2{
+    position: relative;
+    top: 1.5rem;
+
 }
 button {
     font-size: 0.73rem;
@@ -420,10 +452,12 @@ button {
 .text-center {
     text-align: center !important;
     font-size: 1rem !important;
+    
 }
 .container-scan-fee {
     background-color: rgb(240, 208, 221);
-    width: 100%;
+    width: 22.73rem;
+    height: 29.73rem;
 }
 .Consult-Our-Oncologist-container {
     background-image: linear-gradient(to right, #802A8F, #D37FA0);
@@ -441,6 +475,12 @@ button {
     align-items: start;
     flex-grow: 1;
     padding: 0.8rem;
+}
+.understanding-pet-ct-child{
+    width: 15.5rem;
+    height: 4.22rem;
+    margin-left: 3.6rem;
+    margin-bottom: 1rem;
 }
 .main-Free button {
     background-color: var(--bg-white);
@@ -475,14 +515,13 @@ button {
     padding: 1.7rem;
     border-radius: 0.2rem;
     background: var(--bg-white);
-    line-height: 2.5;
 }
 .card-1 {
     border: 1px solid #ccc;
     text-align: center;
     justify-content: center;
     background-color: var(--bg-white);
-    border-radius: 4%;
+    border-radius: 0.26rem;
 }
 .card-1 img {
     width: 4.4rem;
@@ -556,7 +595,7 @@ footer h5{
 #nav-bar {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 22.72rem;
     background-color: var(--bg-white);
     z-index: 1000;
 }
@@ -566,6 +605,9 @@ footer h5{
 }
 .accordion-item {
     border-bottom: none !important;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+    border-radius: 0rem;
 }
 .accordion-flush>.accordion-item>.accordion-header .accordion-button{
     border: none !important;
@@ -630,7 +672,7 @@ footer h5{
     border-bottom: none !important;
 }
 #TypeOfScan-hr{
-    border: 0.5px solid rgb(0, 0, 0) !important;
+    border: 0.5px solid rgb(182 175 175) !important;
     position: relative;
     bottom: 0.2rem;
 }
@@ -731,10 +773,30 @@ footer h5{
         height: 6.7rem;
         border-radius: 0.2rem
     }
+    #TypeOfScan-hr{
+        border: 0.5px solid rgb(164, 161, 161) !important;
+       
+    }
+    
     .container-scan-fee {
         width: 36.20rem;
         height: 19.13rem;
     }
+    .Understanding-PET-CT-container .accordion{
+        width: 16.26rem;
+        height: 12.48rem;
+         position: relative;
+         bottom: 1.4rem;
+        }
+        .Testimonial_small_hyd{
+            position: relative;
+            bottom: 1.8rem;
+            left: 1.9rem;
+            font-size: 0.62rem;
+            font-weight: 600;
+        }
+        
+    
     .discount-section-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 35.54rem;
@@ -871,7 +933,11 @@ footer h5{
         border-radius: 0.2rem;
         margin-bottom: 2.3rem;
     }
-
+    .understanding-pet-ct-child{
+        margin-left: 9.66rem;
+        width: 17.22rem;
+        height: 2.52rem;
+    }
     .testimonial-single-card P{
       height: 6rem;
       width: 15rem;
@@ -897,7 +963,7 @@ footer h5{
     .testimonial-single-card>span {
         font-size: 0.62rem;
         position: relative;
-        bottom: 0.7rem;
+        bottom: 1rem;
        margin:0.9rem
     }
     .rating{
@@ -919,18 +985,18 @@ footer h5{
     .Understanding-PET-CT-container img {
         width: 14.43rem;
         height: 15.18rem;
+        margin-left: 1rem;
     }
+    .Guidelines_for_pet_h2{
+        position: relative;
+        top: 0rem;
     
-.Understanding-PET-CT-container .accordion {
-    width: 16.71rem;
-    margin-bottom: 1rem;
-    position: relative;
-    bottom: 1.3rem;
-}
+    }
+
     .guidelines {
         display: flex;
         flex-direction: row;
-        grid-gap: 0.36rem;
+        gap: 0.36rem;
         align-items: center;
         width: 31.89rem;
         height: 8.22rem;
@@ -953,13 +1019,16 @@ footer h5{
     width: 9.16rem;
     position: relative;
     right: 1rem;
+    top: 0;
     }
     #location-vizag-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-evenly;
         align-items: center;
-        
+        padding: 0.4rem 3.1rem 0 3.1rem;
+        width: 36.22rem;
+    height: 4.05rem;
     }
     #location-vizag-container img {
         width: 1.13rem;
@@ -1007,13 +1076,7 @@ footer h5{
         background-color: var(--colorPink);
     }
     .grid-container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 0rem;
-        row-gap: 0.8rem;
-        position: relative;
-        left: 0.5rem;
-        bottom: 0.7rem;
+        margin-top: 0.8rem;
     }
     .card-1 {
         width: 7.64rem;
@@ -1028,14 +1091,16 @@ footer h5{
         height: 3.38rem;
     }
     .our-services-container {
-        width: 100%;
+        width: 36.22rem;
         height: 20.50rem;
         background-color: rgba(240, 208, 221, 1);
     }
     #inputFiled {
         background-color: #F2F2F2;
         width: 11.3rem;
+        margin-top: 0rem;
         height: 12.98rem;
+        border-radius: 0.33rem;
         position: relative;
 
     }
@@ -1087,6 +1152,7 @@ footer h5{
     }
     .banner-first-container {
         width: 18.26rem;
+        margin-top: 3rem;
     }
     .banner-first-container>h1 {
         font-size: 1.60rem;
@@ -1102,9 +1168,12 @@ footer h5{
       background-color:transparent ;
         padding: 0.5rem 0 1.3rem 0;
         display: flex;
+        width: 11.30rem;
+        height: 12.98rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 1.2rem;
     }
    
     .banner-first-container{
@@ -1132,9 +1201,13 @@ footer h5{
     display: flex;
     width: 30.5rem;
     height: 10.98rem;
-    margin-left: 3rem !important;
-    gap: 2rem;
+    margin-left: 3.4rem !important;
+    gap: 1.90rem;
  
+   }
+   .FAQ-container-accordions .accordion-body{
+    width: 13.73rem; 
+     height: 2.32rem;
    }
    .accordion-button:not(.collapsed) {
     /* color: var(--bg); */
@@ -1151,7 +1224,7 @@ footer h5{
     background-color: white;
     font-weight: 600 !important;
     /* border-bottom: 1px solid rgb(130, 128, 128) !important; */
-    border-radius: 0rem 0rem;
+    border-radius: 0rem;
 }
 .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
     border-radius: 0rem;
@@ -1182,13 +1255,15 @@ footer h5{
 .carousel-item p {
     margin-bottom: 1rem;
     font-size: var(--medium-33-font);
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 0.62rem;
     width: 13.7rem;
     padding: 1.6rem 0 0 1.88rem;
 }
 .carousel-main {
     padding: 0.5rem;
 }
+
 
 .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
     border-radius: 0;

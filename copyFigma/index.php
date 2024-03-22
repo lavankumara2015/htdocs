@@ -97,7 +97,7 @@
 
   <!-- Guidelines for PET - CT scans -->
   <div style="background-color: rgba(244, 244, 244, 1); padding: 1.5rem 0 2rem 0;">
-    <h2 style="text-align: center;">Guidelines for PET-CT scans</h2></br>
+    <h2 style="text-align: center;" class="Guidelines_for_pet_h2">Guidelines for PET-CT scans</h2></br>
     <div class="guidelines">
       <div class="guideline-card">
         <img src="assests\Group 35735.png" alt="water glass">
@@ -136,7 +136,7 @@
 
 
   <!-- Understanding PET-CT -->
-<div class=" text-center">
+<div class="understanding-pet-ct-child text-center">
     <h2>Understanding PET-CT Scans: </h2>
     <h2 class="h2-Importance">Importance, Need, and Cost in India </h2>
   </div>

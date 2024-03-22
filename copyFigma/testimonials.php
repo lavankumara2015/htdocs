@@ -14,6 +14,8 @@
                                 <hr id="carousel-hr">
                                 <span style="position: relative; left:1rem"><?php echo $testimonials[$j][1]; ?></span>
                                 <span class="rating"><?php echo $testimonials[$j][2]; ?></span>
+                                <small class="Testimonial_small_hyd"> Hyderabad </small>
+
                             </div>
                         </div>
                     <?php endfor; ?>
@@ -44,6 +46,7 @@
                     <div style="width: 90%;" class="d-flex flex-row justify-content-between align-items-center">
                         <span><?php echo $testimonial[1]; ?></span>
                         <span class="rating"><?php echo $testimonial[2]; ?></span>
+                   
                     </div>
                 </div>
             <?php endforeach; ?>
