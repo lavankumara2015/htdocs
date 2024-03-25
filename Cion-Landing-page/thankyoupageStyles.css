@@ -14,11 +14,9 @@ html{
     }
 }
 :root{
-    --bg-main-color: #802a8f;
+    --bg-main-color: #5d0f7d;
     --bg-font-color: #666;
 }
-
-
 .footer-main-container{
     display: flex;
     justify-content: center;
@@ -50,7 +48,7 @@ margin-top: 1.5rem;
     padding: 0;
 }
 .footer-main-container ul li , .footer-our-vision p{
-    padding: 0.8rem 0 0 0;
+    padding: 0.7rem 0 0 0;
     width: 11rem;
     color: var(--bg-font-color);
 }
@@ -99,6 +97,9 @@ margin-top: 0.5rem;
     justify-content: center;
     align-items: center;
 }
+.fas b{
+    font-size: 0.8rem;
+}
 
 @media screen and (max-width:768px) {
    
@@ -111,7 +112,7 @@ margin-top: 0.5rem;
       
     }
     .footer-main-container ul li , .footer-our-vision p{
-        padding: 0.8rem 0 0 0;
+        padding: 0.7rem 0 0 0;
         width: 20rem;
         color: var(--bg-font-color);
        margin-bottom: 1rem;

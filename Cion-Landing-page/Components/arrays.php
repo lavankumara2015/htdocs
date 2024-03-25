@@ -11,9 +11,9 @@ $arr = [
 //testimonials
 $testimonials = [
     ["Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch.", "Priya.K", "⭐⭐⭐⭐⭐"],
-    ["The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times.", "Arjun.S", "⭐⭐⭐⭐⭐"],
-    ["The scanning process and the consultation afterward were straightforward and helpful. Rani's assistance with my concerns made the experience better than I expected. It was reassuring to have that level of care.", "Sunita.P", "⭐⭐⭐⭐⭐"],
-    ["I appreciated the efficiency of the scan and the post-scan support. Team was responsive to my questions, which helped.", "Lakshmi.G", "⭐⭐⭐⭐⭐"]
+    ["The scan process was smoother than expected. Mustafa was helpful, answering my questions about medications, which eased my mind. It's good to have that level of support during such times.","Arjun.S", "⭐⭐⭐⭐⭐"],
+    ["The scanning process and the consultation afterward were straightforward and helpful. Rani's assistance with my concerns made the experience better than I expected. It was reassuring to have that level of care.","Sunita.P", "⭐⭐⭐⭐⭐"],
+    ["I appreciated the efficiency of the scan and the post-scan support. Team was responsive to my questions, which helped.","Lakshmi.G", "⭐⭐⭐⭐⭐"]
 ];
 //FAQs
 $carouselItems = [

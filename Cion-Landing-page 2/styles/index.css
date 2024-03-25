@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-size: 6.76vw;
+    /* font-size:28px */
+}
+
+:root {
+    --brandclr: #802A8F;
+    --whycioncardbg: #D37FA0;
+    --colorBlack: #444444;
+    --ourServicesGrayClr: #979797;
+    --FindOurLocationsbgclr: #FBE4FF;
+    --ourservicesCardBorderClr: #D5D5D5;
+    --ourDoctorsBoxShadow: box-shadow: 16px 18px 45px 0px #00000026;
+
+}
+
+.main-app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    height: 2.14rem;
+    width: 14.78rem;
+
+}
+
+header img {
+    display: none;
+
+}
+
+/* .form-details-container img {
+display: none;
+} */
+
+
+.nav__bar__for__small {
+    height: 0.53rem;
+    margin-top: 0.5rem;
+    margin-left: 0.41rem;
+}
+
+.nav__bar__phone__icon {
+    width: 1.18rem;
+    height: 1.18rem;
+    margin-top: 0.46rem;
+    margin-left: 3.93rem;
+    border-radius: 0.17rem;
+}
+
+.nav-bar .nav__bar__Cion-logo {
+
+    width: 3.46rem;
+    height: 1.18rem;
+    margin-left: 3.82rem;
+    margin-top: 0.46rem;
+}
+
+.our-services-card h1 {
+    font-size: 1rem !important;
+    margin-top: 0.63rem;
+    font-weight: 700;
+
+}
+
+header .medium__device__bannerImage {
+    display: none;
+}
+
+header .small__device__bannerImage {
+    width: 14.78rem;
+    height: 22.32rem;
+    display: inline;
+}
+
+.header__content__sm h1 {
+    display: inline;
+    line-height: 1.22rem;
+    height: 3.71rem;
+    margin-left: 1.96rem;
+    color: #BD55B7;
+    font-weight: 700;
+    font-size: 1.23rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 21.2rem;
+    right: 0.9rem;
+}
+
+
+.header__content__sm p {
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 21.4rem;
+}
+
+.header__content__sm img {
+    width: 0.21rem;
+    height: 0.21rem;
+    display: inline;
+}
+
+.Book-appointment-sm {
+    display: block;
+    height: 4rem;
+    width: 10.57rem;
+    border-radius: 0.35rem;
+    margin-left: 2.10rem;
+    box-shadow: 0.38rem 0.43rem 1.07rem 0rem #00000026;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 7.73rem;
+
+}
+
+.Book-appointment-sm img {
+    width: 0.76rem;
+    height: 0.76rem;
+}
+
+.Book-appointment-sm button {
+    width: 6.69rem;
+    height: 1.62rem;
+    border-radius: 0.23rem;
+    background-color: var(--brandclr);
+    font-size: 0.55rem;
+    font-weight: 700;
+    border: none;
+}
+
+.our-services-container div h1 span {
+    color: var(--brandclr);
+}
+
+.our__services__h1 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.our__services {
+    text-align: center;
+    position: relative;
+    bottom: 6.4rem;
+}
+
+.our__services P {
+    font-size: 0.57rem;
+    width: 14rem;
+    height: 3.39rem;
+    font-weight: 400;
+    margin-left: 0.4rem;
+    color: var(--ourServicesGrayClr);
+}
+
+.our__services__span {
+    width: 4.96rem;
+    display: block;
+    border-radius: 0.1rem;
+    border: 0.1rem solid var(--brandclr);
+    margin-left: 6.14rem;
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.2rem;
+}
+
+.our-services-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.03rem;
+    position: relative;
+    bottom: 5.8rem;
+}
+
+.our-services-card {
+    width: 5.53rem;
+    height: 6.07rem;
+    border: 0.08rem solid #D5D5D5;
+    border-radius: 0.18rem;
+}
+
+.our-services-card h1 {
+    font-size: 0.5rem !important;
+    font-weight: 700;
+
+}
+
+.our-services-card p {
+    font-size: 0.44rem;
+    height: 3.07rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    bottom: 0.3rem;
+    line-height: 0.55rem;
+}
+
+.our-services-card img {
+    margin-top: 0.52rem;
+    width: 1.76rem;
+    height: 1.76rem;
+}
+
+.our-services-card:hover {
+    background-color: var(--brandclr);
+    color: white;
+}
+
+#TreatmentPlan-container {
+    display: none;
+}
+
+.form-details-container {
+    position: relative;
+    bottom: 3.8rem;
+}
+
+.form-details-container form {
+    width: 14.78rem;
+    height: 14.4rem;
+    background-color: var(--brandclr);
+
+}
+
+.why__choose__us {
+    display: block;
+    width: 14.78rem;
+    height: 17.03rem;
+    background-color: var(--whycioncardbg);
+}
+
+
+.name__email__phone__password__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+
+}
+
+.name__profile__container,
+.name__email__container {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.035rem solid #FFFFFF;
+
+}
+
+.name__profile__container img,
+.name__email__container img {
+    margin-right: 0.5rem;
+    position: relative;
+    left: 0.5rem
+}
+
+.name__phone__container {
+    margin-top: 0.5rem;
+
+
+}
+
+.name__profile__img {
+    width: 0.64rem;
+    height: 0.64rem;
+
+}
+
+.name__email__img {
+    width: 0.75rem;
+    height: 0.54rem;
+}
+
+.name__phone__img {
+    width: 0.40rem;
+    height: 0.70rem;
+}
+
+.name__location__img {
+    width: 0.48rem;
+    height: 0.65rem;
+}
+
+
+
+.name__profile__container input,
+.name__email__container input {
+    width: 9rem;
+    position: relative;
+    height: 1.03rem;
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-left: 0.5rem;
+    border: none;
+}
+
+.form-textarea textarea {
+    width: 10.68rem;
+    height: 2.43rem;
+    background-color: transparent;
+    border: 0.035rem solid #FFFFFF;
+    border-radius: 0.18rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    overflow: hidden;
+    color: white;
+}
+
+textarea::placeholder {
+    font-size: 0.58rem;
+    opacity: 0.4;
+    color: white;
+    position: relative;
+    left: 0.5rem;
+    top: 0.3rem;
+}
+
+form button {
+    width: 8.3rem;
+    height: 1.4rem;
+    border-radius: 0.18rem;
+    font-size: 0.64rem;
+    color: var(--brandclr);
+    background-color: white;
+    font-weight: 700;
+    border: none;
+    margin-left: 3.4rem;
+    margin-top: 0.7rem;
+}
+
+form button a {
+    text-decoration: none;
+    color: var(--brandclr);
+}
+
+.name__profile__container input::placeholder,
+.name__email__container input::placeholder {
+    font-size: 0.42rem;
+    font-weight: 400;
+    opacity: 0.5;
+    color: white;
+    margin-left: 0.2rem;
+    position: relative;
+    bottom: 0.2rem;
+
+}
+
+.form__details__container__img {
+    display: none;
+}
+
+
+
+
+
+
+
+/* Large devices media  query */
+
+@media screen and (min-width : 768px) {
+
+    html {
+        font-size: 1.87vw;
+        width: 53.33rem;
+        /* font-size: 36px; */
+    }
+
+    .nav-bar {
+        height: 3.33rem;
+    }
+
+    .nav-bar .nav__bar__Cion-logo {
+
+        width: 6rem;
+        height: 2.16rem;
+        margin-left: 3.75rem;
+        margin-top: 0.58rem;
+    }
+
+    header .medium__device__bannerImage {
+        display: inline;
+        width: 53.33rem;
+        height: 18.5rem;
+    }
+
+    header .small__device__bannerImage {
+        display: none;
+    }
+
+    .nav__bar__for__small,
+    .nav__bar__phone__icon {
+        display: none;
+
+    }
+
+    .header__content__sm {
+        display: none;
+    }
+
+    .Book-appointment-sm {
+        display: none;
+    }
+
+    .our__services__h1 {
+        margin-top: 2.22rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .our__services {
+
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .our__services P {
+        font-size: 0.58rem;
+        width: 35.35rem;
+        height: 1.38rem;
+        margin-left: 9.05rem;
+    }
+
+    .our__services__span {
+        width: 5rem !important;
+        display: block;
+        margin-left: 25.65rem;
+        border-radius: 0.2rem;
+
+    }
+
+    .our-services-card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 1.11rem;
+        gap: 1.75rem;
+        position: relative;
+        bottom: 0;
+    }
+
+    .our-services-card {
+        width: 8.61rem;
+        height: 8.88rem;
+        border: 0.027rem solid #D5D5D5;
+        border-radius: 0.27rem;
+    }
+
+    .our-services-card h1 {
+        font-size: 0.63rem !important;
+        margin-top: 0.63rem;
+        font-weight: 700;
+
+    }
+
+    .our-services-card p {
+        font-size: 0.44rem;
+        margin-top: 0.11rem;
+        width: 7.97rem;
+        height: 1.47rem;
+        margin-left: 0.2rem;
+        margin-left: 0.3rem;
+        font-weight: 400;
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .our-services-card img {
+        margin-top: 1.11rem;
+        width: 3.61rem;
+        height: 3.61rem;
+    }
+
+    #TreatmentPlan-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.27rem;
+        margin-top: 1.1rem;
+        display: inherit;
+    }
+
+    #TreatmentPlan-container button {
+        /* width: 7rem;  
+      height: 1.25rem; */
+        font-size: 0.58rem;
+        font-weight: 700;
+        padding: 0.27rem 0.55rem 0.27rem 0.55rem;
+        background-color: var(--brandclr);
+        border-radius: 0.14rem;
+        text-align: center;
+        border: none;
+    }
+
+    .why__choose__us {
+        display: none;
+    }
+
+    .form-details-container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .form-details-container img {
+
+        margin-top: 2.08rem;
+
+    }
+
+    .form__details__container__img {
+        width: 26.72rem;
+        height: 16.25rem;
+        display: inline;
+    }
+
+    .form-details-container form {
+        width: 26.63rem;
+        height: 16.25rem;
+        margin-top: 2.08rem;
+
+    }
+
+    .name__email__phone__password__container {
+        flex-direction: row;
+        gap: 1rem;
+        top: 0;
+    }
+
+    .name__phone__container {
+        margin-top: 0rem;
+    }
+
+    .name__profile__container,
+    .name__email__container {
+        display: flex;
+        align-items: center;
+        border-bottom: 0.035rem solid #FFFFFF;
+
+    }
+
+    .name__profile__container img,
+    .name__email__container img {
+        margin-right: 0.5rem;
+        position: relative;
+        bottom: 0.3rem;
+        left: 0.5rem
+    }
+
+    .name__profile__img {
+        width: 0.66rem;
+        height: 0.69rem;
+
+    }
+
+    .name__email__img {
+        width: 0.77rem;
+        height: 0.55rem;
+    }
+
+    .name__phone__img {
+        width: 0.41rem;
+        height: 0.72rem;
+    }
+
+    .name__location__img {
+        width: 0.5rem;
+        height: 0.66rem;
+    }
+
+    .name__profile__container input,
+    .name__email__container input {
+        width: 8rem;
+        position: relative;
+        height: 1.02rem;
+        margin-left: 0.5rem;
+        top: 0.8rem;
+    }
+
+    .form-textarea textarea {
+        width: 19.36rem;
+        height: 3.61rem;
+        border: 0.035rem solid #FFFFFF;
+        border-radius: 0.41rem;
+        margin-top: 2rem;
+        margin-left: 3.5rem;
+    }
+
+    textarea::placeholder {
+        font-size: 0.58rem;
+        position: relative;
+        left: 0.5rem;
+        top: 0.3rem;
+    }
+    form button {
+        width: 9.52rem;
+        height: 1.61rem;
+        border-radius: 0.27rem;
+        font-size: 0.63rem;
+        margin-left: 8.41rem;
+        margin-top: 1.1rem;
+    }
+    .name__profile__container input::placeholder,
+    .name__email__container input::placeholder {
+        font-size: 0.58rem;
+        bottom: 0rem;
+    }
+
+}

@@ -50,7 +50,7 @@
           <h1 style="color: black;">Book Your Pet Scan <br>Now! </h1>
           <input type="text" name="name" placeholder="Name" value="<?php echo isset($_POST['name']) ? $_POST['name'] : ''; ?>" required pattern="[a-zA-Z]{3,}" title="Alphabetic String (Minimum 3 Characters)" />
           <input type="text" name="phone" placeholder="Phone number" value="<?php echo isset($_POST['phone']) ? $_POST['phone'] : ''; ?>" required pattern="[0-9]{10}" title="The Number Should consist 10 characters with all aidgits between 0 to 9" />
-          <select id="cars" name="scan">
+          <select id="cars"  class="custom-select" name="scan">
             <option value="select" style="color: #767676 !important;">Select type of Scan</option>
             <option value="Whole Body Analog Pet CT Scan">Whole Body Analog Pet CT Scan</option>
             <option value="Whole Body Digital Pet CT Scan">Whole Body Digital Pet CT Scan</option>
@@ -59,6 +59,7 @@
             <option value="Dotatate Pet CT Scan">Dotatate Pet CT Scan</option>
             <option value="Dotanoc Pet CT Scan">Dotanoc Pet CT Scan</option>
           </select>
+          <div class="custom-arrow"><img src="./assests/expand_more_FILL0_wght400_GRAD0_opsz24.png" /></div>
           <p class="text-center"> <button type="submit" class="form_class_button">Book Now</button></p>
         </form>
       </div>
@@ -81,7 +82,7 @@
     </div>
     <div class="main-Free">
       <h2 class=" text-white" id="Understanding">Don’t have a prescription?</br>Consult Our Oncologist <strong>FREE</strong> now!</h2>
-      <button><a href="#back-pink" style="text-decoration: none; color: #80288F">BOOK APPOINTMENT</a></button>
+      <button><a href="#back-pink" style="text-decoration: none; color: #80288F">Book Appointment</a></button>
     </div>
   </div></br>
   <!-- Testimonials -->
@@ -145,7 +146,7 @@
       </div>
 
     </div>
-<div style="border-style: black; " class=" pet-ct-accordion  bg-white border-1  p-0 ">
+<div style="border-style: black; " class="pet-ct-accordion  bg-white border-1  p-0 ">
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">

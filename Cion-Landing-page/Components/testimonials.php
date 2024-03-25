@@ -11,8 +11,8 @@
                             <div class="testimonial-single-card" style="background-color: #F0D0DD;">
                                 <p>"<?php echo $testimonials[$j][0]; ?>"</p>
                                 <hr id="carousel-hr">
-                                <span style="position: relative; left:1rem"><?php echo $testimonials[$j][1]; ?></span>
-                                <span class="rating"><?php echo $testimonials[$j][2]; ?></span>
+                                <span><?php echo $testimonials[$j][1]; ?></span>
+                                <span class="rating"><img src="../assests/starsbagimage.png" alert="stars" /></span>
                                 <small class="Testimonial_small_hyd"> Hyderabad </small>
                             </div>
                         </div>

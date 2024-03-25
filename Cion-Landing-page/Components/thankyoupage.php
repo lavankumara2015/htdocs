@@ -21,7 +21,7 @@
 <small class="footer-main-heading-underline"></small>
 <p>To reduce cancer related mortality in India by empowering individuals to take control of their health and by helping them make informed decisions for a healthier life.</p>
 <h2><a href="tel:18001202676">
-    <i class="fas fa-phone" style="color: #802a8f"> &nbsp;1800 120 2676 </i>
+    <i class="fas fa-phone" style="color: #5d0f7d"> &nbsp; <b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">1800 120 2676</b> </i>
 </a></h2>
 </div>
 </div>
