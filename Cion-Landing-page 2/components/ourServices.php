@@ -1,8 +1,5 @@
-<?php include("./components/arrays.php") ?>
-
 
 <div  class="our-services-card-container">
-
 <?php foreach($ourServices as $details): ?>
 <div class="our-services-card">
     <img src="<?php echo $details[0];?>" alt="<?php echo $details[1];?>"/>
