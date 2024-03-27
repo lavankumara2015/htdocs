@@ -12,8 +12,6 @@ switch ($PageTitle) {
         break;
 
     default:
-    echo "<h1>PageTitle is not matching</h1>";
+        echo "<h2>PageTitle is not matching</h2>";
         break;
 }
-
-?>

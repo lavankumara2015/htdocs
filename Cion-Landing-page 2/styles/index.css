@@ -820,9 +820,60 @@ display: block;
     form textarea {
         font-size: 0.75rem;
     }
-    
+
+    .our-cancer-treatment-container{
+      width: 53.27rem;
+      height: 9.86rem;
+      background-color: #FAFAFA;
+      ;
+      text-align: center;
+      
+    }
+    .our-cancer-treatment-container h1{
+     font-size: 1rem;
+     margin-top: 1.5rem;
+    }
+    .our-cancer-treatment-container p{
+     font-size: 0.58rem;
+     height: 3.39rem;
+     padding: 0rem 7rem;
+    }
+    .our__cancer__treatment__container__span{
+        width: 7.5rem;
+        display: block;
+        border-radius: 0.1rem;
+        border: 0.1rem solid var(--brandclr);
+        margin-left: 29.14rem;
+        position: relative;
+        bottom: 0.5rem;
+        right: 0.1rem;
+    }
 
 }
 
 
-
+/* .our-cancer-treatment-container{
+    width: 53.27rem;
+    height: 9.86rem;
+    background-color: #FAFAFA;
+    ;
+    text-align: center;
+    
+  }
+  .our-cancer-treatment-container h1{
+   font-size: 1rem;
+  }
+  .our-cancer-treatment-container p{
+   font-size: 0.58rem;
+   padding: 0rem 7rem;
+  }
+  .our__cancer__treatment__container__span{
+      width: 7.5rem;
+      display: block;
+      border-radius: 0.1rem;
+      border: 0.1rem solid var(--brandclr);
+      margin-left: 29.14rem;
+      position: relative;
+      bottom: 0.5rem;
+      right: 0.1rem;
+  } */
