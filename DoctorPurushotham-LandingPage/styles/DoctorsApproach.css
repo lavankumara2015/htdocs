@@ -1,0 +1,137 @@
+
+@media screen and (min-width:768px){
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doctors-approach-h1{
+    font-size: 1rem;
+    text-align: center;
+}
+.doctors-approach-h1>span ,.doctor__approach__text span{
+    color: var(--brandClr);
+}
+
+.doctor__approach__text{
+    margin-left: 2.32rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+gap: 0.33rem;
+
+} 
+.doctor__approach__text img{
+    width: 0.83rem;
+    height: 0.88rem;
+    position: relative;
+    right: 1rem;
+    top: 0.58rem;
+} 
+
+.doctor__approach__text h1{
+font-size: 0.62rem;
+font-weight: 400;
+width: 18.22rem;
+height: 2.19rem;
+line-height: 0.75rem;
+padding: 0.6rem 0 0rem 0.2rem;
+
+}
+.doctor__approach__text > div{
+    display: flex;
+}
+.doctor__approach__text>div >div{
+    background-image: url(/assets/TextBackgroundimage.webp);
+    background-size: cover;
+    background-position:center;
+    width: 19.7rem;
+    height: 3.08rem;
+    position: relative;
+    right: 0.8rem;
+}
+
+.doctor__approach__form__container{
+    width: 9.64rem;
+    height: 11.13rem;
+    background-color: var(--pinkClr);
+   border-radius: 0.33rem;
+   position: relative;
+   right: 2.05rem;
+   top: 0.64rem;
+}
+
+.doctor__approach__form__container>h1{
+   font-size: 0.62rem;
+   text-align: center;
+   margin-top: 0.49rem;
+}
+.doctor__approach__form__container>div{
+    height: 1.1rem;
+    background-color: var(--brandClr);
+    color: white;
+    border-radius: 0.33rem 0.33rem 0 0;
+    font-size: 0.62rem;
+}
+.doctor__approach__form__container img{
+    width: 0.77rem;
+    height: 0.77rem;
+    margin-left: 0.5rem;
+    position: relative;
+    top: 0.14rem;
+}
+
+.doctor__approach__form__container form input{
+    width: 8.17rem;
+    height: 1.50rem;
+    border-radius: 0.11rem;
+    background-color: white;
+    box-shadow: 0.02rem 0.02rem 0.04rem 0rem #3E434740;
+    border: none;
+
+}
+
+.doctor__approach__form__container form textarea{
+    width: 8.17rem;
+    height: 2.13rem;
+    border-radius: 0.11rem;
+    background-color: white;
+    border: none;
+    box-shadow: 0.02rem 0.02rem 0.04rem 0rem #3E434740;
+
+}
+.doctor__approach__form__container form button{
+    width: 4.39rem;
+    height: 0.92rem;
+    border-radius: 0.11rem;
+    font-weight: 600;
+    font-size: 0.62rem;
+    background-color: var(--brandClr);
+    color: white;
+    border: none;
+    margin-top: 0.3rem;
+
+}
+.doctor__approach__form__container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.36rem;
+    margin-top: 0.49rem;
+}
+
+.doctor__approach__form__container form input::placeholder ,.doctor__approach__form__container form textarea::placeholder{
+font-weight: 400;
+font-size: 0.45rem;
+color: #767676;
+padding: 0.7rem 0rem 0rem 0.5rem ;
+}
+
+
+
+}
+
+

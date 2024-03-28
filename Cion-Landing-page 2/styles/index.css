@@ -511,6 +511,119 @@ form textarea {
   }
 
 
+  .our-location-cotnainer {
+    display: flex;
+    flex-direction: column;  
+  }
+  
+  .our-location-cotnainer > div{
+    width: 100%;
+    display: flex;
+    padding: 1rem 1rem 0 1rem;
+  height: 16rem;
+  }
+  
+  .our_city_Container{
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: var(--brandclr);
+  overflow-y: scroll;
+  width: 5rem;
+    height: 13.5rem;
+    font-size: 0.58rem;
+  }
+  
+  .sub-city{
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 4rem; */
+    width: 10rem;
+    height: 13.5rem;
+
+  }
+  
+  .sub-city > div > h3{
+    font-size: 0.4rem;
+    color: var(--brandclr);
+    position: relative;
+    top: 0.3rem;
+
+  }
+  
+  .sub-city > div > p{
+    font-size: 0.4rem;
+    width: 5rem;
+ 
+  }
+  .sub-city > div > button:last-child{
+    background-color: var(--brandclr);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.15rem;
+}
+.sub-city > div > button:nth-child(3){
+    border: 0.04rem solid var(--brandclr);
+    border-radius: 0.2rem;
+    padding: 0.15rem;
+    position: relative;
+    background-color: white;
+}
+.sub-city > div > button{
+    font-size: 0.40rem;
+    position: relative;
+    bottom: 1.2rem;
+}
+.sub-city > div{
+    border-bottom: 0.02rem solid #d4cdcd;
+    margin-left: 1rem;
+    height: 4.5rem;
+
+}
+
+  iframe{
+    width: 100%;
+    height: 75%;
+  }
+  .our_city_Container button{
+    padding: 0.4rem;
+    color: white;
+    border: none;
+    width: 100%;
+    background-color: var(--brandclr);
+  }
+  .our_city_Container button:hover{
+    
+    background-color: #FBE4FF;
+color:#BD55B7 ;
+
+  }
+
+  .our_city_Container::-webkit-scrollbar ,.sub-city::-webkit-scrollbar {
+    display: initial;
+    max-width: 5px;
+  }
+  
+  /* Track */
+  .our_city_Container::-webkit-scrollbar-track , .sub-city::-webkit-scrollbar-track {
+    background: rgba(247, 247, 247, 0.4);
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  .our_city_Container::-webkit-scrollbar-thumb , .sub-city::-webkit-scrollbar-thumb {
+    background: var(--brandclr);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .our_city_Container::-webkit-scrollbar-thumb:hover , .sub-city::-webkit-scrollbar-thumb:hover{
+    background: #555;
+  }
+
 
 
 /* Large devices media  query */
@@ -848,8 +961,107 @@ display: block;
         bottom: 0.5rem;
         right: 0.1rem;
     }
+    
+    .our-location-cotnainer {
+        display: flex;
+        flex-direction: row !important;  
+      }
+      
+  .our-location-cotnainer > div{
+    width: 100%;
+    display: flex;
+    height: 16rem;
+
+  }
+  
+  .our_city_Container{
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: var(--brandclr);
+  overflow-y: scroll;
+  width: 6.7rem;
+    height: 16rem;
+    font-size: 0.58rem;
+  }
+  
+  .sub-city{
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+   margin-left: 4rem;
+   width: 5rem;
+   width: 15rem;
+   padding: 0rem 2.5rem 0rem 0rem;
+   height: 16rem;
+
+  }
+  
+  .sub-city > div > h3{
+    font-size: 0.75rem;
+    color: var(--brandclr);
+    position: relative;
+    top: 0.3rem;
+
+  }
+  #map-container iframe{
+    height: 16rem;
+  }
+  
+  .sub-city > div > p{
+    font-size: 0.4rem;
+    width: 5rem;
+ 
+  }
+  .sub-city > div > button:last-child{
+    background-color: var(--brandclr);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    padding: 0.15rem;
+}
+.sub-city > div > button:nth-child(3){
+    border: 0.04rem solid var(--brandclr);
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    padding: 0.15rem;
+    position: relative;
+    background-color: white;
+}
+.sub-city > div > button{
+    font-size: 0.40rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+.sub-city > div{
+    border-bottom: 0.02rem solid #d4cdcd;
+    margin-left: 0;
+    height: 16rem;
+}
+
+  iframe{
+    width: 100%;
+    height: 100%;
+  }
+  .our_city_Container button{
+    padding: 0.8rem;
+    color: white;
+    border: none;
+    width: 100%;
+    background-color: var(--brandclr);
+  }
+  .our_city_Container button:hover{
+    
+    background-color: #FBE4FF;
+color:#BD55B7 ;
+
+  }
 
 }
+
+
 
 
 /* .our-cancer-treatment-container{
@@ -862,9 +1074,11 @@ display: block;
   }
   .our-cancer-treatment-container h1{
    font-size: 1rem;
+
   }
   .our-cancer-treatment-container p{
    font-size: 0.58rem;
+   height: 3.39rem;
    padding: 0rem 7rem;
   }
   .our__cancer__treatment__container__span{
@@ -877,3 +1091,7 @@ display: block;
       bottom: 0.5rem;
       right: 0.1rem;
   } */
+
+
+  
+
