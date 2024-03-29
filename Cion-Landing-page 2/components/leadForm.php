@@ -24,7 +24,6 @@ switch ($PageTitle) {
                 <input type="text" name="location" placeholder="Preferred Location"  required pattern="[a-zA-Z]{3,}" title="Alphabetic String (Minimum 3 Characters)">
             </div>
         </div>
-    
         <div class="form-textarea">
             <textarea name="message" placeholder="Write Your Message"></textarea>
         </div>

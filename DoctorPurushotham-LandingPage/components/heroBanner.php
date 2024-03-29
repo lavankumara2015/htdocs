@@ -19,17 +19,17 @@ MCh - Surgical Oncology (Osmania)</p>
 <h1>10+</h1>
 <h2>Years of experience</h2>
 </div>
-<div class="years__of__experience__vertical__line"></div>
+<span class="years__of__experience__vertical__line"></span>
 
 <div>
 <h1>4000+</h1>
 <h2>Oncology Surgeries</h2>
 </div>
-<div  class="years__of__experience__vertical__line"></div>
+<span  class="years__of__experience__vertical__line"></span>
 
 <div>
-<h1>20+ Hours</h1>
-<h2>Longest Surgery</h2>
+<h1>10000+</h1>
+<h2>Surgery Hours</h2>
 </div>
 
 </div>

@@ -35,10 +35,12 @@
 <div class="doctor__approach__form__container" >
  <div><img src="/assets/Phone-icon.webp" alt="phone-logo"> +91 7032656153 / 9989835053</div>
  <h1 style="text-align: center;">Book Your Appointment</h1>
- <form action="" method="POST">
- <input type="text" name="name" placeholder="Name" require  >
- <input type="tel" name="phone" placeholder="Phone Number" require>
- <textarea placeholder="Message" name="message"></textarea>
+
+ <form action="/components/formRedirectPage.php" method="POST">
+
+ <input type="text" name="name" placeholder="Name" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters">
+ <input type="tel" name="phone" placeholder="Phone Number" required minlength="10" maxlength="14" title="Minimum 10 Numbers Required">
+ <textarea placeholder="Message" name="message" required minlength="50" maxlength="500" title="Minimum 50 Characters Required" ></textarea>
  <button text="submit">Book Now</button>
  </form>
 </div>
