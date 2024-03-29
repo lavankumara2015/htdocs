@@ -1,4 +1,3 @@
-
 .hero-banner-container{
     width: 18.81rem;
     height: 19.68rem;
@@ -89,19 +88,15 @@ margin-left: 0.6rem;
 .years-of-experience-container > div:first-child > h1 {
     margin-left: 0.8rem;
     }
-    
-
 .years__of__experience__vertical__line{
   display: none;
 } 
 
 
 @media screen and (min-width:768px){
-
 .hero-banner-container{
     width: 36.22rem;
     height: 16.03rem;
-    background-image: url(/assets/HeroBackGroundImage.webp);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -110,48 +105,29 @@ margin-left: 0.6rem;
 
 .hero-banner-container h1{
     font-size: 1.6rem;
-    color: var(--brandClr);
     width: 17.41rem;
     height: 3.77rem;
-    font-weight: 700;
-    line-height: 1.88rem;
     margin: 2.96rem 0 0 0;
 text-align: unset;
 }
 
 .hero-banner-container h2{
-    font-size: 1rem;
-    font-weight: 700;
     margin-top: 0.96rem;
     line-height: 0.9rem;
     margin-left: 0rem;
 }
-.hero-banner-container h3{
-    font-size: 0.62rem;
-    font-weight: 700;
-    color: var(--brandClr);
+.hero-banner-container h3,.hero-banner-container p{
     margin-left: 0rem;
-}
-.hero-banner-container p{
-    font-size: 0.62rem;
-    font-weight: 400;
-    margin-left: 0rem;
-    
 }
 
 .hero-banner-container img{
     width: 15.45rem;
     height: 15.86rem;
-    bottom: 0rem;
-    right: 0rem;
+  position: unset;
 }
 .hero__banner__text{
     position: relative;
     left: 4.02rem;
-}
-.hero__banner__image{
-    position: relative;
-    right: 2.38rem;
 }
 .years-of-experience-container{
     width: 24.53rem;
@@ -171,19 +147,13 @@ text-align: unset;
 
 }
 .years-of-experience-container h1{
-    font-size: 1rem;
-    text-align: center;
     font-weight: 700;
     margin-left: unset;
 }
 .years-of-experience-container h2{
-    font-size: 0.62rem;
     text-align: center;
-    font-weight: 600;
     margin-left: unset;
-
 }
-
 .years__of__experience__vertical__line{
     border: 1px solid #F0D0DD;height: 2.39rem;
     display: block;
