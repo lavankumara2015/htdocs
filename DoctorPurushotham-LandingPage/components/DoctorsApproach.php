@@ -15,7 +15,6 @@
     </div>
 <div>
 <img src="/assets/cancerRibbon.webp" alt="cancerRibbon">
-    
     <div>
         <h1>
         Despite his extensive experience, he remains constantly learning and updating himself on the <span> latest techniques </span> in cancer treatment.  </h1>
@@ -30,8 +29,6 @@
    </div>
 </div>
 </div>
-
-
 <div class="doctor__approach__form__container" >
  <div><img src="/assets/Phone-icon.webp" alt="phone-logo"> +91 7032656153 / 9989835053</div>
  <h1 style="text-align: center;">Book Your Appointment</h1>
