@@ -14,23 +14,15 @@
 </head>
 <body>
     <div class="main-app">
+        
     <!-- navBar -->
     <?php include("./components/navBar.php") ?>
-
 
     <!-- hero-banner -->
   <?php include("./components/heroBanner.php") ?>
 
   <!-- Doctor’s approach to treatment -->
   <?php include("./components/DoctorsApproach.php") ?>
-
-
-</br></br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
 
     </div>
