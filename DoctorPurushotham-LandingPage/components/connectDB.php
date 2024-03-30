@@ -5,7 +5,6 @@ $username = "root";
 $password = ""; 
 $database = "cion"; 
 
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
 
