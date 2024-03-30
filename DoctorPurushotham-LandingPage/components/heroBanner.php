@@ -9,7 +9,7 @@
 MCh - Surgical Oncology (Osmania)</p>
 </div>
 <div class="hero__banner__image">
-<img src="/assets/Dr.Purushotham.webp" alt="Dr.Purushotham-image">
+<img src="./assets/Dr.Purushotham.webp" alt="Dr.Purushotham-image">
 </div>
 </div>
 

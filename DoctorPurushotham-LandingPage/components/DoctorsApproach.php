@@ -5,7 +5,7 @@
 
 <div class="doctor__approach__text">
     <div>
-        <img src="/assets/cancerRibbon.webp" alt="cancerRibbon">
+        <img src="./assets/cancerRibbon.webp" alt="cancerRibbon">
         
         <div>
             <h1>
@@ -14,14 +14,14 @@
         </div>
     </div>
 <div>
-<img src="/assets/cancerRibbon.webp" alt="cancerRibbon">
+<img src="./assets/cancerRibbon.webp" alt="cancerRibbon">
     <div>
         <h1>
         Despite his extensive experience, he remains constantly learning and updating himself on the <span> latest techniques </span> in cancer treatment.  </h1>
     </div>
 </div>
 <div>
-<img src="/assets/cancerRibbon.webp" alt="cancerRibbon">
+<img src="./assets/cancerRibbon.webp" alt="cancerRibbon">
    
    <div>
        <h1>
@@ -30,10 +30,10 @@
 </div>
 </div>
 <div class="doctor__approach__form__container" >
- <div><img src="/assets/Phone-icon.webp" alt="phone-logo"> +91 7032656153 / 9989835053</div>
+ <div><img src="./assets/Phone-icon.webp" alt="phone-logo"> +91 7032656153 / 9989835053</div>
  <h1 style="text-align: center;">Book Your Appointment</h1>
 
- <form action="/components/formRedirectPage.php" method="POST">
+ <form action="./components/formRedirectPage.php" method="POST">
  <input type="text" name="name" placeholder="Name" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters">
  <input type="tel" name="phone" placeholder="Phone Number" required minlength="10" maxlength="14" title="Minimum 10 Numbers Required">
  <textarea placeholder="Message" name="message" required minlength="50" maxlength="500" title="Minimum 50 Characters Required" ></textarea>

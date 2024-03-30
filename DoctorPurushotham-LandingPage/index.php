@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/navbar.css">
    <link rel="stylesheet" href="./styles/heroBanner.css">
    <link rel="stylesheet" href="./styles/DoctorsApproach.css">
-   <link rel="shortcut icon" href="/assets/favicon.webp" type="image/x-icon">
+   <link rel="shortcut icon" href="./assets/favicon.webp" type="image/x-icon">
     <script src="./javaScript/index.js" defer></script>
 </head>
 <body>
