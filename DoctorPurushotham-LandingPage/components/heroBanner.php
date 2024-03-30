@@ -37,19 +37,19 @@ MCh - Surgical Oncology (Osmania)</p>
   function animateValue(id, start, end, duration) {
     var range = end - start;
     var current = start;
-    var increment = range / (duration / 800); // Calculate increment based on duration
+    var increment = range / (duration / 800); 
     var obj = document.getElementById(id);
     var startTime = null;
 
     function updateValue(timestamp) {
       if (!startTime) startTime = timestamp;
       var progress = timestamp - startTime;
-      current = start + increment * progress / 800; // Calculate current value based on progress
+      current = start + increment * progress / 800; 
       if (current >= end) {
         current = end;
         clearInterval(timer);
       }
-      obj.innerHTML = Math.floor(current); // Update the displayed value
+      obj.innerHTML = Math.floor(current);
     }
 
     var timer = setInterval(function() {
