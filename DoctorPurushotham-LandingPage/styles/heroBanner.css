@@ -75,6 +75,7 @@ border-radius: 0.2rem 0 0 0.2rem;
     text-align: center;
     font-weight: 900;
     margin-left: 0.2rem;
+    display: flex;
 }
 .years-of-experience-container h2{
     font-size: 0.63rem;
@@ -95,7 +96,7 @@ margin-left: 0.6rem;
 
 @media screen and (min-width:768px){
 .hero-banner-container{
-    width: 36.22rem;
+    width: 100%;
     height: 16.03rem;
     display: flex;
     flex-direction: row;
@@ -149,6 +150,7 @@ text-align: unset;
 .years-of-experience-container h1{
     font-weight: 700;
     margin-left: unset;
+    display: unset;
 }
 .years-of-experience-container h2{
     text-align: center;
@@ -159,7 +161,10 @@ text-align: unset;
     display: block;
 }
 .years-of-experience-container>div{
-    display: unset;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
     } 
 
 }

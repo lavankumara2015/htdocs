@@ -70,7 +70,7 @@ gap: 0.33rem;
     height: 1.4rem;
     margin-left: 2rem;
     position: relative;
-    top: 0.3rem;
+    top: 0.4rem;
     right: 0.5rem;
 }
 
@@ -140,7 +140,7 @@ section{
     height: 0.88rem;
     position: relative;
     right: 1rem;
-    top: 0.58rem;
+    top: 0.68rem;
     display: unset;
 } 
 .doctor__approach__text h1{
@@ -148,7 +148,7 @@ font-size: 0.62rem;
 width: 18.22rem;
 height: 2.19rem;
 line-height: 0.75rem;
-padding: 0.6rem 0 0rem 0.2rem;
+padding: 0.26rem 0 0rem 0.2rem;
 position: unset;
 }
 
@@ -160,6 +160,8 @@ position: unset;
     height: 3.08rem;
     position: relative;
     right: 0.8rem;
+    display: flex;
+    align-items: center;
 }
 .doctor__approach__form__container{
     width: 9.64rem;
@@ -185,7 +187,7 @@ position: unset;
     height: 0.77rem;
     margin-left: 0.5rem;
     position: relative;
-    top: 0.14rem;
+    top: 0.2rem;
     right: unset;
 }
 

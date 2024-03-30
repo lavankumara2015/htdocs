@@ -1,5 +1,5 @@
 
-<h1 class="doctors-approach-h1">Doctor’s<span> approach to treatment</span></h1>
+<h1 class="doctors-approach-h1">Doctor’s<span> Approach to Treatment</span></h1>
 
 <section>
 

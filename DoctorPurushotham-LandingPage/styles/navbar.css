@@ -30,7 +30,7 @@ nav>a>img{
 
 @media screen and (min-width:768px){
 nav{
-    width: 36.22rem;
+    width: 100%;
     height: 2.62rem;
     padding: 0rem 3.40rem 0rem 2.3rem;
 } 
@@ -45,6 +45,7 @@ height: 1.16rem;
 background-color: var(--brandClr);
 display: block;
 border-radius: 0.12rem;
+border: none;
 }
 nav>button>a{
     text-decoration: none;
@@ -54,6 +55,5 @@ nav>button>a{
 nav>a>img{
 display: none;
 }
-
 
 }
