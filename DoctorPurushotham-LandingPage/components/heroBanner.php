@@ -37,14 +37,14 @@ MCh - Surgical Oncology (Osmania)</p>
   function animateValue(id, start, end, duration) {
     var range = end - start;
     var current = start;
-    var increment = range / (duration / 800); 
+    var increment = range / (duration / 1000); 
     var obj = document.getElementById(id);
     var startTime = null;
 
     function updateValue(timestamp) {
       if (!startTime) startTime = timestamp;
       var progress = timestamp - startTime;
-      current = start + increment * progress / 800; 
+      current = start + increment * progress / 1000; 
       if (current >= end) {
         current = end;
         clearInterval(timer);
@@ -56,8 +56,7 @@ MCh - Surgical Oncology (Osmania)</p>
       requestAnimationFrame(updateValue);
     }, 0);
   }
-
-  animateValue("yearsOfExperience", 0, 10, 2000);
-  animateValue("oncologySurgeries", 0, 4000, 2000);
-  animateValue("surgeryHours", 0, 10000, 2000);
+  animateValue("yearsOfExperience", 0, 10, 1000);
+  animateValue("oncologySurgeries", 0, 4000, 1000);
+  animateValue("surgeryHours", 0, 10000, 1000);
 </script>

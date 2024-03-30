@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="doctor__approach__form__container">
-        <div><img src="./assets/Phone-icon.webp" alt="phone-logo"> +91 7032656153 / 9989835053</div>
+    <div><img src="./assets/Phone-icon.webp" alt="phone-logo"> <a href="tel:+917032656153" class="phone-number">+91 7032656153</a> / <a href="tel:+919989835053" class="phone-number">9989835053</a></div>
         <h1 style="text-align: center;">Book Your Appointment</h1>
         <!-- lead form -->
         <form action="./components/formRedirectPage.php" method="POST"  id="form__submit">

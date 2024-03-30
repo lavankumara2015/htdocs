@@ -61,9 +61,13 @@ gap: 0.33rem;
 .doctor__approach__form__container>div{
     height: 2.32rem;
     background-color: var(--brandClr);
-    color: white;
+    color: white !important;
     border-radius: 0.68rem 0.68rem 0 0;
     font-size: 1rem;
+}
+.phone-number{
+    color: white !important;
+    text-decoration: none;
 }
 .doctor__approach__form__container img{
     width: 1.4rem;

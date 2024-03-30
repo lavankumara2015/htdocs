@@ -1,7 +1,7 @@
 .hero-banner-container{
     width: 18.81rem;
     height: 19.68rem;
-    background-image: url(./assets/HeroBackGroundImage.webp);
+    background-image: url(/assets/HeroBackGroundImage.webp);
 background-size: cover;
 background-position: center;
 overflow: hidden;
