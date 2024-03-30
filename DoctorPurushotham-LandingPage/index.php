@@ -14,7 +14,8 @@
 </head>
 <body>
     <div class="main-app">
-        
+        <!-- DB Connection -->
+    <?php include("./connectDB.php"); ?>
     <!-- navBar -->
     <?php include("./components/navBar.php") ?>
 
