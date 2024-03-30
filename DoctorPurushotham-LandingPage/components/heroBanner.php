@@ -57,7 +57,6 @@ MCh - Surgical Oncology (Osmania)</p>
     }, 0);
   }
 
-  // Call animateValue for each statistic
   animateValue("yearsOfExperience", 0, 10, 2000);
   animateValue("oncologySurgeries", 0, 4000, 2000);
   animateValue("surgeryHours", 0, 10000, 2000);
