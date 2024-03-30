@@ -13,10 +13,7 @@
     <script src="./javaScript/index.js" defer></script>
 </head>
 <body>
-           <!-- DB Connection -->
-           <?php include("./components/connectDB.php"); ?>
     <div class="main-app">
- 
     <!-- navBar -->
     <?php include("./components/navBar.php") ?>
 
