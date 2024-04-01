@@ -10,16 +10,16 @@
     <title>Dr.Purushottam Landing Page</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/navbar.css">
-   <link rel="stylesheet" href="./styles/heroBanner.css">
-   <link rel="stylesheet" href="./styles/DoctorsApproach.css">
- <link rel="shortcut icon" href="./assets/favicon.webp" type="image/x-icon">
-   <link rel="stylesheet" href="./styles/AreaofExpertise.css">
+    <link rel="stylesheet" href="./styles/heroBanner.css">
+    <link rel="stylesheet" href="./styles/doctorsApproach.css">
+    <link rel="shortcut icon" href="./assets/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/AreaofExpertise.css">
+    <link rel="stylesheet" href="./styles/faqs.css">
     <script src="./javaScript/index.js" defer></script>
 </head>
 <body>
 
-<?php include("./components/connectDB.php") ?>
-
+<?php include("./components/connectDB.php")?>
     <div class="main-app">
 
     <!-- navBar -->
@@ -35,6 +35,9 @@
   <!-- Surgical oncologist Dr. Purushotham Area of  Expertise -->
  <?php include("./components/AreaofExpertise.php") ?>
 
+
+ <!-- Faq's -->
+ <?php include("./components/faqs.php") ?>
 
     </div>
 
