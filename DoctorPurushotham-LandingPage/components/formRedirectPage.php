@@ -13,13 +13,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	date_default_timezone_set('Asia/Kolkata');
 	$timestamp = date("Y-m-d H:i:s");
 
-  echo "Name: $name<br>";
-    echo "Phone: $phone<br>";
-    echo "Message: $message<br>";
-    echo "UTM Source: $utm_source<br>";
-    echo "UTM Campaign: $utm_campaign<br>";
-    echo "UTM Medium: $utm_medium<br>";
-    echo "Timestamp: $timestamp<br>";
+//   echo "Name: $name<br>";
+//     echo "Phone: $phone<br>";
+//     echo "Message: $message<br>";
+//     echo "UTM Source: $utm_source<br>";
+//     echo "UTM Campaign: $utm_campaign<br>";
+//     echo "UTM Medium: $utm_medium<br>";
+//     echo "Timestamp: $timestamp<br>";
 
 
     if (empty($errors)) {
