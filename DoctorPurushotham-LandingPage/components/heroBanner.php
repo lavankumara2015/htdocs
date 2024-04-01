@@ -12,27 +12,22 @@ MCh - Surgical Oncology (Osmania)</p>
 <img src="./assets/Dr.Purushotham.webp" alt="Dr.Purushotham-image">
 </div>
 </div>
-
 <div class="years-of-experience-container">
-
 <div>
 <h1><span id="yearsOfExperience">0</span> +</h1>
 <h2>Years of experience</h2>
 </div>
 <span class="years__of__experience__vertical__line"></span>
-
 <div>
 <h1><span id="oncologySurgeries">0</span> +</h1>
 <h2>Oncology Surgeries</h2>
 </div>
 <span  class="years__of__experience__vertical__line"></span>
-
 <div>
 <h1><span id="surgeryHours">0</span> +</h1>
 <h2>Surgery Hours</h2>
 </div>
 </div>
-
 <script>
   function animateValue(id, start, end, duration) {
     var range = end - start;
@@ -56,7 +51,7 @@ MCh - Surgical Oncology (Osmania)</p>
       requestAnimationFrame(updateValue);
     }, 0);
   }
-  animateValue("yearsOfExperience", 0, 10, 1000);
-  animateValue("oncologySurgeries", 0, 4000, 1000);
-  animateValue("surgeryHours", 0, 10000, 1000);
+  animateValue("yearsOfExperience", 0, 10, 1700);
+  animateValue("oncologySurgeries", 0, 4000, 1700);
+  animateValue("surgeryHours", 0, 10000, 1700);
 </script>

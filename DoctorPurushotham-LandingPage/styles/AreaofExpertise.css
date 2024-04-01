@@ -1,0 +1,79 @@
+
+.surgical-oncologist{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+.surgical-oncologist>span{
+    color: var(--brandClr);
+}
+.surgical__oncologist__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.72rem;
+    margin-top: 1.38rem;
+}
+
+.surgical__oncologist__cards{
+    display: flex;
+    width: 8.18rem;
+    height: 9.63rem;
+    border: 0.035rem solid #6726581F;
+    box-shadow: 0rem 0.175rem 0.79rem 0rem #9EA8BD4F;
+    box-shadow: 0.024rem 0.024rem 0.146rem 0rem #00000026;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.35rem;
+
+}
+
+.surgical__oncologist__cards img{
+   width: 4.40rem ;
+   height: 4.40rem;
+    
+}
+.surgical__oncologist__cards h1{
+   font-size: 1rem ;
+   font-weight:600;
+   width: 6.45rem;
+   height: 2.27rem;
+     margin-top: 0.65rem;
+ }
+
+
+@media screen and (min-width:768px){
+
+    .surgical__oncologist__container{
+        gap: 0.61rem;
+        margin-top: 1.38rem;
+    }
+
+    .surgical__oncologist__cards{
+        width: 6.51rem;
+        height: 7.38rem;
+        border: 0.033rem solid #6726581F;
+        box-shadow: 0rem 0.13rem 0.6rem 0rem #9EA8BD4F;
+        box-shadow: 0.02rem 0.02rem 0.11rem 0rem #00000026;
+        border-radius: 0.27rem;
+
+    }
+
+    .surgical__oncologist__cards img{
+       width: 3.38rem ;
+       height: 3.38rem;
+        
+    }
+    .surgical__oncologist__cards h1{
+       font-size: 0.622rem ;
+       width: 5.8rem;
+       height: 1.20rem;
+         margin-top: 0.4rem;
+     }
+
+
+
+
+}

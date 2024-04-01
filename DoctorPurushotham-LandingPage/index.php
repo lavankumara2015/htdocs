@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="./styles/navbar.css">
    <link rel="stylesheet" href="./styles/heroBanner.css">
    <link rel="stylesheet" href="./styles/DoctorsApproach.css">
-   <link rel="shortcut icon" href="./assets/favicon.webp" type="image/x-icon">
+ <link rel="shortcut icon" href="./assets/favicon.webp" type="image/x-icon">
+   <link rel="stylesheet" href="./styles/AreaofExpertise.css">
     <script src="./javaScript/index.js" defer></script>
 </head>
 <body>
+
+<?php include("./components/connectDB.php") ?>
+
     <div class="main-app">
+
     <!-- navBar -->
     <?php include("./components/navBar.php") ?>
 
@@ -22,8 +27,23 @@
 
   <!-- Doctor’s approach to treatment -->
   <?php include("./components/DoctorsApproach.php") ?>
+</br>
+
+  <!-- Surgical oncologist Dr. Purushotham Area of  Expertise -->
+ <?php include("./components/AreaofExpertise.php") ?>
 
 
     </div>
+
+
+  
+
+
+</br></br></br></br></br>
+
+
+
+
+
 </body>
 </html>
