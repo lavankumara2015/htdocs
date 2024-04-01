@@ -29,7 +29,7 @@
   <?php include("./components/heroBanner.php") ?>
 
   <!-- Doctor’s approach to treatment -->
-  <?php include("./components/DoctorsApproach.php") ?>
+  <?php include("./components/doctorsApproach.php") ?>
 </br>
 
   <!-- Surgical oncologist Dr. Purushotham Area of  Expertise -->
