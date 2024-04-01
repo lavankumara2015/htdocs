@@ -1,3 +1,16 @@
+<?php
+error_reporting(E_ALL ^E_NOTICE);
+
+ob_start();
+ 
+$utm_source = (isset($_REQUEST['utm_source']) && $_REQUEST['utm_source'] != '') ? $_REQUEST['utm_source'] : '';
+$utm_campaign = (isset($_REQUEST['utm_campaign']) && $_REQUEST['utm_campaign'] != '') ? $_REQUEST['utm_campaign'] : '';
+$utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') ? $_REQUEST['utm_medium'] : '';
+
+?>
+
+
+
 <h1 class="doctors-approach-h1">Doctor’s<span> Approach to Treatment</span></h1>
 
 <section>
@@ -33,9 +46,16 @@
         <h1 style="text-align: center;">Book Your Appointment</h1>
         <!-- lead form -->
         <form action="./components/formRedirectPage.php" method="POST"  id="form__submit">
+
+                        <input type="hidden" name="utm_source" id="utm_source" value="<?php echo $utm_source;?>">
+						<input type="hidden" name="utm_campaign" id="utm_campaign" value="<?php echo $utm_campaign;?>">
+						<input type="hidden" name="utm_medium" id="utm_medium" value="<?php echo $utm_medium;?>">
+						<input type="hidden" name="form_source" id="form_source" value="Dr.Purushotham-LandingPage">
+
+
             <input type="text" id="name" name="name" placeholder="Name" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters">
             <input type="tel" id="phone" name="phone" placeholder="Phone Number" required minlength="10" maxlength="14" title="Minimum 10 Numbers Required">
-            <textarea placeholder="Message" id="message" name="message" required minlength="20" maxlength="500" title="Minimum 20 Characters Required"></textarea>
+            <textarea  placeholder="Message" id="message" name="message" required minlength="20" maxlength="500" title="Minimum 20 Characters Required"></textarea>
             <button type="submit">Book Now</button>
         </form>
     </div>
