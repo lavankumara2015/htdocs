@@ -54,8 +54,8 @@ margin-top: 1.5rem;
 }
 
 .footer-our-vision h2{
-    padding: 0.5rem 0 0.5rem 0;
-    border: 0.06rem solid var(--bg-main-color);
+padding: 0.5rem 0 0.5rem 0;
+border: 0.06rem solid var(--bg-main-color);
 display: flex;
 justify-content: center;
 align-items: center;
@@ -90,12 +90,13 @@ margin-top: 0.5rem;
 }
 .footer-cipher-oncology{
     width: 100%;
-    height: 3rem;
+    height: 2.8rem;
     background-color: black;
     color: white;
     display:flex;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
 }
 .fas b{
     font-size: 0.8rem;

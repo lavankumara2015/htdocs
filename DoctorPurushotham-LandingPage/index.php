@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="dr. purushottam landing page" content="landing page" >
-    <title>Dr.Purushottam Landing Page</title>
+    <title>Dr.Purushotham Landing Page</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/heroBanner.css">

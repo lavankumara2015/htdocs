@@ -67,7 +67,7 @@
 </footer></br>
 
 <div class="footer-cipher-oncology">
-<h5> @ CIPHER ONCOLOGY</h5>
+<h5>© CIPHER ONCOLOGY</h5>
 </div>
 </body>
 </html>

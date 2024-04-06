@@ -23,9 +23,8 @@ $array=[
     <?php endforeach; ?>
 </div>
 
-
-  <script>
- document.addEventListener('DOMContentLoaded', function() {
+<script>
+document.addEventListener('DOMContentLoaded', function() {
   const accordionItems = document.querySelectorAll('.accordion-item');
 
   accordionItems.forEach(item => {
@@ -35,17 +34,25 @@ $array=[
 
     title.addEventListener('click', function() {
       const isOpen = content.style.display === 'block';
-      
-   
+
       accordionItems.forEach(otherItem => {
         otherItem.querySelector('.accordion-content').style.display = 'none';
         otherItem.querySelector('.arrow').textContent = '+';
         otherItem.querySelector('.accordion-title').style.backgroundColor = '#EEEEEE';
       });
 
-      content.style.display = isOpen ? 'none' : 'block';
-      arrow.textContent = isOpen ? '+' : '-';
-      title.style.backgroundColor = isOpen ? '#EEEEEE' : '#F0D0DD';
+      if (!isOpen) {
+        setTimeout(function() {
+          content.style.display = 'block';
+          arrow.textContent = '-';
+          title.style.backgroundColor = '#F0D0DD';
+        }, 250); 
+      } else {
+
+        content.style.display = 'none';
+        arrow.textContent = '+';
+        title.style.backgroundColor = '#EEEEEE';
+      }
     });
   });
 });

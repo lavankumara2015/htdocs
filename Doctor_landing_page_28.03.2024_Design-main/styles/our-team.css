@@ -1,0 +1,36 @@
+.our-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-team__banner {
+  width: 19rem;
+  margin-top: .509rem;
+  display: flex;
+  justify-content: center;
+}
+
+.our-team__banner img {
+  width: 19rem;
+  height: 8.545rem;
+}
+
+.our-team .resuable-head-title{
+    text-transform: initial;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .our-team__banner {
+    width: 35.6981rem;
+    margin-top: .509rem;
+  }
+
+  .our-team__banner img {
+    width: 32.01886rem;
+    height: 10.7547rem;
+  }
+}
+

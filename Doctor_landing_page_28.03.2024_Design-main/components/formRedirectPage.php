@@ -23,9 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     if (empty($error)) {
-        $sql = 'INSERT INTO ccl_immunotherapy (name, phone, message, source, utm_source, utm_campaign, utm_medium, created_on) VALUES (?,?,?,?,?,?,?,?)';
+        $sql = 'INSERT INTO leadform (name, phone, message, utm_source, utm_campaign, utm_medium, created_on,form_source) VALUES (?,?,?,?,?,?,?,?)';
         $queryPrepare = $conn->prepare($sql);
-        $queryPrepare->bind_param('ssssssss', $name, $phone, $message, $type,$utm_source,$utm_campaign,$utm_medium,$timestamp);
+        $queryPrepare->bind_param('ssssssss', $name, $phone, $message, $utm_source,$utm_campaign,$utm_medium,$timestamp,$type );
         
         if ($queryPrepare->execute()) {
             echo '<h1>Thank you for your booking</h1>';
