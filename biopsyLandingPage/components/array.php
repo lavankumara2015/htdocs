@@ -14,7 +14,31 @@ $biopsyProcess=[
     ["10. Post-Procedure Care :","The patient is monitored for any immediate complications, and instructions for post-procedure care, such as wound care and activity restrictions, are provided."],
     ["11. Follow-up :","The biopsy sample is sent to a laboratory for analysis by a pathologist. Results are communicated to the patient by the healthcare provider, and further treatment or additional testing may be recommended based on the biopsy findings."]
 
-]
+];
+
+
+$typesOfBiopsy = [
+    ['assets\typesofBiopsy\needleBiopsy.webp', 'Needle Biopsy'],
+    ['assets\typesofBiopsy\surgicalBiopsy.webp', 'Surgical Biopsy'],
+    ['assets\typesofBiopsy\endoscopicBiopsy.webp', 'Endoscopic Biopsy'],
+    ['assets\typesofBiopsy\imageGuidedBiopsy.webp', 'Image-Guided Biopsy'],
+    ['assets\typesofBiopsy\punchBiopsy.webp', 'Punch Biopsy'],
+    ['assets\typesofBiopsy\skinBiopsy.webp', 'Skin Biopsy'],
+    ['assets\typesofBiopsy\liquidBiopsy.webp', 'Liquid Biopsy'],
+    ['assets\typesofBiopsy\BoneBiopsy.webp', ' Bone Marrow Biopsy'],
+];
+
+
+$costOfBiopsyArray = [
+    ["Locations"],
+    ["Imaging Costs"],
+    ["Biopsy Supplies and Equipment"],
+    ["Additional Services/ Complications"],
+    ["Type of Anesthesia (if needed)"],
+    ["Insurance Coverage"],
+    ["Medications"],
+    ["Pathology Services"]
+];
 
 
 ?>
