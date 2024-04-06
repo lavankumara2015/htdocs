@@ -11,10 +11,10 @@
       background-size: cover;
       display: flex;
       align-items: center;
+      margin-top: 1.5rem;
   }
   
   .get-in-touch__h1{
-     
       font-size: 0.62rem;
       color: white;
       font-weight: 600;

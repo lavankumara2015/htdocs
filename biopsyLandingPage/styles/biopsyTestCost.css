@@ -27,7 +27,7 @@
     width: 17.90rem;
     height: 13.4rem;
     font-weight: 600;
-    MARGIN-LEFT: 0.4REM;
+    MARGIN-LEFT: 0.45rem;
 }
 .biopsy-test-cost__table__td{
     color: var(--brandClr);
@@ -41,6 +41,7 @@
     position: relative;
     bottom: 0.7rem;
     text-align: center;
+
 }
 
 .biopsy-test-cost__text p{
@@ -94,52 +95,24 @@ table{
 @media screen and (min-width:768px){
 
     .biopsy-test-cost{
-        display: flex;
         flex-direction: row !important;
         gap: 1.88rem;
-        justify-content: center;
         margin-top: 2.26rem;
-        
-    }
-    .biopsy-test-cost__table th{
-        background-color: var(--brandClr);
-        color: white;
-        font-size:0.62rem ;
-        font-weight: 600;
-        border: 0;
-    }
-    .biopsy-test-cost__table tr:first-child{
-
-        width: 20rem;
-        height: 1.94rem;
     }
     .biopsy-test-cost__table td{
         font-size:0.62rem ;
-        width: 8.89rem;
     }
     .biopsy-test-cost__table{
         width: 20rem;
-        height: 13.4rem;
-        font-weight: 600;
         margin-left: 0;
     }
-    .biopsy-test-cost__table__td{
-        color: var(--brandClr);
-        text-align: center;
-        width: 8.98rem;
-
-    }
     .biopsy-test-cost__text h1{
-        color: var(--brandClr);
-        font-size: 1rem;
         width: 9.94rem;
         line-height: 1.26rem;
-    position: relative;
-    bottom: 0.7rem;
+    text-align: unset;
     }
     .biopsy-test-cost__text p{
         font-size: 0.62rem;
-        font-weight: 400;
         width: 9.56rem; 
        line-height: 0.78rem;
        position: relative;
@@ -147,22 +120,8 @@ table{
        margin-left: 0rem;
 
     }
-   
-    .biopsy-test-cost__text:nth-child(2){
-    margin-top: 0.45rem;
-    }
-
-.biopsy-test-cost__table__td1{
-    padding-left: 0.62rem;
-}
-.biopsy-test-cost__text__p2{
-    padding: 0.52rem 0 0.52rem 0;
-}
-
  .biopsy-test-cost__text button{
-background-color: var(--brandClr);   
 font-size: 0.62rem;
-border: none;
 width: 7.45rem;
 height: 1.07rem;
 border-radius: 0.11rem;
