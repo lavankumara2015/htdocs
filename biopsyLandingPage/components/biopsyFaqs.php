@@ -1,25 +1,22 @@
-<?php include("./components/connectDB.php") ?>
 
 <?php
-$sql = 'SELECT * FROM biopsy_faqs';
+$sql = 'SELECT * FROM lp_faqs WHERE lp_name = "biopsy_landing_page"';
 $result = mysqli_query($conn, $sql);
-
 $faq_array = [];
 while ($row = mysqli_fetch_assoc($result)) {
     $faq_array[] = $row;
 }
 ?>
-
 <h1 class="faqs-h1">FAQs</h1>
 <div class="accordion-main-container">
     <div class="accordion">
         <?php for ($i = 0; $i < 3; $i++) : ?>
             <div class="accordion-item <?php echo $i === $defaultIndex ? 'default-open' : ''; ?>">
                 <div class="accordion-title">
-                    <p><?php echo $faq_array[$i]['biopsy_question']; ?></p>
+                    <p><?php echo $faq_array[$i]['lp_question']; ?></p>
                     <span class="arrow">+</span>
                 </div>
-                <div class="accordion-content"><?php echo $faq_array[$i]['biopsy_answer']; ?></div>
+                <div class="accordion-content"><?php echo $faq_array[$i]['lp_answer']; ?></div>
             </div>
         <?php endfor; ?>
     </div>
@@ -28,10 +25,10 @@ while ($row = mysqli_fetch_assoc($result)) {
         <?php for ($i = 3; $i < count($faq_array); $i++) : ?>
             <div class="accordion-item <?php echo $i === $defaultIndex ? 'default-open' : ''; ?>">
                 <div class="accordion-title">
-                    <p><?php echo $faq_array[$i]['biopsy_question']; ?></p>
+                    <p><?php echo $faq_array[$i]['lp_question']; ?></p>
                     <span class="arrow">+</span>
                 </div>
-                <div class="accordion-content"><?php echo $faq_array[$i]['biopsy_answer']; ?></div>
+                <div class="accordion-content"><?php echo $faq_array[$i]['lp_answer']; ?></div>
             </div>
         <?php endfor; ?>
     </div>

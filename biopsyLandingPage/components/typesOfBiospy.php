@@ -27,7 +27,7 @@
                     target area for examination under a microscope</p>
             </div>
             <div class="popup-container__popup__text__container">
-                <h3>To Know More About The Doctor</h3>
+            
                 <form method="POST" action="components/formData.php">
                     <input name="username" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters" type="text" placeholder="Name" name="name" />
                     <input name="userPassword" type="tel" required minlength="10" maxlength="14" title="Minimum 10 Numbers Required" placeholder="Phone number" name="phone" />

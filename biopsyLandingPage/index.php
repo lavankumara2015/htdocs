@@ -16,14 +16,19 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/banner.css">
     <link rel="stylesheet" href="./styles/whyCion.css">
-   <link rel="stylesheet" href="./styles/costOfBiopsy.css">
-   <link rel="stylesheet" href="./styles/typesOfBiopsy.css">
- <link rel="stylesheet" href="./styles/modalBox.css">
-   <script src="./javascript/index.js" defer></script>
+    <link rel="stylesheet" href="./styles/costOfBiopsy.css">
+    <link rel="stylesheet" href="./styles/typesOfBiopsy.css">
+    <link rel="stylesheet" href="./styles/modalBox.css">
+    <link rel="stylesheet" href="./styles/patientExperience.css">
+    <script src="./javascript/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
 <body>
     <div class="main-app-container">
+    
+    <!-- connectDB -->
+   <?php include("./components/connectDB.php") ?>
 
     <!-- arrays -->
     <?php include("./components/array.php") ?>
@@ -49,15 +54,65 @@
     <!-- How is the Biopsy Process Done ? -->
     <?php include("./components/biopsyProcess.php") ?>
 
-    <!-- costofbiopsy -->
+    <!-- cost of biopsy -->
     <?php include("./components/costOfBiopsy.php") ?>
 
+
+
+
+
+    
     <!-- faqs -->
     <?php include("./components/biopsyFaqs.php") ?>
 
     <!-- footer -->
     <?php include("./components/footer.php") ?>
 
+
+
+ <!-- patientExperience -->
+
+ <?php  include("./components/patientExperience.php") ?>
+
+
+
+ <br/> <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+
+
+
+
+
+
+
 </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView : 1,
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+      clickable : true,
+      centeredSlides : true
+    },
+    breakpoints : {
+      768 : {
+        slidesPerView : 2
+      }
+    }
+    
+  });
+</script>
+
+
 </body>
 </html>
