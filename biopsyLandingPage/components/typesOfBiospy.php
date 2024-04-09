@@ -25,15 +25,28 @@
                 <p>A Needle Biopsy is a minimally invasive procedure that uses a 
                     thin needle to retrieve a small cancer tissue sample from the
                     target area for examination under a microscope</p>
+                <h2>Please Fill the Form and our Team will reach out to you shortly</h2>
             </div>
-            <div class="popup-container__popup__text__container">
-            
+            <div class="popup-container_popuptext_container">
+                <h3>To Know More About The Doctor</h3>
                 <form method="POST" action="components/formData.php">
                     <input name="username" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters" type="text" placeholder="Name" name="name" />
                     <input name="userPassword" type="tel" required minlength="10" maxlength="14" title="Minimum 10 Numbers Required" placeholder="Phone number" name="phone" />
                     <button type="submit">Submit</button>
                     <label>Call us at:</label>
                     <a href="tel:1800 120 2676"><button type="button">1800 120 2676</button></a>
+                    <div class="popup-container__steps-container">
+                        <p>Step 1: <br/>
+                            <span> Share your Reports</span>
+                        </p>
+                        <p>Step 2: <br/>
+                            <span>Doctor Will review the reports</span>
+                        </p>
+                        <p>Step 3: <br/>
+                            <span>Our Team will get back to you with 
+Free Cost estimation</span>
+                        </p>
+                    </div>
                 </form>
             </div>
         </div>

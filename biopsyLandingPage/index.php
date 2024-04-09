@@ -74,26 +74,29 @@
 
 
 </div>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+                clickable: true,
+                KeyboardEvent: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next-custom",
+                prevEl: ".swiper-button-prev-custom",
+            },
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView : 1,
-    pagination: {
-      el: ".swiper-pagination",
-      dynamicBullets: true,
-      clickable : true,
-      
-    },
-    breakpoints : {
-      768 : {
-        slidesPerView : 1,
-      }
-    }
-    
-  });
-</script>
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                }
+            }
 
+        });
+    </script>
 
 </body>
 </html>
