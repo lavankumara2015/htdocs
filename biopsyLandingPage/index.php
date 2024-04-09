@@ -45,8 +45,12 @@
     <!-- whyCion -->
     <?php include("./components/whyCion.php") ?>
 
-   <!-- type of biopsy -->
-   <?php include("./components/typesOfBiospy.php") ?>
+    <!-- type of biopsy -->
+    <?php include("./components/typesOfBiospy.php") ?>
+
+    <!-- patientExperience -->
+
+   <?php  include("./components/patientExperience.php") ?>
 
     <!-- get in touch -->
     <?php include("./components/getInTouch.php") ?>
@@ -65,21 +69,6 @@
 
 
 
- <!-- patientExperience -->
-
- <?php  include("./components/patientExperience.php") ?>
-
-
-
- <br/> <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
 
 
 

@@ -109,7 +109,7 @@ color: var(--brandClr);
     .costof-biopsy__subcontainer > ul{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 2.1rem;
+        column-gap: 1.38rem;
         order: 1;
     }
     
