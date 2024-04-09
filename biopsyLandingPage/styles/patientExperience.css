@@ -69,13 +69,13 @@
     align-items: center;
     width: 100%;
     position: absolute;
-    top: 9.8rem;
-  }
+    top: 10.25rem; 
+   }
 
   .swiper-slide > div > h2{
     color: #000000;
     font-weight: 600;
-    font-size: 0.45rem;
+    font-size: 0.64rem;
     position: absolute;
     left: 1.5rem;
   }
@@ -97,6 +97,9 @@
 .star-rating span.selected ~ span:before {
     content: "\2605";
     color: #f7a531;
+    position: relative;
+    bottom: 0.5rem;
+    left: 0.5rem;
 }
 
 
