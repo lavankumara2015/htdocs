@@ -26,10 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $queryPrepare->bind_param('ssssssss', $name, $phone, $message, $utm_source, $utm_campaign, $utm_medium, $timestamp, $type);
         
         if ($queryPrepare->execute()) {
-            echo '<h1>Thank you for your booking</h1>';
-            echo "<h2>name : $name</h2>";
-            echo "<h2>phone number : $phone </h2>";
-            echo "<h2>message : $message </h2>";
+            echo '<script>window.location.href = "https://www.cioncancerclinics.com/thankyou";</script>';
         } else {
             echo "<h1>Error:</h1> " . $sql . "<br>" . $conn->error;
         }

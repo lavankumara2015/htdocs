@@ -38,5 +38,17 @@ $costOfBiopsyArray = [
     ["Pathology Services"]
 ];
 
+$PatientExperiences= [
+
+    ["The biopsy services at CION Cancer Clinics surpassed my expectations. The staff was incredibly supportive and empathetic. The doctors were thorough, taking time to explain the procedure and its implications. The clinic's modern facilities ensured a seamless biopsy process.","Shiva<br>
+Hyderabad","5"],
+    ["Dr. Gundu Naresh recommended a biopsy during our first visit. We were unsure at first, but with the support of the doctor and staff at CION Cancer Clinics, we were able to undergo the procedure smoothly and get an accurate diagnosis without needing extra tests. Thank you, CION Cancer Clinics, for your help and care.","K Santosh Kumar
+    <br>
+    Hyderabad","5"],
+    ["My mother was diagnosed with breast cancer, and initially, we were afraid of the biopsy because we heard it could be very expensive. However, after contacting CION Cancer Clinics, they offered us a very reasonable price, with the expertise of oncologist Dr. Purushotham Reddy.","Sai Teja<br>
+    Hyderabad","5"],
+    ["Our experience with CION Cancer Clinics was great. Dr. Muralidhar explained why I needed a biopsy, and the results confirmed the diagnosis. We then had successful surgery. Thank you, Dr. Muralidhar, for everything.","Sanju<br>
+    Hyderabad","5"]
+]
 
 ?>

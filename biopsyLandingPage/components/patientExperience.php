@@ -6,46 +6,28 @@
         Their words of appreciation keep us going.</p>
         <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-            <h1>"Dr. Imad Sir was very humble, and explaind why biopsy is required, and result says no need to worry, thank you cion cancer clinics team."</h1>
-            <hr />
+        <?php foreach ($PatientExperiences as $details): ?>
+        <div class="swiper-slide">
+            <h1><?php echo $details[0]; ?></h1>
+            <hr>
             <div>
-                <h2>K Santosh Kumar <br />
-                    Hyderabad</h2>
-                <span>start</span>
+                <h2><?php echo $details[1]; ?></h2>
+                <span class="star-rating">
+                    <?php 
+                    $rating = intval($details[2]);
+                    $stars = min(5, max(0, $rating)); 
+                    for ($i = 0; $i < $rating ; $i++) {
+                        if ($i < $stars) {
+                            echo "<span class=\"selected\"></span>";
+                        } else {
+                            echo "<span></span>";
+                        }
+                    }
+                    ?>
+                </span>
             </div>
-      </div>
-      <div class="swiper-slide">
-            <h1>"Dr. Imad Sir was very humble, and explaind why biopsy is required, and result says no need to worry, thank you cion cancer clinics team."</h1>
-            <hr />
-            <div>
-                <h2>K Santosh Kumar <br>
-                    Hyderabad</h2>
-                <span>start</span>
-            </div>
-      </div>
-
-
-      <div class="swiper-slide">
-            <h1>"Dr. Imad Sir was very humble, and explaind why biopsy is required, and result says no need to worry, thank you cion cancer clinics team."</h1>
-            <hr />
-            <div>
-                <h2>K Santosh Kumar <br>
-                    Hyderabad</h2>
-                <span>start</span>
-            </div>
-      </div>
-
-      <div class="swiper-slide">
-            <h1>"Dr. Imad Sir was very humble, and explaind why biopsy is required, and result says no need to worry, thank you cion cancer clinics team."</h1>
-            <hr />
-            <div>
-                <h2>K Santosh Kumar <br>
-                    Hyderabad</h2>
-                <span>start</span>
-            </div>
-      </div>
-
+        </div>
+        <?php endforeach; ?>
     </div>
     <div class="swiper-pagination"></div>
   </div>
@@ -54,6 +36,5 @@
 
 
 
-<!--  -->
 
 

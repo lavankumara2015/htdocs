@@ -57,11 +57,6 @@
     <!-- cost of biopsy -->
     <?php include("./components/costOfBiopsy.php") ?>
 
-
-
-
-
-    
     <!-- faqs -->
     <?php include("./components/biopsyFaqs.php") ?>
 
@@ -89,9 +84,6 @@
 
 
 
-
-
-
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -102,11 +94,11 @@
       el: ".swiper-pagination",
       dynamicBullets: true,
       clickable : true,
-      centeredSlides : true
+      
     },
     breakpoints : {
       768 : {
-        slidesPerView : 2
+        slidesPerView : 1,
       }
     }
     

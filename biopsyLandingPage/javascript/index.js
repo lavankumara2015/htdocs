@@ -53,3 +53,11 @@ const observer = new IntersectionObserver((entries) => {
 }, options);
 
 observer.observe(centerEl)
+
+
+
+
+
+
+
+

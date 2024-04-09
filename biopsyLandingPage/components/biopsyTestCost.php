@@ -13,31 +13,27 @@
  </tr>
  <tr>
     <td class="biopsy-test-cost__table__td1">Biopsy Procedure</td>
-    <td class="biopsy-test-cost__table__td">Rs.2,000/-</td>
+    <td class="biopsy-test-cost__table__td">Rs.1,999/-</td>
  </tr>
  <tr>
-    <td class="biopsy-test-cost__table__td1">Biopsy with Gun (If needed)</td>
-    <td  class="biopsy-test-cost__table__td">Rs. 5,000/-</td>
+    <td class="biopsy-test-cost__table__td1">Biopsy Gun</td>
+    <td  class="biopsy-test-cost__table__td">Rs.2,999/-</td>
  </tr>
  <tr>
-    <td class="biopsy-test-cost__table__td1">Biopsy and Histopathology</td>
-    <td  class="biopsy-test-cost__table__td">Rs. 6,000/-</td>
+    <td class="biopsy-test-cost__table__td1">Histopathology</td>
+    <td  class="biopsy-test-cost__table__td">Rs.999/-</td>
  </tr>
  <tr>
-    <td class="biopsy-test-cost__table__td1"> CT Guided Biopsy</td>
-    <td  class="biopsy-test-cost__table__td">Rs. 10,000/-</td>
+    <td class="biopsy-test-cost__table__td1">CT Guided Biopsy</td>
+    <td  class="biopsy-test-cost__table__td">Rs.9,999/-</td>
  </tr>
  <tr>
-    <td class="biopsy-test-cost__table__td1">Ultrasound Guided Biopsy - Minor</td>
-    <td  class="biopsy-test-cost__table__td">Rs. 3,000/-</td>
- </tr>
- <tr>
-    <td class="biopsy-test-cost__table__td1">Ultrasound Guided Biopsy - Major</td>
-    <td  class="biopsy-test-cost__table__td">Rs. 6,000/-</td>
+    <td class="biopsy-test-cost__table__td1">US Guided Biopsy</td>
+    <td  class="biopsy-test-cost__table__td">Rs.2,999/-</td>
  </tr>
  <tr>
     <td class="biopsy-test-cost__table__td1">Surgical Biopsy</td>
-    <td  class="biopsy-test-cost__table__td">Rs. 10,000/- to 60,000/-</td>
+    <td  class="biopsy-test-cost__table__td"><span>Rs.9,999/-</span> <b>*These are all Base Prices</b></td>
  </tr>
 
  </table>  
