@@ -31,7 +31,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
         <div class="banner__specialilty-texts">
             <p>
                 <img src="assets/banner-icon-1.webp" alt="cost image">
-                Biopsy Test cost starts&nbsp;<span>@Rs. 1999</span>
+                Biopsy Test cost starts&nbsp;<span>@Rs. 1999/-</span>
             </p>
             <p>
                 <img src="assets/banner-icon-2.webp" alt="cost image">

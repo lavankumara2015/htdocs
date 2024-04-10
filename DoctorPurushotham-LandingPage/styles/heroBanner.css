@@ -103,7 +103,7 @@ margin-left: 0.39rem;
 @media screen and (min-width:768px){
 .hero-banner-container{
     width: 100%;
-    height: 16.03rem;
+    height: 13.62rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -114,7 +114,7 @@ margin-left: 0.39rem;
     font-size: 1.6rem;
     width: 17.41rem;
     height: 3.77rem;
-    margin: 2.96rem 0 0 0;
+    margin: 0.88rem 0 0 0;
 text-align: unset;
 }
 
@@ -129,7 +129,7 @@ text-align: unset;
 
 .hero-banner-container img{
     width: 15.45rem;
-    height: 15.86rem;
+    /* height: 13.6rem; */
   position: unset;
 }
 .hero__banner__text{
@@ -147,7 +147,7 @@ text-align: unset;
     justify-content: space-around;
     margin-left: 5.85rem;
     position: relative;
-    bottom: 1.6rem;
+    bottom: 2.8rem;
     top:unset;
     left: unset;
     gap: 0;

@@ -1,6 +1,6 @@
 <div class="why-cion">
     <h1 class="why-cion__title">
-        Why <span>Choose CION</span>
+        Why <span>Choose CION ?</span>
     </h1>
     <div class="why-cion__animation-container">
         <div class="why-cion__center">

@@ -39,7 +39,7 @@
     color: var(--brandClr);
     font-size: 1rem;
     position: relative;
-    bottom: 0.7rem;
+    bottom: 0.4rem;
     text-align: center;
 
 }
@@ -100,6 +100,10 @@ table{
        position: relative;
        left: 2rem;
    }
+   
+   .biopsy-test-cost__table-large-devices{
+    display : none;
+}
 
 @media screen and (min-width:768px){
 
@@ -110,6 +114,8 @@ table{
     }
     .biopsy-test-cost__table td{
         font-size:0.62rem ;
+        height : 1.773rem;
+        width : 10.03rem;
     }
     .biopsy-test-cost__table{
         width: 20rem;
@@ -138,13 +144,20 @@ font-weight: 600;
 margin: 0rem;
 }
 .biopsy-test-cost__table__td>b{
- font-size: 0.35rem;
+ font-size: 0.33rem;
  position: relative;
- left: 1.5rem;
- top: 0.55rem;
+ left: 0rem;
+ top: 0.6rem;
 }
 .biopsy-test-cost__table__td>span{
     position: relative;
     left: 2rem;
+}
+.biopsy-test-cost__table-small-devices{
+    display : none !important;
+}
+.biopsy-test-cost__table-large-devices{
+    display : block;
+    height: 14.37rem;
 }
 }
