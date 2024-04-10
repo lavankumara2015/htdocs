@@ -86,7 +86,7 @@
 .banner__form-top img {
   height: 1.45rem;
   width: 1.45rem;
-  margin-right: 0.681rem;
+  margin-right: 0.4rem;
 }
 
 .banner__form-heading {
@@ -242,7 +242,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #f2f2f2;
-    width: 10.18rem;
+    width: 10rem;
     height: 11rem;
     position: absolute;
     left: 23.0188rem;
@@ -361,7 +361,7 @@
     display: inline-flex;
     position: absolute;
     bottom: 1.85rem;
-    left: 23rem;
+    left: 22.8rem;
     transform: initial;
   }
 
