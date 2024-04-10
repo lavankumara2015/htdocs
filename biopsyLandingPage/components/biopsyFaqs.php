@@ -66,7 +66,7 @@ while ($row = mysqli_fetch_assoc($result)) {
           });
 
           content.style.display = isOpen ? 'none' : 'block';
-          arrow.textContent = isOpen ? '+' : '-';
+          arrow.innerHTML = isOpen ? '+' : '<span style="font-size:1.6rem;">-<span>';
           arrow.style.bottom = isOpen ? '0px' : '10px';
           title.classList.toggle('color-change', !isOpen);
         });

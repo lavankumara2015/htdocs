@@ -20,7 +20,10 @@
     <link rel="stylesheet" href="./styles/typesOfBiopsy.css">
     <link rel="stylesheet" href="./styles/modalBox.css">
     <link rel="stylesheet" href="./styles/patientExperience.css">
+    <link rel="stylesheet" href="./styles/ourlocation.css">
+    <link rel="stylesheet" href="./styles/reusable.css">
     <script src="./javascript/index.js" defer></script>
+    <script src="./javascript/location.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
@@ -61,6 +64,8 @@
     <!-- cost of biopsy -->
     <?php include("./components/costOfBiopsy.php") ?>
 
+    <!-- locations -->
+    <?php include("./components/ourLocations.php") ?>
 
     <!-- faqs -->
     <?php include("./components/biopsyFaqs.php") ?>

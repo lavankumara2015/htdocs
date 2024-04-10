@@ -127,34 +127,15 @@ position: relative;
   }
 
   .question-mark-sign {
-    
     font-size: 4.5rem;
     line-height: 0.9;
   }
   
   @media screen and (min-width: 768px) {
-    .why-cion__title {
-      font-size: 1rem;
-    }
-  
-    .why-cion__title span {
-      color: var(--brandClr);
-    }
-  
-    .why-cion__animation-container {
-      position: relative;
-      flex-grow: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
+
     .why-cion__center {
-      position: absolute;
-      border-radius: 50%;
       width: 8.811rem;
       height: 8.811rem;
-      background-color: #f6f6f6;
     }
   
     @keyframes animate {
@@ -173,13 +154,6 @@ position: relative;
       transition-timing-function: ease-out;
       width: 50%;
       height: 50%;
-      position: relative;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      opacity: 0;
-      padding: 0 1.584rem;
-      border-radius: 50%;
       }
   
     @keyframes move {
@@ -190,33 +164,10 @@ position: relative;
         transform: rotateZ(360deg);
       }
     }
-    .why-cion__title-box {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      z-index: 1;
-      border-radius: 50%;
-      background: #f6f6f6;
-      animation: blink 2s linear infinite;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
   
     .why-cion__center-box {
       width: 3.377rem;
       height: 3.377rem;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      background-color: var(--brandClr) !important;
       position: relative;
     }
     .why-cion__center-box img {
@@ -224,40 +175,21 @@ position: relative;
       width: 2.264rem;
       border: 0;
     }
-  
     .why-cion__center-box p {
-      position: absolute;
-      bottom: -1.89rem;
-      line-height: 0.7169rem;
       font-size: 0.622rem;
-      text-align: center;
-      width: 6.528rem;
-      color: var(--brandClr);
-      font-weight: 600;
     }
   
     .why-cion__center-box:nth-child(1) {
-      top: 0;
-      left: var(--calPadding);
       position: absolute;
     }
     .why-cion__center-box:nth-child(2) {
-      top: 0;
-      right: var(--calPadding);
       position: absolute;
     }
     .why-cion__center-box:nth-child(3) {
-      bottom: 1.3157rem;
-      left: var(--calPadding);
       position: absolute;
     }
     .why-cion__center-box:nth-child(4) {
-      bottom: 1.3157rem;
-      right: var(--calPadding);
       position: absolute;
     }  
-    .question-mark-sign {
-      font-size: 5.6rem;
-      line-height: 0.9;
-    }
+
   }

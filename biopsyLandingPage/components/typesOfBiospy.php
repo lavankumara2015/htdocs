@@ -2,7 +2,7 @@
     <h2 class="h2-text">Types of <span class="h2-span__text">Biopsy Procedures</span></h2>
     <div class="typesofbiopsy-container__cardscontainer">
         <?php foreach ($typesOfBiopsy as $eachCancerCard) : ?>
-            <div class="typesofbiopsy-container__eachcard" onclick="displayPopup()">
+            <div class="typesofbiopsy-container__eachcard" onclick="displayPopup('<?php echo $eachCancerCard[1]; ?>','<?php echo $eachCancerCard[2]; ?>')">
                 <img src="<?php echo $eachCancerCard[0]; ?>" alt="<?php echo $eachCancerCard[1]; ?>" />
                 <p><?php echo $eachCancerCard[1]; ?></p>
             </div>
@@ -15,19 +15,17 @@
         }
 
 
-        function displayPopup() {
+        function displayPopup(title, description) {
             const popupContainer = `
         <button class="popupbtn1" onclick="closeVideo()"><img src="assets/CancelButtonSmallDevices.webp" alt="cancel-button-icon" /></button>
         <button class="popupbtn2" onclick="closeVideo()"><img src="assets/Cancel.webp" alt="cancel-button-icon" /></button>
         <div class="popup-container">
-            <div class="popup-container__bannerImageSection">
-                <h3>Needle Biopsy</h3>
-                <p>A Needle Biopsy is a minimally invasive procedure that uses a 
-                    thin needle to retrieve a small cancer tissue sample from the
-                    target area for examination under a microscope</p>
+            <div class="popup-container__banner-image-section">
+                <h3>${title}</h3>
+                <p>${description}</p>
                 <h2>Please Fill the Form and our Team will reach out to you shortly</h2>
             </div>
-            <div class="popup-container_popuptext_container">
+            <div class="popup-container__text-container">
                 <h3>To Know More About The Doctor</h3>
                 <form method="POST" action="components/formRedirectPage.php">
                 <input type="hidden" name="utm_source" id="utm_source" value="<?php echo $utm_source; ?>">

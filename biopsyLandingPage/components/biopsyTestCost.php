@@ -37,7 +37,7 @@
  </tr>
   <tr>
     <td class="biopsy-test-cost__table__td1">Surgical Biopsy</td>
-    <td  class="biopsy-test-cost__table__td"><span>Rs. 10,000/- to 60,000/-</span> <b>*These are all Base Prices</b></td>
+    <td  class="biopsy-test-cost__table__td"><span>Rs.9,999/-</span> <b>*These are all Base Prices</b></td>
  </tr>
 
  </table> 
