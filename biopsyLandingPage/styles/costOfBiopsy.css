@@ -45,7 +45,6 @@ color: var(--brandClr);
     order: 2;
 }
 
-
 .costof-biopsy__subcontainer > ul > li{
     font-size: 0.62rem;
     font-weight: 600;
@@ -54,8 +53,6 @@ color: var(--brandClr);
     display: flex;
     margin-bottom: 1.07rem;
 }
-
-
 
 
 .costof-biopsy__subcontainer > ul > li > p{
@@ -113,7 +110,6 @@ color: var(--brandClr);
         order: 1;
     }
     
-    
     .costof-biopsy__subcontainer > ul > li{
         font-size: 0.62rem;
         font-weight: 600;
@@ -121,6 +117,7 @@ color: var(--brandClr);
         list-style-type: none;
         display: flex;
         margin-bottom: 1.07rem;
+        margin-left: 0.2rem;
     }
     
 

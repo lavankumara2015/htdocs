@@ -12,7 +12,7 @@ $utm_medium = (isset($_REQUEST['utm_medium']) && $_REQUEST['utm_medium'] != '') 
         <span class="banner__span">at <span>Just Rs.1499/-</span></span>
         onwards
     </h1>
-    <form class="banner__form" method="POST" action="./formRedirectPage.php">
+    <form class="banner__form" method="POST" action="components/formRedirectPage.php">
         <div class="banner__form-top">
             <img src="../assets/phoneImg.webp" alt="phone-icon">
             +91 7032656153 / 9989835053

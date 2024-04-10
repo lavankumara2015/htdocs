@@ -29,7 +29,11 @@
             </div>
             <div class="popup-container_popuptext_container">
                 <h3>To Know More About The Doctor</h3>
-                <form method="POST" action="components/formData.php">
+                <form method="POST" action="components/formRedirectPage.php">
+                <input type="hidden" name="utm_source" id="utm_source" value="<?php echo $utm_source; ?>">
+            <input type="hidden" name="utm_campaign" id="utm_campaign" value="<?php echo $utm_campaign; ?>">
+            <input type="hidden" name="utm_medium" id="utm_medium" value="<?php echo $utm_medium; ?>">
+            <input type="hidden" name="form_source" id="form_source" value="Biopsy Landing Page">
                     <input name="username" required pattern="[A-Za-z ]{3,}" minlength="3" maxlength="25" title="Please enter at least 3 alphabetic characters" type="text" placeholder="Name" name="name" />
                     <input name="userPassword" type="tel" required minlength="10" maxlength="14" title="Minimum 10 Numbers Required" placeholder="Phone number" name="phone" />
                     <button type="submit">Submit</button>
