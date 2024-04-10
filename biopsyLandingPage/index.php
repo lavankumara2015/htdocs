@@ -61,6 +61,7 @@
     <!-- cost of biopsy -->
     <?php include("./components/costOfBiopsy.php") ?>
 
+
     <!-- faqs -->
     <?php include("./components/biopsyFaqs.php") ?>
 

@@ -1,8 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root"; 
-$password = ""; 
-$database = "cion"; 
+
+$dbhost = $servername = "localhost";
+$dbuser = $username = "root"; 
+$dbpass = $password = ""; 
+$dbname = $database = "cion"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -13,3 +14,4 @@ if ($conn->connect_error) {
 }
 
 ?>
+
